@@ -55,7 +55,7 @@ footer:
 # Localization
 
 locale:
-  date_format: '2006年1月2日'
+  date_format: '2025年9月5日'
   time_format: '15:04'
   address_format: en-us
 
@@ -72,7 +72,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/testzzu/lab-site.git'
     content_dir: content
     branch: main
   avatar:
