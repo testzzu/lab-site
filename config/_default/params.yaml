@@ -17,8 +17,8 @@ marketing:
   seo:
     site_type: Organization
     local_business_type: ''
-    org_name: '进化计算实验室'
-    description: '专注于进化计算与智能优化的研究团队网站。'
+    org_name: '进化智能与感知学习实验室'
+    description: '专注于进化智能与感知学习的研究团队网站。'
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
@@ -44,13 +44,13 @@ header:
 # Site footer
 
 footer:
+  powered_by: false  # 隐藏"由Hugo Blox Builder支持发布"
+  social_links: false  # 隐藏社交链接图标
+  icon_links: false    # 隐藏图标链接
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '版权所有：进化智能与感知学习实验室<br/>地址：中国河南省郑州市中原区科学大道100号电气与信息工程学院<br/>邮箱：ywang@zzudu.cn'
     license:
-      enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+      enable: false  # 禁用许可证图标显示
 
 # Localization
 
@@ -109,7 +109,7 @@ extensions:
     branch: main
     local_backend: false
   academicons:
-    enable: true
+    enable: false  # 禁用学术图标
 
 # Citation style
 

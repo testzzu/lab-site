@@ -1,5 +1,5 @@
 ---
-title: Tour
+title: 主页
 date: 2022-10-24
 
 type: landing
@@ -8,8 +8,8 @@ sections:
   - block: slider
     content:
       slides:
-      - title: 👋 Welcome to the group
-        content: Take a look at what we're working on...
+      - title: 👋 欢迎来到实验室
+        content: 了解我们的研究工作...
         align: center
         background:
           image:
@@ -18,37 +18,93 @@ sections:
               brightness: 0.7
           position: right
           color: '#666'
-      - title: Lunch & Learn ☕️
-        content: 'Share your knowledge with the group and explore exciting new topics together!'
-        align: left
+      - title: 🔬 进化智能与感知学习
+        content: 专注于前沿的人工智能研究
+        align: center
+        background:
+          image:
+            filename: welcome.jpg
+            filters:
+              brightness: 0.7
+          position: center
+          color: '#555'
+      - title: 📚 学术研究
+        content: 探索智能计算的新领域
+        align: center
         background:
           image:
             filename: contact.jpg
             filters:
               brightness: 0.7
-          position: center
-          color: '#555'
-      - title: World-Class Semiconductor Lab
-        content: 'Just opened last month!'
-        align: right
-        background:
-          image:
-            filename: welcome.jpg
-            filters:
-              brightness: 0.5
-          position: center
-          color: '#333'
-        link:
-          icon: graduation-cap
+          position: left
+          color: '#444'
+
+  - block: features
+    content:
+      title: 研究领域
+      subtitle: 我们的主要研究方向
+      items:
+        - name: 进化计算
+          description: 基于生物进化原理的智能优化算法
+          icon: dna
           icon_pack: fas
-          text: Join Us
-          url: ../contact/
-    design:
-      # Slide height is automatic unless you force a specific height (e.g. '400px')
-      slide_height: ''
-      is_fullscreen: true
-      # Automatically transition through slides?
-      loop: false
-      # Duration of transition between slides (in ms)
-      interval: 2000
----
+        - name: 机器学习
+          description: 深度学习与神经网络技术
+          icon: brain
+          icon_pack: fas
+        - name: 感知学习
+          description: 多模态感知与认知学习
+          icon: eye
+          icon_pack: fas
+
+  - block: collection
+    content:
+      title: 最新动态
+      subtitle: 实验室最新消息
+      text: 了解我们的最新研究成果和活动
+      filters:
+        folders:
+          - post
+        featured_only: true
+        limit: 3
+      design:
+        columns: '1'
+        view: card
+        flip_alt_rows: false
+
+  - block: collection
+    content:
+      title: 团队成员
+      subtitle: 认识我们的研究团队
+      text: 优秀的教师和研究生团队
+      filters:
+        folders:
+          - authors
+        featured_only: true
+        limit: 4
+      design:
+        columns: '2'
+        view: card
+        flip_alt_rows: false
+
+  - block: contact
+    content:
+      title: 联系我们
+      subtitle: 欢迎与我们交流
+      text: 如果您对我们的研究感兴趣，欢迎联系我们
+      email: ywang@zzudu.cn
+      address: 中国河南省郑州市中原区科学大道100号电气与信息工程学院
+      phone: ''
+      contact_links:
+        - icon: envelope
+          icon_pack: fas
+          name: 发送邮件
+          link: 'mailto:ywang@zzudu.cn'
+      coordinates:
+        latitude: '34.7566'
+        longitude: '113.6409'
+      zoom: 15
+      directions: 电气与信息工程学院
+      office_hours:
+        - '周一至周五 9:00-17:00'
+      appointment_url: 'mailto:ywang@zzudu.cn'

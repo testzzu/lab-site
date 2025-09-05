@@ -5,9 +5,9 @@
 # Default language
 zh:
   languageCode: zh-Hans
-  title: 智能计算
+  title: 进化智能与感知学习实验室
   params:
-    description: 智能计算团队
+    description: 进化智能与感知学习实验室团队
 
 # If you later need English, uncomment and move English content into `content/en`.
 # en:
