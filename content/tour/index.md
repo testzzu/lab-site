@@ -93,7 +93,13 @@ sections:
       subtitle: 欢迎与我们交流
       text: 如果您对我们的研究感兴趣，欢迎联系我们
       email: ywang@zzudu.cn
-      address: 中国河南省郑州市中原区科学大道100号电气与信息工程学院
+      address:
+        street: 科学大道100号
+        city: 郑州市
+        region: 河南省
+        postcode: 450001
+        country: 中国
+        country_code: CN
       phone: ''
       contact_links:
         - icon: envelope
