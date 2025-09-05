@@ -17,8 +17,8 @@ marketing:
   seo:
     site_type: Organization
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo research group theme powered by Wowchemy website builder.'
+    org_name: '进化计算实验室'
+    description: '专注于进化计算与智能优化的研究团队网站。'
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
@@ -34,7 +34,7 @@ marketing:
 header:
   navbar:
     enable: true
-    align: r
+    align: c
     show_logo: true
     show_language: false
     show_day_night: true
@@ -55,8 +55,8 @@ footer:
 # Localization
 
 locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
+  date_format: '2006年1月2日'
+  time_format: '15:04'
   address_format: en-us
 
 # Site features
@@ -68,7 +68,7 @@ features:
       - r
       - latex
   math:
-    enable: false
+    enable: true
   privacy_pack:
     enable: false
   repository:
