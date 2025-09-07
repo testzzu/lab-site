@@ -2,23 +2,75 @@
 .universal-wrapper h1 {
   text-align: center;
 }
+// Hide only the extra powered-by line, keep copyright block
+.site-footer p.powered-by:not(.copyright-license-text) {
+  display: none !important;
+}
 
 // Center the CTA shortcode button
 .cta-group {
   justify-content: center;
 }
 
-// Navbar: center and academic style
+// Navbar: left alignment
 .header {
   .navbar {
-    justify-content: center;
+    justify-content: flex-start;
   }
 }
 
+// Custom navbar brand styling with dual logos and organization names
 .navbar-brand {
   font-family: "Times New Roman", Times, "Noto Serif SC", serif;
   font-weight: 600;
   letter-spacing: 0.2px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+// Style the default logo (university logo)
+.navbar-brand img {
+  height: 40px;
+  width: auto;
+  margin-right: 10px;
+}
+
+// Organization names styling
+.navbar-brand .org-names {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10px;
+}
+
+.navbar-brand .org-name-en {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--bs-body-color);
+  line-height: 1.2;
+}
+
+.navbar-brand .org-name-short {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--bs-secondary-color);
+  line-height: 1.2;
+  margin-top: 2px;
+}
+
+// Add lab logo after the organization names using CSS
+.navbar-brand::after {
+  content: "";
+  background-image: url('/images/lab-logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin-left: 15px;
 }
 
 .navbar-nav .nav-link {
@@ -38,4 +90,31 @@
 .navbar-nav .nav-link.active {
   text-decoration: underline;
   text-underline-offset: 3px;
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+  .navbar-brand {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .navbar-brand img,
+  .navbar-brand::after {
+    height: 30px;
+    width: 30px;
+  }
+  
+  .navbar-brand .org-names {
+    margin-left: 0;
+  }
+  
+  .navbar-brand .org-name-en {
+    font-size: 1rem;
+  }
+  
+  .navbar-brand .org-name-short {
+    font-size: 0.8rem;
+  }
 }

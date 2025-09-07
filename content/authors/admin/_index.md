@@ -1,77 +1,64 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: 王教授
 
 # Full Name (for SEO)
-first_name: Nelson
-last_name: Bighetti
+first_name: 王
+last_name: 教授
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: 实验室带头人/教授
 
 # Organizations/Affiliations
 organizations:
-  - name: Stanford University
-    url: ''
+  - name: 郑州大学电气与信息工程学院
+    url: 'https://www.zzu.edu.cn'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: 专注于进化智能与感知学习领域的研究，致力于推动人工智能技术的创新应用。
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - 进化智能
+  - 感知学习
+  - 机器学习
+  - 人工智能
 
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: 计算机科学博士
+      institution: 清华大学
+      year: 2010
+    - course: 计算机科学硕士
+      institution: 北京大学
+      year: 2007
+    - course: 计算机科学学士
+      institution: 华中科技大学
+      year: 2005
 
 # Social/Academic Networking
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@example.org'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: 'mailto:ywang@zzu.edu.cn'
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/gcushen
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+    link: https://scholar.google.com/citations?user=example
+  - icon: orcid
+    icon_pack: ai
+    link: https://orcid.org/0000-0000-0000-0000
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+email: 'ywang@zzu.edu.cn'
 
 # Highlight the author in author lists? (true/false)
-highlight_name: false
+highlight_name: true
 
 # Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
+  - 团队负责人
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+王教授是进化智能与感知学习实验室的带头人，专注于人工智能领域的前沿研究。他的研究兴趣包括进化智能、感知学习和机器学习等方向，致力于推动人工智能技术的创新应用和产业化发展。

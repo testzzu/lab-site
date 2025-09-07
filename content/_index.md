@@ -8,14 +8,23 @@ sections:
   - block: hero
     content:
       title: |
-        Wowchemy
-        Research Group
+        # 进化智能与感知学习实验室
+        ## Evolution Intelligence & Perception Learning Laboratory
+        ### EIPL
       image:
         filename: welcome.jpg
       text: |
+        <div style="display: flex; justify-content: space-between; align-items: center; margin: 20px 0;">
+          <div style="text-align: left;">
+            <img src="images/zzu-logo.png" alt="University Logo" style="height: 80px; margin-right: 20px;">
+          </div>
+          <div style="text-align: right;">
+            <img src="images/lab-logo.png" alt="Lab Logo" style="height: 80px;">
+          </div>
+        </div>
         <br>
         
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+        The **Evolution Intelligence & Perception Learning Laboratory (EIPL)** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
   
   - block: collection
     content:
@@ -39,7 +48,7 @@ sections:
   - block: markdown
     content:
       title:
-      subtitle: ''
+      subtitle: '' 
       text:
     design:
       columns: '1'

@@ -5,7 +5,7 @@
 
 main:
   - name: 主页
-    url: tour
+    url: /
     weight: 10
   - name: 团队
     url: people
