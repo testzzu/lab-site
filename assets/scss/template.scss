@@ -60,17 +60,49 @@
   margin-top: 2px;
 }
 
-// Add lab logo after the organization names using CSS
+// 使用伪元素在品牌文字两侧显示两个 Logo（无需修改主题模板）
+.navbar-brand {
+  position: relative;
+}
+
+.navbar-brand::before,
 .navbar-brand::after {
   content: "";
-  background-image: url('/images/lab-logo.png');
+  display: inline-block;
+  width: 40px;
+  height: 40px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  width: 40px;
+}
+
+// 左侧为学校 logo，右侧为实验室 logo
+.navbar-brand::before {
+  background-image: url('/images/zzu-logo.png');
+  margin-right: 10px;
+  order: -2; // 保证第一个显示
+}
+
+// 当通过 JS 注入真实 <a><img> 时，隐藏伪元素，避免重复
+body.logos-inserted .navbar-brand::before,
+body.logos-inserted .navbar-brand::after {
+  display: none !important;
+}
+
+// 注入的真实 logo 的统一样式
+.navbar .brand-logo {
   height: 40px;
-  display: inline-block;
-  margin-left: 15px;
+  width: auto;
+}
+.navbar .brand-logo + .brand-logo {
+  margin-left: 10px;
+}
+
+.navbar-brand::after {
+  background-image: url('/images/lab-logo.png');
+  margin-right: 10px; // 改为右侧间距，与文字保持间隔
+  margin-left: 0;
+  order: -1; // 作为第二个显示
 }
 
 .navbar-nav .nav-link {
@@ -101,6 +133,7 @@
   }
   
   .navbar-brand img,
+  .navbar-brand::before,
   .navbar-brand::after {
     height: 30px;
     width: 30px;

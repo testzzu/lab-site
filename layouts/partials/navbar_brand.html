@@ -1,0 +1,23 @@
+{{- $logo := "" -}}
+{{- $lab_logo := "" -}}
+{{- if .Site.Params.header.navbar.logo -}}
+  {{- $logo = .Site.Params.header.navbar.logo.light -}}
+{{- end -}}
+{{- if .Site.Params.header.navbar.lab_logo -}}
+  {{- $lab_logo = .Site.Params.header.navbar.lab_logo.light -}}
+{{- end -}}
+{{- if not $logo }}{{- $logo = "images/zzu-logo.png" -}}{{- end -}}
+{{- if not $lab_logo }}{{- $lab_logo = "images/lab-logo.png" -}}{{- end -}}
+
+<div class="navbar-brand d-inline-flex align-items-center">
+  <a href="https://www.zzu.edu.cn/" target="_blank" rel="noopener" aria-label="ZZU" class="mr-2">
+    <img src="{{ (printf "/%s" $logo) | relLangURL }}" alt="ZZU" class="brand-logo" loading="eager">
+  </a>
+  <a href="{{ "/" | relLangURL }}" aria-label="Lab" class="mr-2">
+    <img src="{{ (printf "/%s" $lab_logo) | relLangURL }}" alt="Lab" class="brand-logo" loading="eager">
+  </a>
+  <a href="{{ "/" | relLangURL }}" class="text-reset text-decoration-none">{{ .Site.Title }}</a>
+  <script>document.body && document.body.classList.add('logos-inserted');</script>
+</div>
+
+

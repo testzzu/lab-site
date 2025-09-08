@@ -4,6 +4,7 @@
   {{- $logo = .Site.Params.header.navbar.logo.light -}}
   {{- $logo_dark = .Site.Params.header.navbar.logo.dark -}}
 {{- end -}}
+{{- if not $logo }}{{- $logo = "images/zzu-logo.png" -}}{{- end -}}
 
 {{- $lab_logo := "" -}}
 {{- $lab_logo_dark := "" -}}
@@ -11,14 +12,14 @@
   {{- $lab_logo = .Site.Params.header.navbar.lab_logo.light -}}
   {{- $lab_logo_dark = .Site.Params.header.navbar.lab_logo.dark -}}
 {{- end -}}
+{{- if not $lab_logo }}{{- $lab_logo = "images/lab-logo.png" -}}{{- end -}}
 
 {{- $org_name_en := .Site.Params.marketing.seo.org_name_en -}}
 {{- $org_name_short := .Site.Params.marketing.seo.org_name_short -}}
 
 <a class="navbar-brand" href="{{ "/" | relLangURL }}">
-  {{- if $logo -}}
-    <img src="{{ $logo | relURL }}" alt="{{ .Site.Title }}" class="navbar-brand-logo">
-  {{- end -}}
+  <img src="{{ (printf "/%s" $logo) | relLangURL }}" alt="{{ .Site.Title }}" class="navbar-brand-logo" loading="eager">
+  <img src="{{ (printf "/%s" $lab_logo) | relLangURL }}" alt="Lab Logo" class="navbar-brand-lab-logo" loading="eager">
   
   <div class="org-names">
     {{- if $org_name_en -}}
@@ -28,8 +29,4 @@
       <div class="org-name-short">{{ $org_name_short }}</div>
     {{- end -}}
   </div>
-  
-  {{- if $lab_logo -}}
-    <img src="{{ $lab_logo | relURL }}" alt="Lab Logo" class="navbar-brand-lab-logo">
-  {{- end -}}
 </a> 
