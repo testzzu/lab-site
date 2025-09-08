@@ -25,13 +25,13 @@ sections:
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="/media/coders.jpg" class="d-block w-100 border-0" alt="Welcome">
+              <img src="./media/coders.jpg" class="d-block w-100 border-0" alt="Welcome">
             </div>
             <div class="carousel-item">
-              <img src="/media/coders.jpg" class="d-block w-100 border-0" alt="Coders">
+              <img src="./media/coders.jpg" class="d-block w-100 border-0" alt="Coders">
             </div>
             <div class="carousel-item">
-              <img src="/media/contact.jpg" class="d-block w-100 border-0" alt="Contact">
+              <img src="./media/contact.jpg" class="d-block w-100 border-0" alt="Contact">
             </div>
           </div>
           <a class="carousel-control-prev" href="#homeCarousel" role="button" data-slide="prev">
