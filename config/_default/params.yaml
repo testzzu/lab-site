@@ -119,6 +119,13 @@ extensions:
   academicons:
     enable: false  # 禁用学术图标
 
+# Custom resources for people page
+custom_css:
+  - css/people-github-links.css
+
+custom_js:
+  - js/people-github-links.js
+
 # Citation style
 
 publications:
