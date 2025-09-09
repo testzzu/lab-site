@@ -51,7 +51,7 @@ sections:
           /* Meta section (bottom three cards) */
           .hero-centered .meta-card { background: #fcfcfe; border: 1px solid #eef2ff; border-radius: 12px; padding: 16px 18px; text-align: left; height: 100%; }
           .hero-centered .meta-title { font-size: 1.05rem; font-weight: 600; margin: 0; }
-          .hero-centered .meta-text { font-size: 0.95rem; color: #50555e; margin-bottom: 0; }
+          .hero-centered .meta-text { font-size: 0.95rem; color: #50555e; margin-bottom: 0; text-align: left; }
           .hero-centered .meta-head { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
           .hero-centered .meta-icon { width: 22px; text-align: center; color: #2d5be3; margin-right: 6px; }
           .hero-centered .equalize-row-3 > [class^="col-"] { display: flex; }
@@ -234,7 +234,7 @@ sections:
                 <span class="meta-icon"><i class="fas fa-award"></i></span>
                 <h5 class="meta-title">项目资助</h5>
               </div>
-              <p class="meta-text">获得国家自然科学基金、河南省科技攻关项目、企业横向合作项目等多项资助，累计科研经费超过500万元。</p>
+              <p class="meta-text">获得XXXXXXXXXXXXXXXXXXXXXX。</p>
             </div>
           </div>
         </div>
@@ -298,7 +298,7 @@ sections:
       title:
       subtitle:
       text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+        {{% cta cta_link="./people/" cta_text="研究团队 →" %}}
     design:
       columns: '1'
 ---

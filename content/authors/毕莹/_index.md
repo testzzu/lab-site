@@ -52,7 +52,7 @@ social:
     link: https://orcid.org/0000-0000-0000-0000
   - icon: github
     icon_pack: fab
-    link: https://github.com/YingBi92
+    link: https://yingbi92.github.io/personal-webpage/
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: 'ywang@zzu.edu.cn'

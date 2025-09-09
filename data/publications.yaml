@@ -1,0 +1,30 @@
+- authors: ["Ying Bi", "Bing Xue", "Mengjie Zhang"]
+  title: "Genetic programming for image classification: An automated approach to feature learning"
+  publisher: "Springer Nature"
+  year: 2021
+  doi: "10.1000/182"
+  url_custom: "https://journal.example.com/article/12345"
+  url_code: ""
+  category: "专著"
+
+- authors: ["Ying Bi", "Mengjie Zhang", "Bing Xue", "Bo Peng"]
+  title: "Artificial Intelligence for Fault Detection and Diagnosis"
+  publication: "MDPI"
+  year: 2025
+  doi: ""
+  url_custom: "https://www.mdpi.com/books/reprint/11351-artificial-intelligence-for-fault-detection-and-diagnosis"
+  url_pdf: "https://mdpi-res.com/bookfiles/book/11351/Artificial_Intelligence_for_Fault_Detection_and_Diagnosis.pdf?v=1757380237"
+  # url_code: "https://github.com/HugoBlox/hugo-blox-builder"
+  # url_source: "https://github.com/HugoBlox/hugo-blox-builder"
+  category: "专著"
+
+- authors: ["Liang, Jing", "Lou, Yahang", "Yu, Mingyuan", "Bi, Ying", "Yu, Kunjie"]
+  title: "A survey of surrogate-assisted evolutionary algorithms for expensive optimization"
+  publication: "Springer"
+  year: 2024
+  doi: ""
+  url_custom: "https://link.springer.com/article/10.1007/s41965-024-00165-w"
+  url_pdf: "https://link.springer.com/article/10.1007/s41965-024-00165-w"
+  # url_code: "https://github.com/HugoBlox/hugo-blox-builder"
+  # url_source: "https://github.com/HugoBlox/hugo-blox-builder"
+  category: "综述论文"
