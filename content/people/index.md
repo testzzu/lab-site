@@ -14,7 +14,7 @@ sections:
           - 团队负责人
           - 博士研究生
           - 硕士研究生
-      sort_by: Params.last_name
+      sort_by: Params.enroll_date
       sort_ascending: true
     design:
       show_interests: true

@@ -57,6 +57,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 user_groups:
   - 硕士研究生
+enroll_date: 2023-09-01
 ---
 
 李小红是实验室的硕士研究生，专注于强化学习和机器人控制领域的研究。她的研究重点包括多智能体强化学习算法、机器人自主导航以及智能决策系统的开发。 

@@ -57,6 +57,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 user_groups:
   - 硕士研究生
+enroll_date: 2023-09-01
 ---
 
 张小明是实验室的硕士研究生，专注于自然语言处理和知识图谱领域的研究。他的研究重点包括智能问答系统的构建、知识图谱的自动构建以及信息抽取技术的优化。 

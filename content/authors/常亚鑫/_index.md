@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 张拓
+title: 常亚鑫
 
 # Full name (for SEO)
 first_name: 张
@@ -8,7 +8,7 @@ last_name: 拓
 
 # Username (this should match the folder name)
 authors:
-  - 张拓
+  - 常亚鑫
 
 # Is this the primary user of the site?
 superuser: false
@@ -63,7 +63,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 user_groups:
   - 博士研究生
-enroll_date: 2023-09-01
+enroll_date: 2024-09-01
 ---
 
 吳恩達是实验室的博士研究生，专注于深度学习和计算机视觉领域的研究。他的研究重点包括神经网络架构设计、图像识别算法优化以及智能感知系统的开发。
