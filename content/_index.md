@@ -21,7 +21,7 @@ sections:
           .hero-centered h2,
           .hero-centered h3,
           .hero-centered p { text-align: center; }
-          .hero-centered .hero-intro { max-width: 900px; margin-left: auto; margin-right: auto; text-align: center !important; }
+          .hero-centered .hero-intro { max-width: 900px; margin-left: auto; margin-right: auto; text-align: center !important; margin-bottom: 36px; }
           .hero-centered .hero-intro p,
           .hero-centered .hero-intro h1,
           .hero-centered .hero-intro h2,
@@ -108,7 +108,7 @@ sections:
         <div class="hero-lead">
         <div class="hero-intro">
           <h3 class="section-title">研究简介<div class="accent"></div></h3>
-          <p class="lead" style="font-weight: 500; color: #2b2f36;">进化智能与感知学习实验室（EIPL）聚焦计算机视觉、进化计算与机器学习的交叉融合，面向重大科学问题与关键应用场景开展原创性研究与开创性技术攻关。</p>
+          <p class="lead" style="font-weight: 500; color: #2b2f36;">进化智能与感知学习实验室（EIPL）聚焦计算机视觉、进化计算与机器学习的交叉融合，面向重大科学问题与关键应XXXXXXXXX术攻关。</p>
         </div>
         
         <div class="mx-auto" style="max-width: 1100px;">
@@ -181,7 +181,7 @@ sections:
               <img src="./media/welcome.jpg" class="card-img-top" alt="医疗影像AI分析" style="height: 200px; object-fit: cover;">
               <div class="card-body">
                 <h6 class="card-title">医疗影像AI分析</h6>
-                <p class="card-text small">基于深度学习的医学影像智能诊断系统，准确率达95%以上</p>
+                <p class="card-text small">基于深XXXXXXXXXXXXXXX以上</p>
               </div>
             </div>
           </div>
@@ -190,7 +190,7 @@ sections:
               <img src="./media/coders.jpg" class="card-img-top" alt="作物表型分析" style="height: 200px; object-fit: cover;">
               <div class="card-body">
                 <h6 class="card-title">作物表型分析</h6>
-                <p class="card-text small">智能农业表型分析平台，实现作物生长状态实时监测</p>
+                <p class="card-text small">智能农业XXXXXXXXXXX监测</p>
               </div>
             </div>
           </div>
@@ -282,7 +282,7 @@ sections:
 
   - block: collection
     content:
-      title: Latest Preprints
+      title: 最新工作
       text: ""
       count: 5
       filters:
