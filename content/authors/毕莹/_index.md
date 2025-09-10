@@ -10,7 +10,7 @@ last_name: 教授
 superuser: true
 
 # Role/position
-role: 实验室带头人/教授
+role: 团队带头人/教授
 
 # Organizations/Affiliations
 organizations:

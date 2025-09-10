@@ -8,7 +8,7 @@ sections:
   - block: slider
     content:
       slides:
-      - title: 👋 欢迎来到实验室
+      - title: 👋 欢迎来到团队
         content: 了解我们的研究工作...
         align: center
         background:
@@ -60,7 +60,7 @@ sections:
   - block: collection
     content:
       title: 最新动态
-      subtitle: 实验室最新消息
+      subtitle: 团队最新消息
       text: 了解我们的最新研究成果和活动
       filters:
         folders:

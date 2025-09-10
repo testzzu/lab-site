@@ -69,13 +69,13 @@ sections:
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="./media/coders.jpg" class="d-block w-100 border-0" alt="Welcome">
+              <img src="./media/team.jpg" class="d-block w-100 border-0" alt="Team">
             </div>
             <div class="carousel-item">
-              <img src="./media/coders.jpg" class="d-block w-100 border-0" alt="Coders">
+              <img src="./media/team3.jpg" class="d-block w-100 border-0" alt="Coders">
             </div>
             <div class="carousel-item">
-              <img src="./media/contact.jpg" class="d-block w-100 border-0" alt="Contact">
+              <img src="./media/team2.jpg" class="d-block w-100 border-0" alt="Contact">
             </div>
           </div>
           <a class="carousel-control-prev" href="#homeCarousel" role="button" data-slide="prev">
@@ -102,13 +102,13 @@ sections:
     content:
       align: center
       title: |
-        # 进化智能与感知学习实验室
+        # 进化智能与感知学习团队
         ## Evolutionary Intelligence and Perception Learning Laboratory (EIPL)
       text: |
         <div class="hero-lead">
         <div class="hero-intro">
           <h3 class="section-title">研究简介<div class="accent"></div></h3>
-          <p class="lead" style="font-weight: 500; color: #2b2f36;">进化智能与感知学习实验室（EIPL）聚焦计算机视觉、进化计算与机器学习的交叉融合，面向重大科学问题与关键应XXXXXXXXX术攻关。</p>
+          <p class="lead" style="font-weight: 500; color: #2b2f36;">进化智能与感知学习组（EIPL Group）是一个跨学科研究团队，致力于探索人工智能前沿。我们以自然进化法则为灵感，开发兼具主动感知、持续学习和自主进化能力的新一代智能系统，聚焦计算机视觉、进化计算、机器学习与特征工程等领域。</p>
         </div>
         
         <div class="mx-auto" style="max-width: 1100px;">
@@ -212,7 +212,7 @@ sections:
                 <span class="meta-icon"><i class="fas fa-users"></i></span>
                 <h5 class="meta-title">团队介绍</h5>
               </div>
-              <p class="meta-text">实验室由1名教授XXX组成，形成了一支结构合理、充满活力的研究团队。</p>
+              <p class="meta-text">团队由1名教授XXX组成，形成了一支结构合理、充满活力的研究团队。</p>
             </div>
           </div>
           <div class="col-md-4">
@@ -222,7 +222,7 @@ sections:
                 <h5 class="meta-title">联系方式</h5>
               </div>
               <p class="meta-text">
-                <strong>实验室负责人：</strong>毕莹教授<br>
+                <strong>团队负责人：</strong>毕莹教授<br>
                 <strong>邮箱：</strong>yingbi[at]zzu.edu.cn<br>
                 <strong>地址：</strong>河南省郑州市科学大道100号
               </p>
