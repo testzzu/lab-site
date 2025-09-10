@@ -10,12 +10,15 @@ main:
   - name: 团队
     url: people
     weight: 20
-  - name: 出版物
+  - name: 论文
     url: publication
     weight: 30
   - name: 新闻
     url: post
     weight: 40
+  - name: 相关链接
+    url: links
+    weight: 50
   - name: 联系我们
     url: contact
-    weight: 50
+    weight: 60

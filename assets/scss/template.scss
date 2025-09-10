@@ -151,3 +151,82 @@ body.logos-inserted .navbar-brand::after {
     font-size: 0.8rem;
   }
 }
+
+// =====================================
+// Links page (academic aesthetic)
+// =====================================
+.links-hero {
+  text-align: center;
+  .hero-title, h1, .title {
+    font-family: "Times New Roman", Times, "Noto Serif SC", serif;
+    letter-spacing: 0.2px;
+  }
+  p {
+    color: var(--bs-secondary-color);
+    max-width: 720px;
+    margin: 0 auto;
+  }
+}
+
+.links-cards {
+  // unify card look
+  a, a:link, a:visited { text-decoration: none; }
+
+  .card, [class*="feature"], .feature, .feature-item {
+    border: 1px solid rgba(0,0,0,0.06);
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+    transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+  }
+
+  .card:hover, [class*="feature"]:hover, .feature:hover, .feature-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    border-color: rgba(0,0,0,0.1);
+  }
+
+  // spacing for grid
+  .row {
+    row-gap: 18px;
+  }
+
+  // icon styling
+  .icon, .feature-icon, i[class^="fa"], i[class*=" fa"] {
+    color: var(--bs-primary);
+    font-size: 1.4rem;
+    width: 1.6rem;
+    height: 1.6rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+  }
+
+  // title + description harmony
+  h3, .feature-title, .name, .card-title {
+    font-family: "Times New Roman", Times, "Noto Serif SC", serif;
+    font-weight: 600;
+    font-size: 1.02rem;
+    margin-bottom: 4px;
+  }
+
+  .description, .card-text, p {
+    color: var(--bs-secondary-color);
+    margin-bottom: 0;
+  }
+}
+
+.links-note {
+  p { color: var(--bs-secondary-color); }
+}
+
+// Respect reduced motion
+@media (prefers-reduced-motion: reduce) {
+  .links-cards .card,
+  .links-cards [class*="feature"],
+  .links-cards .feature,
+  .links-cards .feature-item {
+    transition: none !important;
+  }
+}
