@@ -10,8 +10,8 @@ banner:
   image: ''
 
 # 配置出版物直接跳转到外部链接
-publication_types:
-  - 0  # 所有类型都直接跳转
+# publication_types:
+#   - 0  # 所有类型都直接跳转
   
 # 确保分区列表页被渲染
 build:
