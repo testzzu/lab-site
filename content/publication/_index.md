@@ -2,7 +2,7 @@
 title: 出版物
 
 # Listing view
-view: citation
+# view: citation  # 注释掉这行，使用默认的section模板
 
 # Optional banner image (relative to `assets/media/` folder).
 banner:

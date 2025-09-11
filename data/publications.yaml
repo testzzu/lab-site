@@ -19,7 +19,7 @@
   # url_code: "https://github.com/HugoBlox/hugo-blox-builder"
   # url_source: "https://github.com/HugoBlox/hugo-blox-builder"
   category: "专著"
-  tags: ["人工智能", "故障检测", "诊断"]
+  tags: ["人工智能", "故障检测"]
 
 - authors: ["Jing, Liang", "Yahang, Lou", "Mingyuan, Yu", "Ying, Bi", "Kunjie, Yu"]
   title: "A survey of surrogate-assisted evolutionary algorithms for expensive optimization"
