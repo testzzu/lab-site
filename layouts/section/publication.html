@@ -8,15 +8,105 @@
 
   <div class="universal-wrapper">
     <script>
+      window.currentPubCategory = 'all';
+      window.currentPubTag = 'all';
       window.filterPubs = (q => {
-        q = (q || '').toLowerCase();
+        window.currentPubQuery = (q || '').toLowerCase();
         const items = document.querySelectorAll('.pub-list-item');
+        const activeCat = window.currentPubCategory || 'all';
+        const activeTag = window.currentPubTag || 'all';
         items.forEach(el => {
           const text = el.textContent.toLowerCase();
-          el.style.display = text.indexOf(q) !== -1 ? '' : 'none';
+          const cat = (el.getAttribute('data-category') || '').toLowerCase();
+          const tagsStr = el.getAttribute('data-tags') || '';
+          const tags = tagsStr.split(',').map(t => t.trim().toLowerCase()).filter(Boolean);
+          const matchText = text.indexOf(window.currentPubQuery) !== -1;
+          const matchCat = (activeCat === 'all') || (cat === activeCat.toLowerCase());
+          const matchTag = (activeTag === 'all') || tags.includes(activeTag.toLowerCase());
+          el.style.display = (matchText && matchCat && matchTag) ? '' : 'none';
+        });
+
+        // Toggle headings visibility
+        const headings = document.querySelectorAll('h2[data-category]');
+        headings.forEach(h => {
+          const hCat = (h.getAttribute('data-category') || '').toLowerCase();
+          const matchCatH = (activeCat === 'all') || (hCat === activeCat.toLowerCase());
+          // Show heading only if category matches AND there is at least one visible item under it
+          if (!matchCatH) {
+            h.style.display = 'none';
+            return;
+          }
+          // Find next siblings until next heading to see if any item is visible
+          let next = h.nextElementSibling;
+          let hasVisible = false;
+          while (next && next.tagName !== 'H2') {
+            if (next.classList && next.classList.contains('pub-list-item') && next.style.display !== 'none') {
+              hasVisible = true;
+              break;
+            }
+            next = next.nextElementSibling;
+          }
+          h.style.display = hasVisible ? '' : 'none';
         });
       });
+
+      window.setPubCategory = (cat => {
+        window.currentPubCategory = cat || 'all';
+        const btns = document.querySelectorAll('.pub-cat-btn');
+        btns.forEach(b => {
+          const bcat = b.getAttribute('data-cat');
+          if ((cat === 'all' && bcat === 'all') || (bcat && bcat.toLowerCase() === (cat || 'all').toLowerCase())) {
+            b.classList.add('btn-primary');
+            b.classList.remove('btn-outline-primary');
+          } else {
+            b.classList.remove('btn-primary');
+            b.classList.add('btn-outline-primary');
+          }
+        });
+        window.filterPubs(window.currentPubQuery || '');
+      });
+
+      window.setPubTag = (tag => {
+        window.currentPubTag = (tag && tag.toLowerCase()) || 'all';
+        const indicator = document.getElementById('pub-tag-indicator');
+        const clearBtn = document.getElementById('pub-tag-clear');
+        if (window.currentPubTag === 'all') {
+          indicator.textContent = '全部';
+          if (clearBtn) clearBtn.style.display = 'none';
+        } else {
+          indicator.textContent = tag;
+          if (clearBtn) clearBtn.style.display = '';
+        }
+        window.filterPubs(window.currentPubQuery || '');
+      });
     </script>
+
+    {{/* Category filter buttons */}}
+    {{ $items := site.Data.publications }}
+    {{ if $items }}
+      {{ $items = sort $items "year" "desc" }}
+      {{ $groups := slice (dict "key" "Authored Book" "label" "专著") (dict "key" "Survey Papers" "label" "综述论文") (dict "key" "Journal Papers" "label" "期刊论文") }}
+      {{/* Compute which groups actually have items */}}
+      {{ $enabled := slice }}
+      {{ range $ci, $cat := $groups }}
+        {{ $g1 := where $items "category" $cat.key }}
+        {{ $g2 := where $items "category" $cat.label }}
+        {{ if gt (add (len $g1) (len $g2)) 0 }}
+          {{ $enabled = $enabled | append $cat }}
+        {{ end }}
+      {{ end }}
+      <div class="mb-3">
+        <button type="button" class="btn btn-sm btn-primary mr-2 pub-cat-btn" data-cat="all" onclick="window.setPubCategory('all')">全部</button>
+        {{ range $enabled }}
+          <button type="button" class="btn btn-sm btn-outline-primary mr-2 pub-cat-btn" data-cat="{{ .label }}" onclick="window.setPubCategory('{{ .label }}')">{{ .label }}</button>
+        {{ end }}
+      </div>
+      <div class="mb-3">
+        <span class="text-muted mr-2">标签筛选:</span>
+        <span id="pub-tag-indicator" class="badge badge-secondary mr-2">全部</span>
+        <button id="pub-tag-clear" type="button" class="btn btn-sm btn-outline-secondary" style="display:none" onclick="window.setPubTag('all')">清除标签</button>
+      </div>
+    {{ end }}
 
     {{ $items := site.Data.publications }}
     {{ if not $items }}
@@ -29,7 +119,7 @@
         {{ $g2 := where $items "category" $cat.label }}
         {{ $count := add (len $g1) (len $g2) }}
         {{ if gt $count 0 }}
-          <h2 class="mt-4">{{ $cat.label }}</h2>
+          <h2 class="mt-4" data-category="{{ $cat.label }}">{{ $cat.label }}</h2>
           {{ $.Scratch.Set "idx" 0 }}
           {{ range $it := $items }}
             {{ if or (eq $it.category $cat.key) (eq $it.category $cat.label) }}
@@ -40,7 +130,8 @@
             {{ if not $url }}{{ with $it.url_pdf }}{{ $url = . }}{{ end }}{{ end }}
             {{ if not $url }}{{ with $it.url_source }}{{ $url = . }}{{ end }}{{ end }}
 
-            <article class="pub-list-item py-2">
+            {{ $tags := $it.tags }}
+            <article class="pub-list-item py-2" data-category="{{ $it.category }}" data-tags="{{ if $tags }}{{ delimit $tags "," }}{{ end }}">
               <p class="mb-1">
                 <strong>{{ $i }}.</strong>
 
@@ -60,6 +151,13 @@
 
                 {{ with $it.url_code }}<a href="{{ . }}" target="_blank" rel="noopener">[代码]</a>{{ end }} {{ with $it.url_pdf }}<a href="{{ . }}" target="_blank" rel="noopener">[pdf]</a>{{ end }}
               </p>
+              {{ with $tags }}
+              <div class="mb-2">
+                {{ range . }}
+                  <a href="#" class="badge badge-light mr-1 pub-tag" data-tag="{{ . }}" onclick="window.setPubTag('{{ . }}'); return false;">#{{ . }}</a>
+                {{ end }}
+              </div>
+              {{ end }}
             </article>
             {{ end }}
           {{ end }}

@@ -2,29 +2,217 @@
   title: "Genetic programming for image classification: An automated approach to feature learning"
   publisher: "Springer Nature"
   year: 2021
-  doi: "10.1000/182"
-  url_custom: "https://journal.example.com/article/12345"
+  doi: "10.1007/978-3-030-65927-1"
+  url_custom: "books.google.com/books?hl=zh-CN&lr=&id=sYYbEAAAQBAJ&oi=fnd&pg=PR5&dq=Genetic+programming+for+image+classification:+An+automated+approach+to+feature+learning&ots=Pl7rNz8fK5&sig=VA-ItFFtEu-Em4IQH6D0iBcWfMg#v=onepage&q=Genetic%20programming%20for%20image%20classification%3A%20An%20automated%20approach%20to%20feature%20learning&f=false"
+  url_pdf: "books.google.com/books?hl=zh-CN&lr=&id=sYYbEAAAQBAJ&oi=fnd&pg=PR5&dq=Genetic+programming+for+image+classification:+An+automated+approach+to+feature+learning&ots=Pl7rNz8fK5&sig=VA-ItFFtEu-Em4IQH6D0iBcWfMg#v=onepage&q=Genetic%20programming%20for%20image%20classification%3A%20An%20automated%20approach%20to%20feature%20learning&f=false"
   url_code: ""
   category: "专著"
+  tags: ["遗传规划", "图像分类", "特征学习"]
 
 - authors: ["Ying Bi", "Mengjie Zhang", "Bing Xue", "Bo Peng"]
   title: "Artificial Intelligence for Fault Detection and Diagnosis"
   publication: "MDPI"
   year: 2025
-  doi: ""
+  doi: "10.3390/books978-3-7258-4914-7"
   url_custom: "https://www.mdpi.com/books/reprint/11351-artificial-intelligence-for-fault-detection-and-diagnosis"
   url_pdf: "https://mdpi-res.com/bookfiles/book/11351/Artificial_Intelligence_for_Fault_Detection_and_Diagnosis.pdf?v=1757380237"
   # url_code: "https://github.com/HugoBlox/hugo-blox-builder"
   # url_source: "https://github.com/HugoBlox/hugo-blox-builder"
   category: "专著"
+  tags: ["人工智能", "故障检测", "诊断"]
 
-- authors: ["Liang, Jing", "Lou, Yahang", "Yu, Mingyuan", "Bi, Ying", "Yu, Kunjie"]
+- authors: ["Jing, Liang", "Yahang, Lou", "Mingyuan, Yu", "Ying, Bi", "Kunjie, Yu"]
   title: "A survey of surrogate-assisted evolutionary algorithms for expensive optimization"
   publication: "Springer"
   year: 2024
-  doi: ""
+  doi: "10.1007/s41965-024-00165-w"
   url_custom: "https://link.springer.com/article/10.1007/s41965-024-00165-w"
   url_pdf: "https://link.springer.com/article/10.1007/s41965-024-00165-w"
   # url_code: "https://github.com/HugoBlox/hugo-blox-builder"
   # url_source: "https://github.com/HugoBlox/hugo-blox-builder"
   category: "综述论文"
+  tags: ["进化算法", "优化", "代理模型"]
+
+- authors: ["Jing, Liang", "Zhuo, Hu", "Ying, Bi", "Han, Cheng", "Kunjie, Yu", "Cai-Tong, Yue", "Xianfang, Wang", "Wei-Feng, Guo"]
+  title: "A Survey on Evolutionary Computation for Identifying Biomarkers of Complex Disease"
+  publication: "IEEE Transactions on Evolutionary Computation"
+  year: 2024
+  doi: "10.1109/TEVC.2024.3414442"
+  url_custom: "https://ieeexplore.ieee.org/abstract/document/10558779"
+  url_pdf: "https://ieeexplore.ieee.org/document/10558779"
+  category: "综述论文"
+  tags: []
+
+- authors: ["Ying, Bi", "Pablo Mesejo", "Stefano Cagnoni", "Mengjie Zhang"]
+  title: "A Survey on Evolutionary Computation for Computer Vision and Image Analysis: Past, Present, and Future Trends"
+  publication: "IEEE Transactions on Evolutionary Computation"
+  year: 2023
+  doi: "10.1109/TEVC.2022.3220747"
+  url_custom: "https://ieeexplore.ieee.org/abstract/document/9943992"
+  url_pdf: "https://ieeexplore.ieee.org/abstract/document/9943992"
+  category: "综述论文"
+  tags: []
+
+- authors: ["Harith Al-Sahaf", "Ying Bi", "Qi Chen", "Andrew Lensen", "Yi Mei", "Yanan Sun", "Binh Tran", "Bing Xue", "Mengjie Zhang"]
+  title: "A Survey on Evolutionary Machine Learning"
+  publication: "Journal of the Royal Society of New Zealand"
+  year: 2019
+  volume: "49"
+  number: "2"
+  pages: "205-228"
+  url_custom: "https://www.tandfonline.com/eprint/z97uTmKKWHUD9SxkDFIu/full?target=10.1080%2F03036758.2019.1609052"
+  url_pdf: "https://www.tandfonline.com/eprint/z97uTmKKWHUD9SxkDFIu/full?target=10.1080%2F03036758.2019.1609052"
+  category: "综述论文"
+  tags: ["进化机器学习"]
+
+- authors: ["Bo Peng", "Ying Bi", "Bing Xue", "Mengjie Zhang", "Shuting Wan"]
+  title: "A Survey on Fault Diagnosis of Rolling Bearings"
+  publication: "Algorithms"
+  year: 2022
+  volume: "10"
+  number: "5"
+  pages: "347"
+  doi: "10.3390/a15100347"
+  url_custom: "https://www.mdpi.com/1999-4893/15/10/347"
+  url_pdf: "https://www.mdpi.com/1999-4893/15/10/347"
+  category: "综述论文"
+  tags: ["故障诊断", "滚动轴承", "综述"]
+  note: "通讯作者"
+
+- authors: ["Ying Bi", "Bing Xue", "Mengjie Zhang"]
+  title: "A Survey on Genetic Programming to Image Analysis"
+  publication: "Journal of Zhengzhou University (Engineering Science)"
+  year: 2018
+  volume: "39"
+  number: "06"
+  pages: "3-13"
+  url_custom: "http://gxb.zzu.edu.cn/oa/darticle.aspx?type=view&id=201802014"
+  url_pdf: "https://yingbi92.github.io/homepage/2020/%E9%81%97%E4%BC%A0%E8%A7%84%E5%88%92%E5%9C%A8%E5%9B%BE%E5%83%8F%E5%88%86%E6%9E%90%E4%B8%8A%E7%9A%84%E5%BA%94%E7%94%A8%E7%BB%BC%E8%BF%B0%E2%80%94v4.pdf"
+  category: "综述论文"
+  tags: ["遗传规划", "图像分析", "综述"]
+
+
+- authors: ["Caitong Yue", "Jiankang Song", "Jing Liang", "Mengnan Liu", "Kunjie Yu", "Hongyu Lin", "Ying Bi"]
+  title: "A multimodal multiobjective evolutionary algorithm based on neighborhood and enhanced special crowding distance"
+  publication: "Knowledge-Based Systems"
+  year: 2025
+  volume: "315"
+  pages: "113340"
+  doi: "10.1016/j.knosys.2025.113340"
+  url_custom: "https://www.sciencedirect.com/science/article/pii/S0950705125003879"
+  url_pdf: "https://www.sciencedirect.com/science/article/pii/S0950705125003879"
+  category: "期刊论文"
+  tags: ["多模态", "多目标进化算法"]
+
+- authors: ["Ke Chen", "Mingyang Dao", "Ying Bi", "Jing Liang", "Zhenlong Wu", "Peng Wang"]
+  title: "A new multi-tree Genetic Programming approach to feature construction in high-dimensional classification"
+  publication: "Knowledge-Based Systems"
+  year: 2025
+  volume: "319"
+  pages: "113643"
+  doi: "10.1016/j.knosys.2025.113643"
+  url_custom: "https://www.sciencedirect.com/science/article/pii/S0950705125006896"
+  url_pdf: "https://www.sciencedirect.com/science/article/pii/S0950705125006896"
+  category: "期刊论文"
+  tags: ["遗传规划", "特征构造", "高维分类"]
+
+- authors: ["Qinglan Fan", "Yunfeng Zhang", "Xunxiang Yao", "Ying Bi", "Bing Xue", "Mengjie Zhang"]
+  title: "ES-GP: An Ensemble Surrogate-Assisted Genetic Programming Approach to Image Classification"
+  publication: "IEEE Transactions on Evolutionary Computation"
+  year: 2025
+  doi: "10.1109/TEVC.2025.3569832"
+  category: "期刊论文"
+  tags: ["遗传规划", "代理模型", "图像分类", "集成方法"]
+  url_custom: "https://ieeexplore.ieee.org/document/11004052"  
+  url_pdf: "https://ieeexplore.ieee.org/document/11004052"
+
+- authors: ["Xiangyang Ren", "Boyang Jiao", "Jianbo Gao", "Yazheng Chen", "Na Xiao", "Ying Bi", "Gangqiong Liu"]
+  title: "Lightweight decision-making decisive feature enhancement network for medical image analysis"
+  publication: "Applied Soft Computing"
+  year: 2025
+  pages: "113518"
+  doi: "doi.org/10.1016/j.asoc.2025.113518"
+  url_custom: "https://www.sciencedirect.com/science/article/pii/S1568494625008294"
+  url_pdf: "https://www.sciencedirect.com/science/article/pii/S1568494625008294"
+  category: "期刊论文"
+  tags: ["医学图像分割", "神经网络", "轻量化网络"]
+
+- authors: ["Jing Liang", "Genyue Liu", "Ying Bi", "Mingyuan Yu", "Mengnan Liu", "Yaochu Jin"]
+  title: "Evolutionary Neural Architecture Search for Remote Sensing Image Classification"
+  publication: "IEEE Transactions on Neural Networks and Learning Systems"
+  year: 2025
+  doi: "10.1109/TNNLS.2025.3579517"
+  category: "期刊论文"
+  url_custom: "https://ieeexplore.ieee.org/document/11073818"
+  url_pdf: "https://ieeexplore.ieee.org/document/11073818"
+  tags: ["神经架构搜索", "遥感图像分类", "进化算法"]
+  
+- authors: ["Qinyu Wang", "Ying Bi", "Bing Xue", "Mengjie Zhang"]
+  title: "Co-Evolutionary Dual-Tree Genetic Programming for Fine-Grained Flower Image Classification"
+  publication: "IEEE Transactions on Evolutionary Computation"
+  year: 2025
+  doi: "10.1109/TEVC.2025.3590738"
+  category: "期刊论文"
+  url_custom: "https://ieeexplore.ieee.org/document/11087413"
+  url_pdf: "https://ieeexplore.ieee.org/document/11087413"
+  tags: ["遗传规划", "细粒度图像分类", "花卉识别"]
+
+- authors: ["Hongyu Lin", "Jing Liang", "Caitong Yue", "Ying Bi", "Kangjia Qiao", "Yaonan Wang"]
+  title: "A Similar-Niching-Based Differential Evolution for Constrained Multimodal Multiobjective Optimization"
+  publication: "IEEE Transactions on Systems, Man, and Cybernetics: Systems"
+  year: 2025
+  doi: "10.1109/TSMC.2025.3582852"
+  category: "期刊论文"
+  tags: ["差分进化", "帕累托优化", "约束优化"]
+  url_custom: "https://ieeexplore.ieee.org/document/11086425"
+  url_pdf: "https://ieeexplore.ieee.org/document/11086425"
+
+
+
+- authors: ["Ying Bi", "Tuo Zhang", "Jintao Lian", "Yaxin Chang", "Jing Liang"]
+  title: "Change detection in remote sensing images based on multi-tree genetic programming"
+  publication: "Applied Soft Computing"
+  year: 2025
+  pages: "113609"
+  doi: "10.1016/j.asoc.2025.113609"
+  category: "期刊论文"
+  tags: ["变化检测", "遥感图像", "多树遗传规划"]
+  url_custom: "https://www.sciencedirect.com/science/article/pii/S1568494625009202"
+  url_pdf: "https://www.sciencedirect.com/science/article/pii/S1568494625009202"
+
+- authors: ["Qinyu Wang", "Ying Bi", "Bing Xue", "Mengjie Zhang"]
+  title: "A new genetic programming approach to fine-grained flower image classification"
+  publication: "Complex & Intelligent Systems"
+  year: 2025
+  volume: "11"
+  issue: "9"
+  pages: "1-20"
+  category: "期刊论文"
+  tags: ["遗传规划", "细粒度图像分类", "花卉识别"]
+  url_custom: "https://link.springer.com/article/10.1007/s40747-025-02004-6"
+  url_pdf: "https://link.springer.com/article/10.1007/s40747-025-02004-6"
+
+
+- authors: ["Caiyun Wen", "Miao Lu", "Ying Bi", "Lang Xia", "Jing Sun", "Yun Shi", "Yanbing Wei", "Wenbin Wu"]
+  title: "Customized crop feature construction using genetic programming for early-and in-season crop mapping"
+  publication: "Computers and Electronics in Agriculture"
+  year: 2025
+  volume: "231"
+  pages: "109949"
+  doi: "10.1016/j.compag.2025.109949"
+  category: "期刊论文"
+  tags: ["遗传规划", "作物制图", "特征构建", "遥感"]
+  url_custom: "https://www.sciencedirect.com/science/article/pii/S0168169925000559"
+  url_pdf: "https://www.sciencedirect.com/science/article/pii/S0168169925000559"
+
+- authors: ["Rui Qi", "Ya-Hui Jia", "Wei-neng Chen", "Ying Bi", "Yi Mei"]
+  title: "An evolutionary optimization-learning hybrid algorithm for energy resource management"
+  publication: "Swarm and Evolutionary Computation"
+  year: 2025
+  volume: "92"
+  pages: "101831"
+  doi: "doi.org/10.1016/j.swevo.2024.101831"
+  category: "期刊论文"
+  tags: ["遗传规划", "启发式学习", "大规模全局优化"]
+  url_custom: "https://www.sciencedirect.com/science/article/pii/S2210650224003699"
+  url_pdf: "https://www.sciencedirect.com/science/article/pii/S2210650224003699"

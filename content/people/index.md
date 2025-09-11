@@ -20,6 +20,13 @@ sections:
       show_interests: true
       show_role: true
       show_social: true
+  - block: markdown
+    content:
+      title: 已毕业研究生
+      text: |
+        - 张三（2022届）
+        - 李四（2023届）
+        - 王五（2024届）
 ---
 
 <script>
