@@ -16,6 +16,9 @@ main:
   - name: 新闻
     url: post
     weight: 40
+  - name: 代表性工作
+    url: featured
+    weight: 45
   - name: 相关链接
     url: links
     weight: 50

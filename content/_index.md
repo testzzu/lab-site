@@ -128,7 +128,6 @@ sections:
             <div class="subtle-card">
               <h4 style="margin-bottom: 10px;">应用场景与成果<span class="pill">Impact</span></h4>
               <ul class="feature-list">
-                <li><i class="fas fa-check"></i>智慧医疗</li>
                 <li><i class="fas fa-check"></i>医疗影像分析</li>
                 <li><i class="fas fa-check"></i>辅助诊断</li>
                 <li><i class="fas fa-check"></i>精准农业</li>
@@ -190,7 +189,7 @@ sections:
               <img src="./media/homepage/skincancer.png" class="card-img-top" alt="医疗影像AI分析" style="height: 200px; object-fit: cover;">
               <div class="card-body">
                 <h6 class="card-title">医疗影像AI分析</h6>
-                <p class="card-text small">基于深XXXXXXXXXXXXXXX以上</p>
+                <p class="card-text small">针对皮肤癌分类依赖医生经验及现有方法存在可解释性差、需领域知识提取特征、忽略病变区域信息等问题，我们提出了一种自适应区域检测的遗传编程新方法。</p>
               </div>
             </div>
           </div>
@@ -272,18 +271,18 @@ sections:
   #       padding: ['20px', '0', '20px', '0']
   #     css_class: fullscreen
 
-  - block: collection
-    content:
-      title: 最新工作
-      text: ""
-      count: 5
-      filters:
-        folders:
-          - publication
-        publication_type: 'article'
-    design:
-      view: citation
-      columns: '1'
+  # - block: collection
+  #   content:
+  #     title: 最新工作
+  #     text: ""
+  #     count: 5
+  #     filters:
+  #       folders:
+  #         - publication
+  #       publication_type: 'article'
+  #   design:
+  #     view: citation
+  #     columns: '1'
 
   - block: markdown
     content:

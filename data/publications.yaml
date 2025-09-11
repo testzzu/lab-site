@@ -226,3 +226,460 @@
   tags: ["遗传规划", "启发式学习", "大规模全局优化"]
   url_custom: "https://www.sciencedirect.com/science/article/pii/S2210650224003699"
   url_pdf: "https://www.sciencedirect.com/science/article/pii/S2210650224003699"
+
+- authors: ["Jing Liang", "Junting Yang", "Caitong Yue","Ying Bi","Kunjie Yu","Boyang Qu"]  #13
+  title: "A Joint-Encoding Evolutionary Algorithm for Multimodal Multiobjective Feature Selection in Classification"
+  publisher: "IEEE"
+  year: 2025
+  doi: "10.1109/TEVC.2025.3529977"
+  url_custom: "https://ieeexplore.ieee.org/abstract/document/10843352"
+  url_code: ""
+  category: "期刊论文"
+  tags: ["特征选择", "多模态多目标优化", "小生境", "分类"]
+
+- authors: ["Tuo Zhang", "Ying Bi", "Jing Liang", "Bing Xue","Mengjie Zhang"]   # 14
+  title: "Multi-objective genetic programming based on decomposition for feature learning in image classification"
+  publication: "Swarm and Evolutionary Computation"
+  year: 2025
+  doi: ""
+  url_custom: "https://doi.org/10.1016/j.swevo.2025.101875"
+  url_pdf: "https://doi.org/10.1016/j.swevo.2025.101875"
+  # url_code: "https://github.com/HugoBlox/hugo-blox-builder"
+  # url_source: "https://github.com/HugoBlox/hugo-blox-builder"
+  category: "期刊论文"
+  tags: ["遗传规划", "多目标优化", "特征学习", "图像分类", "进化计算"]
+
+- authors: ["Jing Liang", "Zhuo Hu", "Ying Bi", "Han Chen","Wei-Feng Guo" ]   # 15  
+  title: "Multimodal multiobjective optimization with structural network control principles to optimize personalized drug targets for drug discovery of individual patients"
+  publication: "Brief Bioinform"
+  year: 2024
+  doi: "10.1093/bib/bbaf007"
+  url_custom: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11747759/"
+  url_pdf: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11747759/"
+  # url_code: "https://github.com/HugoBlox/hugo-blox-builder"
+  # url_source: "https://github.com/HugoBlox/hugo-blox-builder"
+  category: "期刊论文"
+  tags: [ "多模态多目标优化", "分布式控制结构", "个性化药物靶点", "精准医学"]
+
+- authors: ["Dylon Zheng", "Ivy Liu", "Ying Bi", "Ross Vennell","Dana Briscoe", "Bing Xue", "Mengjie Zhang"]   # 16
+  title: "A new multi-object tracking pipeline based on computer vision techniques for mussel farms"
+  publication: "Swarm and Evolutionary Computation"
+  year: 2024
+  doi: ""
+  url_custom: "https://doi.org/10.1080/03036758.2023.2240466"
+  url_pdf: "https://doi.org/10.1080/03036758.2023.2240466"
+  # url_code: "https://github.com/HugoBlox/hugo-blox-builder"
+  # url_source: "https://github.com/HugoBlox/hugo-blox-builder"
+  category: "期刊论文"
+  tags: [ "目标追踪", "计算机视觉", "目标检测", "目标描述", "水产养殖", "贻贝养殖"]
+
+- authors: ["Wenjie Sun", "Chengke Wu", "Qinge Xiao", "Junjie Jiang","Yuanjun Guo", "Ying Bi", "Xingyu Wu", "Zhile Yang"]   # 17
+  title: "CauseTerML: Causal Learning via Term Mining for Assessing Review Discrepancies"
+  publication: "IEEE Transactions on Artificial Intelligence "
+  year: 2024
+  doi: "10.1109/TAI.2024.3512500"
+  url_custom: "https://doi.org/10.1080/03036758.2023.2240466"
+  url_pdf: "https://doi.org/10.1080/03036758.2023.2240466"
+  # url_code: "https://github.com/HugoBlox/hugo-blox-builder"
+  # url_source: "https://github.com/HugoBlox/hugo-blox-builder"
+  category: "期刊论文"
+  tags: [ "因果推断", "公平性评估", "专利挖掘", "术语提取"]
+
+- authors: ["Qinglan Fan", "Ying Bi", "Bing Xue", "Mengjie Zhang"]   # 18
+  title: "A Multi-Tree Genetic Programming-Based Ensemble Approach to Image Classification With Limited Training Data [Research Frontier]"
+  publication: "IEEE Computational Intelligence Magazine"
+  year: 2024
+  doi: "10.1109/MCI.2024.3446148"
+  url_custom: "https://ieeexplore.ieee.org/document/10709804"
+  url_pdf: "https://ieeexplore.ieee.org/document/10709804"
+  # url_code: "https://github.com/HugoBlox/hugo-blox-builder"
+  # url_source: "https://github.com/HugoBlox/hugo-blox-builder"
+  category: "期刊论文"
+  tags: [ "训练数据", "图像分类", "特征提取", "遗传规划"]
+
+- authors: ["Kunjie Yu", "Jintao Lian", "Ying Bi", "Jing Liang", "Bing Xue", "Mengjie Zhang"]   # 19
+  title: "An Automated and Interpretable Computer-Aided Approach for Skin Cancer Diagnosis Using Genetic Programming"
+  publication: "IEEE Transactions on Evolutionary Computation"
+  year: 2024
+  doi: "10.1109/TEVC.2024.3459096"
+  url_custom: "https://ieeexplore.ieee.org/document/10679181"
+  url_pdf: "https://ieeexplore.ieee.org/document/10679181"
+  # url_code: "https://github.com/HugoBlox/hugo-blox-builder"
+  # url_source: "https://github.com/HugoBlox/hugo-blox-builder"
+  category: "期刊论文"
+  tags: ["遗传规划", "皮肤癌计算机辅助诊断系统", "可解释性", "进化计算", "图像分类"]
+
+- authors: ["Kunjie Yu,", "Jintao Lian", "Ying Bi", "Jing Liang", "Bing Xue", "Mengjie Zhang"]   # 20
+  title: "A genetic programming approach with adaptive region detection to skin cancer image classification"
+  publication: "Journal of Automation and Intelligence"
+  year: 2024
+  doi: "10.1016/j.jai.2024.08.003"
+  url_custom: "https://www.sciencedirect.com/science/article/pii/S2949855424000340"
+  url_pdf: "https://www.sciencedirect.com/science/article/pii/S2949855424000340"
+  # url_code: "https://github.com/HugoBlox/hugo-blox-builder"
+  # url_source: "https://github.com/HugoBlox/hugo-blox-builder"
+  category: "期刊论文"
+  tags: ["遗传规划", "皮肤癌图像分类", "区域检测", "特征提取"]
+
+- authors: ["Al-Sahaf Harith", "Mesejo, Pablo", "Ying Bi", "Mengjie Zhang"]   # 21  文章找不到
+  title: "Evolutionary deep learning for computer vision and image processing[J]. Appl. Soft Comput"
+  publication: "Applied Soft Computing"
+  year: 2024
+  doi: "10.1016/j.asoc.2023.111159"
+  url_custom: "linkinghub.elsevier.com/retrieve/pii/S1568494623011778"
+  url_pdf: "linkinghub.elsevier.com/retrieve/pii/S1568494623011778"
+  # url_code: "https://github.com/HugoBlox/hugo-blox-builder"
+  # url_source: "https://github.com/HugoBlox/hugo-blox-builder"
+  category: "期刊论文"
+  tags: ["计算机视觉", "进化深度学习", "图像处理"]
+
+- authors: ["Shangshang Yang", "Haiping Ma", "Ying Bi", "Ye Tian", "Limiao Zhang", "Yaochu Jin", "Xingyi Zhang"]   # 22
+  title: "An Evolutionary Multi-Objective Neural Architecture Search Approach to Advancing Cognitive Diagnosis in Intelligent Education"
+  publication: "IEEE Transactions on Evolutionary Computation "
+  year: 2024
+  doi: "10.1109/TEVC.2024.3429180"
+  url_custom: "https://ieeexplore.ieee.org/abstract/document/10599558"
+  url_pdf: "https://ieeexplore.ieee.org/abstract/document/10599558"
+  # url_code: "https://github.com/HugoBlox/hugo-blox-builder"
+  # url_source: "https://github.com/HugoBlox/hugo-blox-builder"
+  category: "期刊论文"
+  tags: ["认知诊断", "智能教育", "演化神经网络架构搜索", "多目标优化", "遗传规划"]
+
+- authors: ["Han-Wen Wan", "Meng-Han Wu" , "Wen-Shan Zhao", "Han Cheng", "Ying Bi", "Xian-Fang Wang", "Xiang-Rui Zhang", "Yan Li", "Wei-Feng Guo"]   # 23
+  title: "Label reusing based graph neural network for unbalanced classification of personalized driver genes in cancer"
+  publication: "IEEE Transactions on Evolutionary Computation "
+  year: 2024
+  doi: "https:doi.org10.1016j.asoc.2024.111658, 2024"
+  url_custom: "https://www.sciencedirect.com/science/article/pii/S1568494624004320"
+  url_pdf: "https://www.sciencedirect.com/science/article/pii/S1568494624004320"
+  # url_code: "https://github.com/HugoBlox/hugo-blox-builder"
+  # url_source: "https://github.com/HugoBlox/hugo-blox-builder"
+  category: "期刊论文"
+  tags: ["个性化驱动基因", "图注意力神经网络", "标签复用", "半监督学习", "肿瘤异质性"]
+
+- authors: ["Jing Liang", "Zexuan Yang", "Ying Bi", "Boyang Qu", "Mengnan Liu", "Bing Xue", "Mengjie Zhang"]   # 24
+  title: "A Multitree Genetic Programming-Based Feature Construction Approach to Crop Classification Using Hyperspectral Images"
+  publication: "IEEE Transactions on Geoscience and Remote Sensing "
+  year: 2024
+  doi: "10.1109/TGRS.2024.3415773"
+  url_custom: "https://ieeexplore.ieee.org/abstract/document/10570344"
+  url_pdf: "https://ieeexplore.ieee.org/abstract/document/10570344"
+  # url_code: "https://github.com/HugoBlox/hugo-blox-builder"
+  # url_source: "https://github.com/HugoBlox/hugo-blox-builder"
+  category: "期刊论文"
+  tags: ["作物分类", "特征构建", "遗传规划"]
+
+- authors: ["Jing Liang", "Yaxin Chang", "Ying Bi", "Caitong Yue", "Boyang Qu", "Mengnan Liu"]   # 25
+  title: "A New Road Extraction Method from Satellite Images Using Genetic Programming"
+  publication: "Guidance Navigation and Control"
+  year: 2024
+  doi: "https://doi.org/10.1142/S2737480724500092"
+  url_custom: "https://www.worldscientific.com/doi/abs/10.1142/S2737480724500092"
+  url_pdf: "https://www.worldscientific.com/doi/abs/10.1142/S2737480724500092"
+  # url_code: "https://github.com/HugoBlox/hugo-blox-builder"
+  # url_source: "https://github.com/HugoBlox/hugo-blox-builder"
+  category: "期刊论文"
+  tags: ["道路提取", "特征构建", "遗传规划"]
+
+- authors: ["Qinglan Fan", "Ying Bi", "Bing Xue", "Mengjie Zhang"]   # 26
+  title: "Multi-Tree Genetic Programming for Learning Color and Multi-Scale Features in Image Classification"
+  publication: "IEEE Transactions on Evolutionary Computation"
+  year: 2024
+  doi: "10.1109/TEVC.2024.3384021"
+  url_custom: "https://ieeexplore.ieee.org/abstract/document/10488030"
+  url_pdf: "https://ieeexplore.ieee.org/abstract/document/10488030"
+  # url_code: "https://github.com/HugoBlox/hugo-blox-builder"
+  # url_source: "https://github.com/HugoBlox/hugo-blox-builder"
+  category: "期刊论文"
+  tags: ["颜色特征", "数据高效图像分类", "多尺度特征提取", "多树遗传规划", "父辈选择"]
+
+- authors: ["Qinyu Wang", "Ying Bi", "Bing Xue", "Mengjie Zhang"]   # 27
+  title: "Genetic Programming With Flexible Region Detection for Fine-Grained Image Classification"
+  publication: " IEEE Transactions on Evolutionary Computation"
+  year: 2024
+  doi: "10.1109/TEVC.2024.3379257, 2024"
+  url_custom: "https://ieeexplore.ieee.org/abstract/document/10475668"
+  url_pdf: "https://ieeexplore.ieee.org/abstract/document/10475668"
+  # url_code: "https://github.com/HugoBlox/hugo-blox-builder"
+  # url_source: "https://github.com/HugoBlox/hugo-blox-builder"
+  category: "期刊论文"
+  tags: ["特征提取", "细粒度图像分类", "遗传规划", "区域检测"]
+
+- authors: ["Qinglan Fan", "Ying Bi", "Bing Xue", "Mengjie Zhang"]   # 28
+  title: " A Genetic Programming-based Method for Image Classification with Small Training Data. Knowledge-Based Systems"
+  publication: "Knowledge-Based Systems"
+  year: 2024
+  doi: "https:doi.org10.1016j.knosys.2023.111188"
+  url_custom: "https://www.sciencedirect.com/science/article/pii/S0950705123009383#d1e4589"
+  url_pdf: "https://www.sciencedirect.com/science/article/pii/S0950705123009383#d1e4589"
+  # url_code: "https://github.com/HugoBlox/hugo-blox-builder"
+  # url_source: "https://github.com/HugoBlox/hugo-blox-builder"
+  category: "期刊论文"
+  tags: ["遗传规划", "图像分类", "适应度函数", "交叉"]
+
+- authors: ["Jing Liang", "Zong-Wei Li", "Ze-Ning Sun", "Ying, Bi", "Han Cheng", "Tao Zeng", "Wei-Feng Guo"] # 29
+  title: "Latent space search based multimodal optimization with personalized edge-network biomarker for multi-purpose early disease prediction"
+  publication: "Briefings in Bioinformatics"
+  year: 2023
+  doi: "https:doi.org10.1093bib/bbad364"
+  url_custom: ""
+  url_pdf: ""
+  # url_code: "https://github.com/HugoBlox/hugo-blox-builder"
+  # url_source: "https://github.com/HugoBlox/hugo-blox-builder"
+  category: "期刊论文"
+  tags: ["多模态优化", "", ""]
+
+- authors: ["Ying, Bi", "Jing Liang", "Bing Xue", "Mengjie Zhang"] # 30
+  title: "A Genetic Programming Approach with Building Block Evolving and Reusing to Image Classification"
+  publication: "IEEE Transactions on Evolutionary Computation"
+  year: 2023
+  doi: "110.1109/TEVC.2023.3284712"
+  url_custom: "https://ieeexplore.ieee.org/document/10147342"
+  url_pdf: "https://ieeexplore.ieee.org/document/10147342"
+  # url_code: "https://github.com/HugoBlox/hugo-blox-builder"
+  # url_source: "https://github.com/HugoBlox/hugo-blox-builder"
+  category: "期刊论文"
+  tags: ["集成学习", "进化计算", "特征提取", "遗传规划", "图像分类"]
+
+- authors: ["Dylon Zheng", "Ivy Liu", "Ying Bi", "Ross Vennell","Dana Briscoe", "Bing Xue", "Mengjie Zhang"] # 31
+  title: "A new multi-object tracking pipeline based on computer vision techniques for mussel farms"
+  publication: "Journal of the Royal Society of New Zealand"
+  year: 2023
+  doi: "https://doi.org/10.1080/03036758.2023.2240466"
+  url_custom: "https://www.tandfonline.com/doi/full/10.1080/03036758.2023.2240466#abstract"
+  url_pdf: "https://www.tandfonline.com/doi/full/10.1080/03036758.2023.2240466#abstract"
+  # url_code: "https://github.com/HugoBlox/hugo-blox-builder"
+  # url_source: "https://github.com/HugoBlox/hugo-blox-builder"
+  category: "期刊论文"
+  tags: ["目标追踪", "计算机视觉", "目标检测", "目标描述", "水产养殖", "贻贝养殖"]
+
+- authors: ["Shuai Wang", "Shichen Huang", "Shuai Liu", "Ying Bi"] # 32
+  title: "Not just select samples, but exploration Genetic programming aided remote sensing target detection under deep learning"
+  publication: "Applied Soft Computing"
+  year: 2023
+  doi: "https:doi.org10.1016j.asoc.2023.110570"
+  url_custom: "https://www.sciencedirect.com/science/article/pii/S1568494623005884"
+  url_pdf: "https://www.sciencedirect.com/science/article/pii/S1568494623005884"
+  # url_code: "https://github.com/HugoBlox/hugo-blox-builder"
+  # url_source: "https://github.com/HugoBlox/hugo-blox-builder"
+  category: "期刊论文"
+  tags: ["辅助特征检测", "进化计算", "遥感影像", "样本选择", "目标检测"]
+
+
+- authors: ["Qinglan Fan","Ying Bi","Bing Xue","Mengjie Zhang"]
+  title: "A Global and Local Surrogate-Assisted Genetic Programming Approach to Image Classification"
+  publication: "IEEE Transactions on Evolutionary Computation"
+  year: 2024
+  doi: "10.1109/TEVC.2022.3214607"
+  url_custom: "https://ieeexplore.ieee.org/document/9919269"
+  url_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9919269"
+  category: "期刊论文"
+  tags: ["图像分类","特征提取","计算建模","进化计算","预测模型","计算效率","遗传规划","准确性"]
+
+- authors: ["Ying Bi","Bing Xue","Mengjie Zhang"]
+  title: "Genetic Programming-Based Evolutionary Deep Learning for Data-Efficient Image Classification"
+  publication: "IEEE Transactions on Evolutionary Computation"
+  year: 2024
+  doi: "10.1109/TEVC.2022.3214503"
+  url_custom: "https://ieeexplore.ieee.org/document/9919314"
+  url_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9919314"
+  category: "期刊论文"
+  tags: ["图像分类","深度学习","人工神经网络","任务分析","训练","计算机体系结构","计算建模"]
+
+- authors: ["Ying Bi","Bing Xue","Dana Briscoe","Ross Vennell","Mengjie Zhang"]
+  title: "A new artificial intelligent approach to buoy detection for mussel farming"
+  publication: "Journal of the Royal Society of New Zealand"
+  year: 2022
+  doi: "10.1080/03036758.2022.2090966"
+  url_custom: "https://www.tandfonline.com/doi/full/10.1080/03036758.2022.2090966"
+  category: "期刊论文"
+  tags: ["人工智能","计算机视觉","水产养殖","进化学习","对象检测","深度学习"]
+
+- authors: ["Ying Bi","Bing Xue","Mengjie Zhang"]
+  title: "Multitask Feature Learning as Multiobjective Optimization: A New Genetic Programming Approach to Image Classification"
+  publication: "IEEE Transactions on Cybernetics"
+  year: 2023
+  doi: "10.1109/TCYB.2022.3174519"
+  url_custom: "https://ieeexplore.ieee.org/document/9781346"
+  url_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9781346"
+  category: "期刊论文"
+  tags: ["任务分析","表示学习","优化","特征提取","训练","训练数据","遗传规划"]
+
+- authors: ["Qinglan Fan","Ying Bi","Bing Xue","Mengjie Zhang"]
+  title: "Genetic Programming for Image Classification: A New Program Representation With Flexible Feature Reuse"
+  publication: " IEEE Transactions on Evolutionary Computation"
+  year: 2023
+  doi: "10.1109/TEVC.2022.3169490"
+  url_custom: "https://ieeexplore.ieee.org/document/9761990"
+  url_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9761990"
+  category: "期刊论文"
+  tags: ["特征提取","任务分析","表征学习","训练","基准测试","变换","支持向量机"]
+
+- authors: ["Caiyun Wen", "Miao Lu", "Ying Bi", "Shengnan Zhang", "Bing Xue", "Qingbo Zhou", "Mengjie Zhang", "Wenbin Wu"]
+  title: "An Object-Based Genetic Programming Approach for Cropland Field Extraction"
+  publication: "Progresses in Agro-Geoinformatics"
+  year: 2022
+  doi: "10.3390/rs14051275"
+  url_custom: "https://www.mdpi.com/2072-4292/14/5/1275"
+  category: "期刊论文"
+  tags: ["遗传规划","基于对象的","耕地资源"]
+
+- authors: ["Miao Lu","Ying Bi", "Bing Xue", "Qiong Hu", "Mengjie Zhang", "Yanbing Wei", "Peng Yang", "Wenbin Wu"]
+  title: "Genetic Programming for High-Level Feature Learning in Crop Classification"
+  publication: "Remote Sensing for Mapping Farmland and Agricultural Infrastructure"
+  year: 2022
+  doi: "10.3390/rs14163982"
+  url_custom: "https://www.mdpi.com/2072-4292/14/16/3982"
+  category: "期刊论文"
+  tags: ["作物分类","遗传规划","特征学习","高层特征","遗传规划表示"]
+
+- authors: ["Ying Bi","Bing Xue","Mengjie Zhang"]
+  title: "Using a small number of training instances in genetic programming for face image classification"
+  publication: "Information Sciences"
+  year: 2022
+  doi: "10.1016/j.ins.2022.01.055"
+  url_custom: "https://www.sciencedirect.com/science/article/pii/S0020025522000871"
+  category: "期刊论文"
+  tags: ["遗传规划","图像分类","适应度度量","小样本","进化计算"]
+
+- authors: ["Qinglan Fan","Ying Bi","Bing Xue","Mengjie Zhang"]
+  title: "Genetic programming for feature extraction and construction in image classification"
+  publication: "Applied Soft Computing"
+  year: 2022
+  doi: "10.1016/j.asoc.2022.108509"
+  url_custom: "https://www.sciencedirect.com/science/article/pii/S1568494622000527"
+  category: "期刊论文"
+  tags: ["遗传规划","图像分类","表示","特征构建"]
+
+- authors: ["Ying Bi","Bing Xue","Mengjie Zhang"]
+  title: "Instance Selection-Based Surrogate-Assisted Genetic Programming for Feature Learning in Image Classification"
+  publication: "IEEE Transactions on Cybernetics"
+  year: 2023
+  doi: "10.1109/TCYB.2021.3105696"
+  url_custom: "https://ieeexplore.ieee.org/abstract/document/9526355"
+  url_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9526355"
+  category: "期刊论文"
+  tags: ["训练","特征提取","计算效率","进化计算","任务分析","优化","计算建模"]
+
+- authors: ["Ying Bi","Bing Xue","Mengjie Zhang"]
+  title: "Dual-Tree Genetic Programming for Few-Shot Image Classification"
+  publication: "IEEE Transactions on Evolutionary Computation"
+  year: 2022
+  doi: "10.1109/TEVC.2021.3100576"
+  url_custom: "https://ieeexplore.ieee.org/document/9499117"
+  url_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9499117"
+  category: "期刊论文"
+  tags: ["训练","任务分析","特征提取","遗传规划","迁移学习","遗传算法","知识迁移"]
+
+- authors: ["Ying Bi","Bing Xue","Mengjie Zhang"]
+  title: "Learning and Sharing: A Multitask Genetic Programming Approach to Image Feature Learning"
+  publication: "IEEE Transactions on Evolutionary Computation"
+  year: 2022
+  doi: "10.1109/TEVC.2021.3097043"
+  url_custom: "https://ieeexplore.ieee.org/abstract/document/9484082"
+  url_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9484082"
+  category: "期刊论文"
+  tags: ["任务分析","特征提取","训练","训练数据","优化","搜索问题","遗传规划"]
+
+- authors: ["Ying Bi","Bing Xue","Mengjie Zhang"]
+  title: "A Divide-and-Conquer Genetic Programming Algorithm With Ensembles for Image Classification"
+  publication: "IEEE Transactions on Evolutionary Computation"
+  year: 2021
+  doi: "10.1109/TEVC.2021.3082112"
+  url_custom: "https://ieeexplore.ieee.org/document/9437306"
+  url_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9437306"
+  category: "期刊论文"
+  tags: ["统计学","社会学","训练","任务分析","特征提取","知识转移","训练数据"]
+
+- authors: ["Bo Peng","Ying Bi","Bing Xue","Mengjie Zhang","Shuting Wan"]
+  title: "Multi-View Feature Construction Using Genetic Programming for Rolling Bearing Fault Diagnosis"
+  publication: "IEEE Computational Intelligence Magazine"
+  year: 2021
+  doi: "10.1109/MCI.2021.3084495"
+  url_custom: "https://ieeexplore.ieee.org/document/9492147"
+  url_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9492147"
+  category: "期刊论文"
+  tags: ["训练数据","故障诊断","退化","滚动轴承","遗传编程","教程"]
+
+- authors: ["Ying Bi","Bing Xue","Mengjie Zhang"]
+  title: "Multi-objective genetic programming for feature learning in face recognition"
+  publication: "Applied Soft Computing"
+  year: 2021
+  doi: "10.1016/j.asoc.2021.107152"
+  url_custom: "https://www.sciencedirect.com/science/article/pii/S1568494621000752"
+  category: "期刊论文"
+  tags: ["多目标优化","进化计算","特征学习","遗传规划","人脸识别"]
+
+- authors: ["Ying Bi","Bing Xue","Mengjie Zhang"]
+  title: "Genetic Programming-Based Discriminative Feature Learning for Low-Quality Image Classification"
+  publication: "IEEE Transactions on Cybernetics"
+  year: 2022
+  doi: "10.1109/TCYB.2021.3049778"
+  url_custom: "https://ieeexplore.ieee.org/document/9345467"
+  url_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9345467"
+  category: "期刊论文"
+  tags: ["特征提取","任务分析","噪声测量","噪声抑制","抑制","转换","训练"]
+
+- authors: ["Bo Peng","Shuting Wan","Ying Bi","Bing Xue","Mengjie Zhang"]
+  title: "Automatic Feature Extraction and Construction Using Genetic Programming for Rotating Machinery Fault Diagnosis"
+  publication: "IEEE Transactions on Cybernetics"
+  year: 2021
+  doi: "10.1109/TCYB.2020.3032945"
+  url_custom: "https://ieeexplore.ieee.org/abstract/document/9271873"
+  url_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9271873"
+  category: "期刊论文"
+  tags: ["特征提取","故障诊断","机械","振动","任务分析","熵","遗传规划"]
+
+- authors: ["Ying Bi","Bing Xue","Mengjie Zhang"]
+  title: "Genetic Programming With Image-Related Operators and a Flexible Program Structure for Feature Learning in Image Classification"
+  publication: "IEEE Transactions on Evolutionary Computation"
+  year: 2021
+  doi: "10.1109/TEVC.2020.3002229"
+  url_custom: "https://ieeexplore.ieee.org/abstract/document/9067779"
+  url_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9067779"
+  url_code: "https://github.com/YingBi92/BookCode/tree/main/FlexGP"
+  category: "期刊论文"
+  tags: ["特征提取","任务分析","直方图","主成分分析","基准测试","核","人工神经网络"]
+
+- authors: ["Ying Bi","Bing Xue","Mengjie Zhang"]
+  title: "An Effective Feature Learning Approach Using Genetic Programming With Image Descriptors for Image Classification"
+  publication: "IEEE Computational Intelligence Magazine"
+  year: 2020
+  doi: "10.1109/MCI.2020.2976186"
+  url_custom: "https://ieeexplore.ieee.org/document/9117044"
+  url_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9117044"
+  url_code: "https://github.com/YingBi92/BookCode/tree/main/IDGP"
+  category: "期刊论文"
+  tags: ["特征提取","图像分类","任务分析","直方图","图像边缘检测","遗传规划","分类算法"]
+
+- authors: ["Ying Bi","Bing Xue","Mengjie Zhang"]
+  title: "Genetic Programming With a New Representation to Automatically Learn Features and Evolve Ensembles for Image Classification"
+  publication: "IEEE Transactions on Cybernetics"
+  year: 2021
+  doi: "10.1109/TCYB.2020.2964566"
+  url_custom: "https://ieeexplore.ieee.org/document/8976239"
+  url_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8976239"
+  url_code: "https://github.com/YingBi92/BookCode/tree/main/FELGP"
+  category: "期刊论文"
+  tags: ["特征提取","任务分析","变换","非同质媒体","植被","遗传规划","建筑"]
+
+- authors: ["Ke Chen", "Tianqing Wu", "Ying Bi", "Jing Liang", "Kunjie Yu"]
+  title: "Dynamic Threshold Selection in Genetic Programming for Imbalanced Fault Diagnosis"
+  publication: "2025 IEEE Congress on Evolutionary Computation (CEC)"
+  year: 2025
+  doi: "10.1109/CEC65147.2025.11043109"
+  url_custom: "https://ieeexplore.ieee.org/document/11043109"
+  url_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11043109"
+  category: "会议论文"
+  tags: ["故障诊断","精度","计算建模","遗传规划","进化计算","动态规划"]
+
+- authors: ["Kunjie Yu","Jintao Lian","Ying Bi", "Jing Liang"]
+  title: "Automatic Feature Learning via Genetic Programming with Flexible Filtering for Skin Cancer Image Classification"
+  publication: "2025 IEEE Congress on Evolutionary Computation (CEC)"
+  year: 2025
+  doi: "10.1109/CEC65147.2025.11042919"
+  url_custom: "https://ieeexplore.ieee.org/document/11042919"
+  url_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11042919"
+  category: "会议论文"
+  tags: ["表示学习","训练","滤波","噪声","遗传编程","特征提取","鲁棒性","计算效率","皮肤癌","图像分类"]
+
