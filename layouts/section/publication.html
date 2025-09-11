@@ -85,20 +85,17 @@
     {{ $items := site.Data.publications }}
     {{ if $items }}
       {{ $items = sort $items "year" "desc" }}
-      {{ $groups := slice (dict "key" "Authored Book" "label" "专著") (dict "key" "Survey Papers" "label" "综述论文") (dict "key" "Journal Papers" "label" "期刊论文") }}
-      {{/* Compute which groups actually have items */}}
-      {{ $enabled := slice }}
-      {{ range $ci, $cat := $groups }}
-        {{ $g1 := where $items "category" $cat.key }}
-        {{ $g2 := where $items "category" $cat.label }}
-        {{ if gt (add (len $g1) (len $g2)) 0 }}
-          {{ $enabled = $enabled | append $cat }}
+      {{/* Build dynamic category list from data */}}
+      {{ $categories := slice }}
+      {{ range $it := $items }}
+        {{ if and $it.category (not (in $categories $it.category)) }}
+          {{ $categories = $categories | append $it.category }}
         {{ end }}
       {{ end }}
       <div class="mb-3">
         <button type="button" class="btn btn-sm btn-primary mr-2 pub-cat-btn" data-cat="all" onclick="window.setPubCategory('all')">全部</button>
-        {{ range $enabled }}
-          <button type="button" class="btn btn-sm btn-outline-primary mr-2 pub-cat-btn" data-cat="{{ .label }}" onclick="window.setPubCategory('{{ .label }}')">{{ .label }}</button>
+        {{ range $categories }}
+          <button type="button" class="btn btn-sm btn-outline-primary mr-2 pub-cat-btn" data-cat="{{ . }}" onclick="window.setPubCategory('{{ . }}')">{{ . }}</button>
         {{ end }}
       </div>
       <div class="mb-3">
@@ -113,16 +110,20 @@
       <p class="text-muted">暂无出版物数据。</p>
     {{ else }}
       {{ $items = sort $items "year" "desc" }}
-      {{ $groups := slice (dict "key" "Authored Book" "label" "专著") (dict "key" "Survey Papers" "label" "综述论文") (dict "key" "Journal Papers" "label" "期刊论文") }}
-      {{ range $ci, $cat := $groups }}
-        {{ $g1 := where $items "category" $cat.key }}
-        {{ $g2 := where $items "category" $cat.label }}
-        {{ $count := add (len $g1) (len $g2) }}
-        {{ if gt $count 0 }}
-          <h2 class="mt-4" data-category="{{ $cat.label }}">{{ $cat.label }}</h2>
+      {{/* Build dynamic category list from data */}}
+      {{ $categories := slice }}
+      {{ range $it := $items }}
+        {{ if and $it.category (not (in $categories $it.category)) }}
+          {{ $categories = $categories | append $it.category }}
+        {{ end }}
+      {{ end }}
+      {{ range $ci, $cat := $categories }}
+        {{ $group := where $items "category" $cat }}
+        {{ if gt (len $group) 0 }}
+          <h2 class="mt-4" data-category="{{ $cat }}">{{ $cat }}</h2>
           {{ $.Scratch.Set "idx" 0 }}
           {{ range $it := $items }}
-            {{ if or (eq $it.category $cat.key) (eq $it.category $cat.label) }}
+            {{ if eq $it.category $cat }}
               {{ $.Scratch.Add "idx" 1 }}
               {{ $i := $.Scratch.Get "idx" }}
             {{ $url := $it.url_custom }}
