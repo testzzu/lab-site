@@ -178,7 +178,16 @@ sections:
         <div class="row mt-4 justify-content-center equalize-row-cards">
           <div class="col-md-4">
             <div class="card mb-3">
-              <img src="./media/welcome.jpg" class="card-img-top" alt="医疗影像AI分析" style="height: 200px; object-fit: cover;">
+              <img src="./media/homepage/jaffe.png" class="card-img-top" alt="进化算法优化" style="height: 200px; object-fit: cover;">
+              <div class="card-body">
+                <h6 class="card-title">进化算法优化</h6>
+                <p class="card-text small">多目标进化优化算法，在复杂优化问题中表现优异</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <img src="./media/homepage/skincancer.png" class="card-img-top" alt="医疗影像AI分析" style="height: 200px; object-fit: cover;">
               <div class="card-body">
                 <h6 class="card-title">医疗影像AI分析</h6>
                 <p class="card-text small">基于深XXXXXXXXXXXXXXX以上</p>
@@ -194,28 +203,20 @@ sections:
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="card mb-3">
-              <img src="./media/contact.jpg" class="card-img-top" alt="进化算法优化" style="height: 200px; object-fit: cover;">
-              <div class="card-body">
-                <h6 class="card-title">进化算法优化</h6>
-                <p class="card-text small">多目标进化优化算法，在复杂优化问题中表现优异</p>
-              </div>
-            </div>
-          </div>
+
         </div>
         
         <div class="row mt-4 justify-content-center equalize-row-3">
-          <div class="col-md-4">
+          <div class="col-md-6">
             <div class="meta-card">
               <div class="meta-head">
                 <span class="meta-icon"><i class="fas fa-users"></i></span>
                 <h5 class="meta-title">团队介绍</h5>
               </div>
-              <p class="meta-text">团队由1名教授XXX组成，形成了一支结构合理、充满活力的研究团队。</p>
+              <p class="meta-text">专注于计算机视觉、进化计算、机器学习与特征工程等前沿领域的交叉研究，致力于推动人工智能技术的创新与应用。</p>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-6">
             <div class="meta-card">
               <div class="meta-head">
                 <span class="meta-icon"><i class="fas fa-envelope"></i></span>
@@ -226,15 +227,6 @@ sections:
                 <strong>邮箱：</strong>yingbi[at]zzu.edu.cn<br>
                 <strong>地址：</strong>河南省郑州市科学大道100号
               </p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="meta-card">
-              <div class="meta-head">
-                <span class="meta-icon"><i class="fas fa-award"></i></span>
-                <h5 class="meta-title">项目资助</h5>
-              </div>
-              <p class="meta-text">获得XXXXXXXXXXXXXXXXXXXXXX。</p>
             </div>
           </div>
         </div>

@@ -116,6 +116,16 @@
   category: "期刊论文"
   tags: ["遗传规划", "特征构造", "高维分类"]
 
+- authors: ["Kunjie Yu", "Fan Chen", "Jing Liang", "Mingyuan Yu", "Ke Chen", "Caitong Yue", "Ying Bi"]
+  title: "Objective-Constraint Correlation-Guided Evolutionary Direction Adaptive Adjustment for Expensive Constrained Optimization"
+  publication: "IEEE Transactions on Systems, Man, and Cybernetics: Systems"
+  year: 2025
+  category: "期刊论文"
+  doi: "10.1109/TSMC.2025.3573195"
+  url_custom: "https://ieeexplore.ieee.org/document/11027721"
+  tags: ["约束优化", "进化算法", "自适应调整"]
+
+
 - authors: ["Qinglan Fan", "Yunfeng Zhang", "Xunxiang Yao", "Ying Bi", "Bing Xue", "Mengjie Zhang"]
   title: "ES-GP: An Ensemble Surrogate-Assisted Genetic Programming Approach to Image Classification"
   publication: "IEEE Transactions on Evolutionary Computation"
