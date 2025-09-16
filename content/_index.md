@@ -234,7 +234,7 @@ sections:
   
   - block: collection
     content:
-      title: 新闻
+      title: 课题组动态
       subtitle:
       text:
       count: 5

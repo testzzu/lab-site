@@ -3,8 +3,8 @@
 title: 王孔源
 
 # Full name (for SEO)
-first_name: 张
-last_name: 拓
+first_name: 王
+last_name: 孔源
 
 # Username (this should match the folder name)
 authors:
@@ -19,51 +19,56 @@ role: 博士研究生
 # Organizations/Affiliations
 organizations:
   - name: 郑州大学电气与信息工程学院
-    url: 'https://www.zzu.edu.cn'
+    url: 'https://www5.zzu.edu.cn/eie/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: 专注于深度学习和计算机视觉研究，致力于开发更智能的感知系统。
+bio: 专注于深度学习和计算机视觉研究，致力于多模态医学图像分类与癌症诊断系统的开发。
 
+#研究兴趣
 interests:
   - 深度学习
   - 计算机视觉
-  - 神经网络
-  - 图像处理
+  - 多模态医学图像分类
+  - 癌症诊断
 
 education:
   courses:
-    - course: 计算机科学博士在读
+    - course: 控制科学与工程博士在读
       institution: 郑州大学
-      year: 2022-至今
-    - course: 计算机科学硕士
-      institution: 华中科技大学
-      year: 2022
-    - course: 计算机科学学士
-      institution: 武汉大学
-      year: 2020
+      year: 2025-至今
+    - course: 电子信息硕士
+      institution: 中原工学院
+      year: 2024
+    - course: 软件工程学士
+      institution: 中原工学院
+      year: 2021
 
 # Social/Academic Networking
 social:
+  #邮箱
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:wenda@zzu.edu.cn'
+    link: 'wangkongyuan@gs.zzu.edu.cn'
+  # 谷歌学术主页
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.com/citations?user=example2
+    link: 
+  # github仓库或者主页
   - icon: github
     icon_pack: fab
-    link: https://github.com/wenda
+    link: 
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'wenda@zzu.edu.cn'
+email: 'wangkongyuan@gs.zzu.edu.cn'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
 
-# Organizational groups that you belong to (for People widget)
+# 硕士or博士
 user_groups:
   - 博士研究生
+# 入学时间
 enroll_date: 2025-09-01
+# 个人介绍
 ---
-
-吳恩達是团队的博士研究生，专注于深度学习和计算机视觉领域的研究。他的研究重点包括神经网络架构设计、图像识别算法优化以及智能感知系统的开发。
+王孔源是团队的博士研究生，专注于深度学习和计算机视觉领域的研究。他的研究重点包括进化优化算法设计以及多模态医学图像分类与癌症诊断系统的开发。

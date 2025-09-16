@@ -13,7 +13,7 @@ main:
   - name: 论文
     url: publication
     weight: 30
-  - name: 新闻
+  - name: 课题组动态
     url: post
     weight: 40
   - name: 代表性工作

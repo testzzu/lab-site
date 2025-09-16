@@ -230,3 +230,37 @@ body.logos-inserted .navbar-brand::after {
     transition: none !important;
   }
 }
+
+// =====================================
+// Featured page: compact cards
+// =====================================
+#section-collection.wg-collection {
+  .card-simple.view-card {
+    border: 1px solid rgba(0,0,0,0.06);
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+    padding: 10px 10px 12px;
+  }
+  .card-simple .img-hover-zoom,
+  .card-simple .article-banner {
+    display: block;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  .card-simple .article-banner {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  .card-simple .article-metadata,
+  .card-simple .summary-link,
+  .card-simple .btn-links {
+    display: none !important;
+  }
+  .card-simple .section-subheading.article-title {
+    margin: 8px 0 0;
+    font-size: 0.98rem;
+    text-align: center;
+  }
+}

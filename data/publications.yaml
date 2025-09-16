@@ -683,3 +683,502 @@
   category: "会议论文"
   tags: ["表示学习","训练","滤波","噪声","遗传编程","特征提取","鲁棒性","计算效率","皮肤癌","图像分类"]
 
+
+
+- authors: ["Kangjia, Qiao", "Jing, Liang", "Ying, Bi", "Kunjie, Yu", "Caitong Yue", "Boyang Qu"]
+  title: "An Unconstrained Auxiliary Framework for Constrained Many-Objective Optimization"
+  publication: "Proceedings of the 5th International Conference on Data-driven Optimization of Complex Systems"
+  year: 2023
+  doi: "10.1109/DOCS60977.2023.10295009"
+  url_custom: "https://ieeexplore.ieee.org/document/10295009"
+  url_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10295009"
+  # url_code: ""
+  # url_source: ""
+  category: "会议论文"
+  tags: ["多目标优化", "约束优化", "无约束辅助"]
+
+- authors: ["Jing, Liang", "Xudong, Sui", "Caitong Yue", "Ying, Bi", "Mingyuan, Yu"]
+  title: "Differential Evolution Using Interpolation Strategy for Multimodal Multiobjective Optimization."
+  publication: "ISCTIS"
+  year: 2023
+  doi: "10.1109/ISCTIS58954.2023.10213183"
+  url_custom: ""
+  url_pdf: "http://www5.zzu.edu.cn/cilab/yjfxjkycg/hylw.htm"
+  # url_code: ""
+  # url_source: ""
+  category: "会议论文"
+  tags: ["差分进化算法", "插值策略", "多峰多目标优化"]
+
+- authors: ["Dylon, Zeng", "Ying, Bi", "Ivy, Liu", "Bing, Xue", "Ross, Vennell", "Mengjie, Zhang"]
+  title: "A New Genetic Programming-Based Approach to Object Detection in Mussel Farm Images."
+  publication: "IVCNZ"
+  year: 2023
+  doi: "10.1109/IVCNZ61134.2023.10343758"
+  url_custom: "https://ieeexplore.ieee.org/abstract/document/10343758"
+  url_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10343758"
+  # url_code: ""
+  # url_source: ""
+  category: "会议论文"
+  tags: ["目标检测", "遗传编程", "水线检测"]
+
+
+- authors: ["Qinglan, Fan", "Ying, Bi", "Bing, Xue", "Mengjie, Zhang"]
+  title: "Evolving Effective Ensembles for Image Classification Using Multi-objective Multi-tree Genetic Programming."
+  publication: "Springer"
+  year: 2022
+  doi: "https://doi.org/10.1007/978-3-031-22695-3_21"
+  url_custom: "https://link.springer.com/chapter/10.1007/978-3-031-22695-3_21"
+  url_pdf: ""
+  # url_code: ""
+  # url_source: ""
+  category: "会议论文"
+  tags: ["图像分类", "集成学习", "多树遗传编程", "多目标优化"]
+
+
+- authors: ["Binke, Xu", "Ying, Bi", "Bing, Xue", "Jan, Schindler", "Brent, Martin", "Mengjie, Zhang"]
+  title: "Automatically Designing U-Nets Using A Genetic Algorithm for Tree Image Segmentation."
+  publication: "SSCI"
+  year: 2022
+  doi: "10.1109/SSCI51031.2022.10022182"
+  url_custom: "https://ieeexplore.ieee.org/document/10022182"
+  url_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10022182"
+  # url_code: ""
+  # url_source: ""
+  category: "会议论文"
+  tags: ["图像分割", "进化神经网络", "进化深度学习", "遗传算法", "计算机视觉"]
+
+
+- authors: ["Caleb, Buchanan", "Ying, Bi", "Bing, Xue", "Ross, Vennell", "Simon, Childerhouse", "Matthew, K. Pine", "Dana, Briscoe", "Mengjie, Zhang"]
+  title: "Deep Convolutional Neural Networks for Detecting Dolphin Echolocation Clicks."
+  publication: "IVCNZ"
+  year: 2021
+  doi: "10.1109/IVCNZ54163.2021.9653250"
+  url_custom: "https://ieeexplore.ieee.org/document/9653250"
+  url_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9653250"
+  # url_code: ""
+  # url_source: ""
+  category: "会议论文"
+  tags: ["海洋", "生物系统建模", "迁移学习", "声学", "卷积神经网络", "任务分析"]
+
+
+- authors: ["Alistair John McLeay", "Abigail, McGhie", "Dana, Briscoe", "Ying, Bi", "Bing, Xue", "Ross, Vennell"]
+  title: "Deep Convolutional Neural Networks with Transfer Learning for Waterline Detection in Mussel Farms."
+  publication: "SSCI"
+  year: 2021
+  doi: "10.1109/SSCI50451.2021.9659987"
+  url_custom: "https://ieeexplore.ieee.org/document/9659987"
+  url_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9659987"
+  # url_code: ""
+  # url_source: ""
+  category: "会议论文"
+  tags: ["训练", "图像分割", "可视化", "成本", "迁移学习", "语义", "光照"]
+
+
+- authors: ["Zichu, Yan", "Ying, Bi", "Bing, Xue", "Mengjie, Zhang"]
+  title: "Automatically Extracting Features Using Genetic Programming for Low-Quality Fish Image Classification."
+  publication: "CEC"
+  year: 2021
+  doi: "10.1109/CEC45853.2021.9504737"
+  url_custom: "https://ieeexplore.ieee.org/abstract/document/9504737"
+  url_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9504737"
+  # url_code: ""
+  # url_source: ""
+  category: "会议论文"
+  tags: ["滤波", "遗传编程", "进化计算", "基准测试", "特征提取", "鱼类", "图像滤波"]
+
+
+- authors: ["Qinglan, Fan", "Ying, Bi", "Bing, Xue", "Mengjie, Zhang"]
+  title: "Genetic Programming with A New Representation and A New Mutation Operator for Image Classification."
+  publication: "GECCO"
+  year: 2021
+  doi: "10.1109/CEC45853.2021.9504737"
+  url_custom: "https://dl.acm.org/doi/10.1145/3449726.3459468"
+  url_pdf: "https://dl.acm.org/doi/pdf/10.1145/3449726.3459468"
+  # url_code: ""
+  # url_source: ""
+  category: "会议论文"
+  tags: []
+
+
+- authors: ["Ying, Bi", "Bing, Xue", "Mengjie, Zhang"]
+  title: "Automatically Extracting Features for Face Classification Using Multi-Objective Genetic Programming."
+  publication: "GECCO"
+  year: 2020
+  doi: ""
+  url_custom: "https://dl.acm.org/doi/abs/10.1145/3377929.3389989"
+  url_pdf: "https://yingbi92.github.io/homepage/2020/MOGP.pdf"
+  # url_code: ""
+  # url_source: ""
+  category: "会议论文"
+  tags: ["遗传编程", "人脸识别", "特征提取", "进化多目标"]
+
+
+- authors: ["Ying, Bi", "Bing, Xue", "Mengjie, Zhang"]
+  title: "Genetic Programming-Based Feature Learning for Facial Expression Classification."
+  publication: "CEC"
+  year: 2020
+  doi: "10.1109/CEC48606.2020.9185491"
+  url_custom: "https://ieeexplore.ieee.org/abstract/document/9185491"
+  url_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9185491"
+  # url_code: ""
+  # url_source: ""
+  category: "会议论文"
+  tags: ["训练", "社会学", "铁", "人脸", "特征提取", "任务分析", "降维"]
+
+
+- authors: ["Ying, Bi", "Bing, Xue", "Mengjie, Zhang"]
+  title: "An Automated Ensemble Learning Framework Using Genetic Programming for Image Classification."
+  publication: "GECCO"
+  year: 2019
+  doi: ""
+  url_custom: "https://dl.acm.org/citation.cfm?id=3321750"
+  url_pdf: "https://yingbi92.github.io/homepage/2020/EGP.pdf"
+  # url_code: ""
+  # url_source: ""
+  category: "会议论文"
+  tags: ["计算方法学", "机器学习", "学习范式", "监督学习"]
+
+
+- authors: ["Ying, Bi", "Bing, Xue", "Mengjie, Zhang"]
+  title: "An Evolutionary Deep Learning Approach Using Genetic Programming with Convolution Operators 
+  for Image Classification."
+  publication: "CEC"
+  year: 2019
+  doi: "10.1109/CEC.2019.8790151"
+  url_custom: "https://ieeexplore.ieee.org/abstract/document/8790151An"
+  url_pdf: "https://yingbi92.github.io/homepage/2020/COGP.pdf"
+  # url_code: "https://github.com/YingBi92/BookCode/tree/main/COGP"
+  # url_source: ""
+  category: "会议论文"
+  tags: ["特征提取", "人工神经网络", "深度学习", "任务分析", "卷积", "计算机体系结构"]
+
+
+- authors: ["Ying, Bi", "Mengjie, Zhang", "Bing, Xue"]
+  title: "Genetic Programming for Automatic Global and Local Feature Extraction to Image Classification."
+  publication: "CEC"
+  year: 2018
+  doi: "10.1109/CEC.2018.8477911"
+  url_custom: "https://ieeexplore.ieee.org/abstract/document/8477911"
+  url_pdf: "https://yingbi92.github.io/homepage/2020/GP-GLF.pdf"
+  # url_code: ""
+  # url_source: ""
+  category: "会议论文"
+  tags: ["特征提取", "遗传编程", "直方图", "任务分析", "检测器", "支持向量机", "进化计算"]
+
+
+- authors: ["Ying, Bi", "Mengjie, Zhang", "Bing, Xue"]
+  title: "An Automatic Region Detection and Processing Approach in Genetic Programming for Binary Image Classification."
+  publication: "IVCNZ"
+  year: 2017
+  doi: "10.1109/IVCNZ.2017.8402469"
+  url_custom: "https://ieeexplore.ieee.org/abstract/document/8402469"
+  url_pdf: "https://yingbi92.github.io/homepage/2020/GP-RDP.pdf"
+  # url_code: ""
+  # url_source: ""
+  category: "会议论文"
+  tags: ["特征提取", "直方图", "任务分析", "社会学",  "形状", "遗传编程"]
+
+
+- authors: ["Yi, Wang", "Ying, Bi", "Ting, Xie", "Jing, Liu"]
+  title: "Evaluation of the Comprehensive Strength of the Listed Companies in China’s Cultural Media Industry."
+  publication: "ICSSSM"
+  year: 2015
+  doi: "10.1109/ICSSSM.2015.7170306"
+  url_custom: "https://ieeexplore.ieee.org/abstract/document/8402469"
+  url_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7170306"
+  # url_code: ""
+  # url_source: ""
+  category: "会议论文"
+  tags: ["培养基", "因子分析", "聚类分析", "综合实力评价"]
+
+
+- authors: ["Chen, Guo", "Zhiwen, Guo", "Ben, Niu", "Ying, Bi"]
+  title: "A Hybrid Bacterial Foraging Optimization Based on Time-varying Chemotaxis Step and Dynamic Topology
+          Structure."
+  publication: "MEBE"
+  year: 2015
+  doi: "10.2991/mebe-15.2015.135"
+  url_custom: "https://www.atlantis-press.com/proceedings/mebe-15/17872"
+  url_pdf: "https://www.atlantis-press.com/article/17872.pdf"
+  # url_code: ""
+  # url_source: ""
+  category: "会议论文"
+  tags: ["细菌觅食优化算法", "时变趋化步长", "动态拓扑结构"]
+
+
+- authors: ["Ben, Niu", "Jing, Liu", "Ying, Bi", "Ting, Xie", "Lijingh Tan"]
+  title: "Improved Bacterial Foraging Optimization Algorithm with Information Communication Mechanism. "
+  publication: "CIS"
+  year: 2014
+  doi: "10.1109/CIS.2014.106"
+  url_custom: "https://ieeexplore.ieee.org/abstract/document/7016851"
+  url_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7016851"
+  # url_code: ""
+  # url_source: ""
+  category: "会议论文"
+  tags: ["拓扑学", "微生物", "优化过程", "收敛性", "基准测试", "安全测试", "启发式算法"]
+
+
+- authors: ["Ben, Niu", "Ying, Bi"]
+  title: "Binary Bacterial Foraging Optimization for 0/1 Knapsack Problem."
+  publication: "CEC"
+  year: 2014
+  doi: "10.1109/CEC.2014.6900513"
+  url_custom: "https://ieeexplore.ieee.org/abstract/document/6900513"
+  url_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6900513"
+  # url_code: ""
+  # url_source: ""
+  category: "会议论文"
+  tags: ["细菌觅食", "二进制的", "背包问题"]
+
+
+- authors: ["Hanyang, Luo", "Jingjing, Wang", "Ying, Bi"]
+  title: "Empirical Research on Consumers’ Intention to Purchase Online."
+  publication: "ICSSSM"
+  year: 2014
+  doi: "10.1109/ICSSSM.2014.6943359"
+  url_custom: "https://ieeexplore.ieee.org/abstract/document/6943359"
+  url_pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6943359"
+  # url_code: ""
+  # url_source: ""
+  category: "会议论文"
+  tags: ["质量评估", "产品设计", "软件可靠性", "教育机构", "主成分分析"]
+
+- authors: ["Ben Niu", "Ting Xie","Lijing Tan","Ying Bi","Zhengxu Wang"]
+  title: "Swarm Intelligence Algorithms for Yard Truck Scheduling and Storage Allocation Problems"
+  publication: "Neurocomputing"
+  year: 2016
+  doi: "10.1016/j.neucom.2014.12.125"
+  url_custom: "https://www.sciencedirect.com/science/article/pii/S092523121501766X"
+  url_code: ""
+  category: "期刊论文"
+  tags: []
+
+- authors: ["Yanmin Liu", "Ying Bi", "Changling Sui", "Yuanfeng Luo","Zhuanzhou Zhang","Rui Liu"]
+  title: "Simulation Study of Swarm Intelligence Based on Life Evolution Behavior"
+  publication: "Discrete Dynamics in Nature and Society"
+  year: 2015
+  doi: "10.1155/2015/291298"
+  url_custom: " https://www.hindawi.com/journals/ddns/2015/291298/abs/"
+  url_pdf: ""
+  # url_code: ""
+  # url_source: ""
+  category: "期刊论文"
+  tags: []
+
+- authors: ["Ke Chen", "Tianqing Wu", "Ying Bi", "Jing Liang", "Kunjie Yu"]
+  title: "Dynamic Threshold Selection in Genetic Programming for Imbalanced Fault Diagnosis"
+  publication: "2025 IEEE Congress on Evolutionary Computation (CEC)"
+  year: 2025
+  doi: "10.1109/CEC65147.2025.11043109"
+  url_custom: "https://ieeexplore.ieee.org/document/11043109"
+  url_pdf: ""
+  # url_code: ""
+  # url_source: ""
+  category: "会议论文"
+  tags: ["故障诊断", "准确性", "计算建模","遗传编程","进化计算","动态规划"]
+
+- authors: ["Kunjie Yu", "Jintao Lian", "Ying Bi", "Jing Liang"]
+  title: "Automatic Feature Learning via Genetic Programming with Flexible Filtering for Skin Cancer Image Classification"
+  publication: "2025 IEEE Congress on Evolutionary Computation (CEC)"
+  year: 2025
+  doi: "10.1109/CEC65147.2025.11042919"
+  url_custom: "https://ieeexplore.ieee.org/document/11042919"
+  url_pdf: ""
+  # url_code: ""
+  # url_source: ""
+  category: "会议论文"
+  tags: ["表示学习", "训练", "过滤","噪声", "遗传编程","特征提取","鲁棒性","计算效率","皮肤癌","图像分类"]
+
+- authors: ["Jigang Fan", "Ying Bi", "Bing Xue", "Mengjie Zhang"]
+  title: "Flexible Region Detection-based Genetic Programming for Fish Classification With Low-Quality Images"
+  publication: "2025 IEEE Congress on Evolutionary Computation (CEC)"
+  year: 2025
+  doi: "10.1109/CEC65147.2025.11043012"
+  url_custom: "https://ieeexplore.ieee.org/document/11043012"
+  url_pdf: ""
+  # url_code: ""
+  # url_source: ""
+  category: "会议论文"
+  tags: ["训练", "图像分割", "降噪", "遗传编程", "进化计算", "基准测试", "鱼类", "特征提取", "图像预处理", "图像分类"]
+
+- authors: ["Jing Liang", "Wenjing Li", "Yahui Jia", "Ying Bi"]
+  title: "A Multitask Genetic Programming Approach with ANew Individual Representation to Symbolic Regression"
+  publication: "2025 International Conference on Electrical Automation and Artificial Intelligence (ICEAAI)"
+  year: 2025
+  doi: "10.1109/ICEAAI64185.2025.10956846"
+  url_custom: "https://ieeexplore.ieee.org/abstract/document/10956846"
+  url_pdf: ""
+  # url_code: ""
+  # url_source: ""
+  category: "会议论文"
+  tags: ["自动化", "启发式算法", "遗传编程", "基准测试", "多任务", "数学模型", "人工智能", "回归树分析", "知识迁移"]
+
+- authors: ["Jing Liang", "Zexuan Yang", "Ying Bi"]
+  title: "A Two-Stage Approach Combining Feature Selection and Construction for Hyperspectral Crop Classification"
+  publication: "2025 IEEE Congress on Evolutionary Computation (CEC)"
+  year: 2025
+  doi: "10.1109/CEC65147.2025.11042960"
+  url_custom: "https://ieeexplore.ieee.org/document/11042960"
+  url_pdf: ""
+  # url_code: ""
+  # url_source: ""
+  category: "会议论文"
+  tags: ["精准农业", "多样性接收", "作物", "遗传编程", "进化计算", "特征提取", "高光谱成像", "图像分类", "过拟合", "遗传算子"]
+
+- authors: ["Stefano Cagnoni", "Ying Bi", "Yanan Sun"]
+  title: "Evolutionary computation and evolutionary deep learning for image analysis, signal processing and pattern recognition"
+  publication: "Proceedings of the 2025 Genetic and Evolutionary Computation Conference Companion"
+  year: 2025
+  doi: "10.1145/3712255.3716517"
+  url_custom: "https://dl.acm.org/doi/10.1145/3638530.3648410"
+  url_pdf: ""
+  # url_code: ""
+  # url_source: ""
+  category: "会议论文"
+  tags: []
+
+- authors: ["Caitong Yue", "Liming Liu", "Jing Liang", "Gongping Li", "Ying Bi", "Mingyuan Yu"]
+  title: "Multimodal Multi-Objective Flexible Job Shop Scheduling: A Preliminary Study"
+  publication: "2024 IEEE Congress on Evolutionary Computation (CEC)"
+  year: 2024
+  doi: "10.1109/CEC60901.2024.10612067"
+  url_custom: "https://ieeexplore.ieee.org/abstract/document/10612067"
+  url_pdf: ""
+  # url_code: ""
+  # url_source: ""
+  category: "会议论文"
+  tags: ["调度", "作业车间调度", "处理器调度", "生产", "空间探索", "目标识别", "资源管理", "任务分析", "优化", "遗传算法"]
+
+- authors: ["Yuefeng Liao", "Zhiqiang Wang", "Wenjing Li", "Ying Bi"]
+  title: "A Genetic Programming Approach to Energy Storage Battery State of Charge Estimation"
+  publication: "Springer Nature Singapore"
+  year: 2024
+  doi: "10.1007/978-981-96-4067-6_40"
+  url_custom: "https://link.springer.com/chapter/10.1007/978-981-96-4067-6_40"
+  url_pdf: ""
+  # url_code: ""
+  # url_source: ""
+  category: "会议论文"
+  tags: ["荷电状态估计", "遗传编程", "模型学习", "符号回归"]
+
+- authors: ["Jiayin Chen", "Ya-Hui Jia", "Ying Bi", "Wei-neng Chen"]
+  title: "Generate a Single Heuristic for Multiple Dynamic Flexible Job Shop Scheduling Tasks by Genetic Programming"
+  publication: "2024 IEEE Congress on Evolutionary Computation (CEC)"
+  year: 2024
+  doi: "10.1109/CEC60901.2024.10611762"
+  url_custom: "https://ieeexplore.ieee.org/abstract/document/10611762"
+  url_pdf: ""
+  # url_code: ""
+  # url_source: ""
+  category: "会议论文"
+  tags: ["训练", "技术创新", "作业车间调度", "处理器调度", "启发式算法", "遗传编程", "动态调度"]
+
+- authors: ["Jing Liang", "Zexuan Yang", "Tuo Zhang", "Ying Bi"]
+  title: "A Two-Stage Approach Using Genetic Algorithm and Genetic Programming for Remote Sensing Crop Classification"
+  publication: "2024 IEEE Congress on Evolutionary Computation (CEC)"
+  year: 2024
+  doi: "10.1109/CEC60901.2024.10612210"
+  url_custom: "https://ieeexplore.ieee.org/document/10612210"
+  url_pdf: ""
+  # url_code: ""
+  # url_source: ""
+  category: "会议论文"
+  tags: ["支持向量机", "精准农业", "作物", "遗传编程", "训练数据", "进化计算", "特征提取"]
+
+- authors: ["Qinglan", "Ying Bi", "Bing Xue", "Jane Symonds", "Lauren M. Fletcher", "Mengjie Zhang"]
+  title: "Automatic Quantification of King Salmon Farm Net Occlusion Via Biofouling Detection"
+  publication: "2024 39th International Conference on Image and Vision Computing New Zealand (IVCNZ)"
+  year: 2024
+  doi: "10.1109/IVCNZ64857.2024.10794201"
+  url_custom: "https://ieeexplore.ieee.org/abstract/document/10794201"
+  url_pdf: ""
+  # url_code: ""
+  # url_source: ""
+  category: "会议论文"
+  tags: ["调度", "成本", "图像色彩分析", "流媒体", "清洁", "资源管理", "可持续发展", "视频录制", "生物医学成像", "水产养殖"]
+
+- authors: ["Dylon Zeng", "Ying Bi", "Mengjie Zhang"]
+  title: "Genetic Programming-Based Multi-Object Matching for Mussel Floats in Mussel Farm Images"
+  publication: "2024 39th International Conference on Image and Vision Computing New Zealand (IVCNZ)"
+  year: 2024
+  doi: "10.1109/IVCNZ64857.2024.10794448"
+  url_custom: "https://ieeexplore.ieee.org/abstract/document/10794448"
+  url_pdf: ""
+  # url_code: ""
+  # url_source: ""
+  category: "会议论文"
+  tags: ["生产力", "准确率", "跟踪", "遗传编程", "作物", "Transformer", "摄像头", "目标识别", "监测", "碳足迹"]
+
+- authors: ["Wei-Feng Guo", "Yang Li", "Chuanqiang Wang", "Kunjie Yu", "Caitong Yue", "Ying Bi"]
+  title: "Evolutionary Multitasking Optimization Based Multi-Objective Network Control Principles for Identifying Personalized Drug Targets with Cancer"
+  publication: "2024 International Conference on New Trends in Computational Intelligence (NTCI)"
+  year: 2025
+  doi: "10.1109/NTCI64025.2024.10776292"
+  url_custom: "https://ieeexplore.ieee.org/document/10776292"
+  url_pdf: ""
+  # url_code: ""
+  # url_source: ""
+  category: "会议论文"
+  tags: ["药物", "基因组学", "多任务", "市场研究", "乳腺癌", "生物信息学", "优化", "知识迁移", "计算智能"]
+
+- authors: ["Tuo Zhang", "Ying Bi", "Jing Liang", "Mengjie Zhang"]
+  title: "Decomposition-based Multi-objective Genetic Programming for Feature Learning in Image Classification"
+  publication: "Proceedings of the Genetic and Evolutionary Computation Conference Companion"
+  year: 2024
+  doi: "10.1145/3638530.3654306"
+  url_custom: "https://dl.acm.org/doi/10.1145/3638530.3654306"
+  url_pdf: ""
+  # url_code: ""
+  # url_source: ""
+  category: "会议论文"
+  tags: ["遗传编程", "多目标优化", "特征学习", "图像分类", "进化计算"]
+
+- authors: ["Ying Bi", "Mengjie Zhang", "Cagnoni Stefano"]
+  title: "Evolutionary Computation and Evolutionary Deep Learning for Image Analysis, Signal Processing and Pattern Recognition"
+  publication: "Proceedings of the Genetic and Evolutionary Computation Conference Companion"
+  year: 2024
+  doi: "10.1145/3638530.3648410"
+  url_custom: "https://dl.acm.org/doi/10.1145/3638530.3648410"
+  url_pdf: ""
+  # url_code: ""
+  # url_source: ""
+  category: "会议论文"
+  tags: []
+
+- authors: ["Yi Liu", "Ying Bi", "Yu Cui", "Chengyuan Zhu", "Wen Cheng", "Mingkai Sheng", "Yiding Zhang"]
+  title: "Adapting explainable Decision Sets to Continuous-based Real-World Problems"
+  publication: "2024 7th International Symposium on Autonomous Systems (ISAS)"
+  year: 2024
+  doi: "10.1109/ISAS61044.2024.10552551"
+  url_custom: "https://ieeexplore.ieee.org/abstract/document/10552551"
+  url_pdf: ""
+  # url_code: ""
+  # url_source: ""
+  category: "会议论文"
+  tags: ["适应性模型", "准确率", "导航", "可解释人工智能", "计算建模", "随机过程", "进化计算", "可解释人工智能", "决策集", "进化计算"]
+
+- authors: ["Qinyu Wang", "Ying Bi", "Bing Xue", "Mengjie Zhang"]
+  title: "Genetic Programming with Aggregate Channel Features for Flower Localization Using Limited Training Data"
+  publication: "International Conference on the Applications of Evolutionary Computation (Part of EvoStar)"
+  year: 2024
+  doi: "10.1007/978-3-031-56855-8_12"
+  url_custom: "https://link.springer.com/chapter/10.1007/978-3-031-56855-8_12"
+  url_pdf: ""
+  # url_code: ""
+  # url_source: ""
+  category: "会议论文"
+  tags: ["遗传编程", "聚合通道特征", "花朵定位"]
+
+- authors: ["Jing Liang", "Zhuo Hu", "Zong-Wei Li", "Ying Bi", "Han Cheng", "Wei-Feng Guo"]
+  title: "A Novel Evolutionary Constrained Multi-Objective Optimization Method for Identifying Personalized Drug Targets Combining with Structural Network Control Principles"
+  publication: "Proceedings of the 5th International Conference on Data-driven Optimization of Complex Systems"
+  year: 2023
+  doi: "10.1109/DOCS60977.2023.10294581"
+  url_custom: "https://ieeexplore.ieee.org/abstract/document/10294581"
+  url_pdf: ""
+  # url_code: ""
+  # url_source: ""
+  category: "会议论文"
+  tags: ["药物", "社会学", "多样性接收", "肺部", "线性规划", "搜索问题", "预测算法", "结构网络控制原理", "约束多目标优化", "个性化药物靶点"]
+

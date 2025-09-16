@@ -63,7 +63,7 @@ footer:
 # Localization
 
 locale:
-  date_format: '2025年9月5日'
+  date_format: '2006年1月2日'
   time_format: '15:04'
   address_format: en-us
 
@@ -79,6 +79,10 @@ features:
     enable: true
   privacy_pack:
     enable: false
+  sharing:
+    enable: false  # 全局禁用社交媒体分享按钮
+  author:
+    enable: false  # 全局禁用作者信息显示
   repository:
     url: 'https://github.com/testzzu/lab-site.git'
     content_dir: content

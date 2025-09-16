@@ -7,8 +7,8 @@ date: 2025-09-11
 # Use page bundle to render as a list/collection page
 # You can customize layout via layouts/section/publication.html if needed
 
-# 页面类型（可保留为默认）
-type: page
+# 页面类型：使用 landing 以启用 sections 小部件渲染
+type: landing
 
 # 将此页面加入站点地图
 sitemap:
@@ -18,19 +18,17 @@ sitemap:
 sections:
   - block: collection
     content:
-      title: 代表性工作
-      text: 我们精选了部分具有代表性的工作与论文。
       count: 20
       filters:
-        # 仅展示被标记为 featured 的 publication
         folders:
           - publication
+        featured_only: true
         featured_only: true
       # 排序：按日期降序
       offset: 0
       order: desc
       page_type: publication
     design:
-      view: citation
-      columns: '1'
+      view: card
+      columns: '4'
 ---
