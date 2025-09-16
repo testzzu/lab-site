@@ -10,9 +10,9 @@ sections:
       title: 联系我们
       subtitle: ''
       text: |-
-        <div style="text-align:center;margin-bottom:1rem;">
-          <div style="font-size:2rem;font-weight:700;letter-spacing:.2px;">yingbi@zzu.edu.cn</div>
-        </div>
+        # <div style="text-align:center;margin-bottom:1rem;">
+        #   <div style="font-size:2rem;font-weight:700;letter-spacing:.2px;">@zzu.edu.cn</div>
+        # </div>
         
         <hr style="margin:1.5rem 0;border:none;border-top:1px solid #eee;" />
         
