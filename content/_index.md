@@ -108,7 +108,7 @@ sections:
         <div class="hero-lead">
         <div class="hero-intro">
           <h3 class="section-title">研究简介<div class="accent"></div></h3>
-          <p class="lead" style="font-weight: 500; color: #2b2f36;">进化智能与感知学习组（EIPL Group）是一个跨学科研究团队，致力于探索人工智能前沿。我们以自然进化法则为灵感，开发兼具主动感知、持续学习和自主进化能力的新一代智能系统，聚焦计算机视觉、进化计算、机器学习与特征工程等领域。</p>
+          <p class="lead" style="font-weight: 500; color: #2b2f36;">进化智能与感知学习组（EIPL Group）是一个跨学科研究团队，专注于探索人工智能的前沿领域。我们以自然进化法则为灵感，致力于研究具备主动感知、持续学习和自主进化能力的新一代智能算法。我们的研究重点涵盖计算机视觉、进化计算、机器学习和特征工程等领域。</p>
         </div>
         
         <div class="mx-auto" style="max-width: 1100px;">

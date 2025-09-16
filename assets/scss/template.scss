@@ -254,13 +254,19 @@ body.logos-inserted .navbar-brand::after {
     object-fit: cover;
   }
   .card-simple .article-metadata,
-  .card-simple .summary-link,
-  .card-simple .btn-links {
+  .card-simple .summary-link {
     display: none !important;
   }
   .card-simple .section-subheading.article-title {
     margin: 8px 0 0;
     font-size: 0.98rem;
     text-align: center;
+  }
+  
+  // Ensure card links are clickable
+  .card-simple a {
+    pointer-events: auto;
+    position: relative;
+    z-index: 1;
   }
 }
