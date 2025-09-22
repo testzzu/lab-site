@@ -10,9 +10,8 @@ sections:
       title: 联系我们
       subtitle: ''
       text: |-
-        # <div style="text-align:center;margin-bottom:1rem;">
-        #   <div style="font-size:2rem;font-weight:700;letter-spacing:.2px;">@zzu.edu.cn</div>
-        # </div>
+        <div style="text-align:center;margin-bottom:1rem;">
+        </div>
         
         <hr style="margin:1.5rem 0;border:none;border-top:1px solid #eee;" />
         
@@ -32,7 +31,7 @@ sections:
         
         ### 招生与合作
         
-        因项目需要，课题组常年招收科研助理、访问学生、硕士或博士学生，欢迎感兴趣的同学联系（**yingbi@zzu.edu.cn**）。
+        因项目需要，课题组常年招收科研助理、访问学生、硕士或博士学生，欢迎感兴趣的同学联系（**yaxinchang@gs.zzu.edu.cn**）。
         
         - 希望选择我的学生具有：1）很强的上进心和科研热情；2）熟悉一门编程语言；3）扎实的英语和数学基础；4）很强的自驱力和目标感。
         

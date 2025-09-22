@@ -10,18 +10,14 @@ commentable: false
 show_related: false
 ---
 
-教师个人主页
+<!-- 教师个人主页
 
-- [常亚鑫](/author/常亚鑫/)
-- [张小明](/author/张小明/)
-- [张拓](/author/张拓/)
-- [李小红](/author/李小红/)
-- [毕莹](/author/毕莹教授/)
-- [王孔源](/author/王孔源/)
-- [许建军](/author/许建军/)
+- [郑州大学计算智能实验室](https://www5.zzu.edu.cn/cilab/index.htm)
+ -->
 
 相关实验室 / 团队
 
 - [本团队](/people/)
-- [计算机与人工智能学院](https://csai.zzu.edu.cn/)
+- [郑州大学计算智能实验室](https://www5.zzu.edu.cn/cilab/index.htm)
+- [郑州大学电气与信息工程学院](https://www5.zzu.edu.cn/eie/)
 - [郑州大学（ZZU）](https://www.zzu.edu.cn/)

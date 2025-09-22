@@ -6,9 +6,9 @@ show_author: false
 list_format: compact
 disable_share: true
 disable_comment: true
-build:
-  render: never
-  list: always
+_build:
+  render: always
+  list: never
 image:
   focal_point: 'top'
 ---

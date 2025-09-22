@@ -92,7 +92,7 @@ sections:
       title: 联系我们
       subtitle: 欢迎与我们交流
       text: 如果您对我们的研究感兴趣，欢迎联系我们
-      email: ywang@zzudu.cn
+      email: yingbi@zzu.edu.cn
       address:
         street: 科学大道100号
         city: 郑州市
@@ -105,7 +105,7 @@ sections:
         - icon: envelope
           icon_pack: fas
           name: 发送邮件
-          link: 'mailto:ywang@zzudu.cn'
+          link: 'mailto:yingbi@zzu.edu.cn'
       coordinates:
         latitude: '34.7566'
         longitude: '113.6409'
@@ -113,5 +113,5 @@ sections:
       directions: 电气与信息工程学院
       office_hours:
         - '周一至周五 9:00-17:00'
-      appointment_url: 'mailto:ywang@zzudu.cn'
+      appointment_url: 'mailto:yaxinchang@gs.zzu.edu.cn'
 ---

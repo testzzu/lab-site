@@ -22,40 +22,40 @@ organizations:
     url: 'https://www.zzu.edu.cn'
 
 # Short bio (displayed in user profile at end of posts)
-bio: 专注于深度学习和计算机视觉研究，致力于开发更智能的感知系统。
+bio: 专注于进化机器学习和计算机视觉研究，致力于开发基于遗传规划的图像分类算法。
 
 interests:
-  - 深度学习
+  - 进化计算
   - 计算机视觉
-  - 神经网络
-  - 图像处理
+  - 机器学习
+  - 多目标优化
 
 education:
   courses:
-    - course: 计算机科学博士在读
+    - course: 控制科学与工程博士在读
       institution: 郑州大学
-      year: 2022-至今
-    - course: 计算机科学硕士
-      institution: 华中科技大学
-      year: 2022
-    - course: 计算机科学学士
-      institution: 武汉大学
+      year: 2023-至今
+    - course: 电子信息硕士
+      institution: 西安电子科技大学
+      year: 2023
+    - course: 智能科学与技术学士
+      institution: 西安电子科技大学
       year: 2020
 
 # Social/Academic Networking
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:wenda@zzu.edu.cn'
+    link: 'mailto:zhangtuo@gs.zzu.edu.cn'
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.com/citations?user=example2
+    link: https://scholar.google.com/citations?hl=zh-CN&user=QNbLphQAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/wenda
+    link: https://github.com/tuotuozhang
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'wenda@zzu.edu.cn'
+email: 'zhangtuo@gs.zzu.edu.cn'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
@@ -66,4 +66,4 @@ user_groups:
 enroll_date: 2023-09-01
 ---
 
-吳恩達是团队的博士研究生，专注于深度学习和计算机视觉领域的研究。他的研究重点包括神经网络架构设计、图像识别算法优化以及智能感知系统的开发。
+张拓是团队的博士研究生，专注于进化机器学习和计算机视觉领域的研究。他的研究重点包括遗传规划算法、图像分类算法以及进化机器学习。

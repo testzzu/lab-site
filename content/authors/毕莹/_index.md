@@ -43,7 +43,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:ywang@zzu.edu.cn'
+    link: 'mailto:yingbi@zzu.edu.cn'
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.co.nz/citations?user=WI2ykPAAAAAJ&hl=enhttps://yingbi92.github.io/homepage/
@@ -55,7 +55,7 @@ social:
     link: https://yingbi92.github.io/personal-webpage/
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'ywang@zzu.edu.cn'
+email: 'yingbi@zzu.edu.cn'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true

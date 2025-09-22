@@ -22,9 +22,10 @@ organizations:
     url: 'https://www.zzu.edu.cn'
 
 # Short bio (displayed in user profile at end of posts)
-bio: 专注于深度学习和计算机视觉研究，致力于开发更智能的感知系统。
+bio: 许建军是团队的博士研究生，专注于深度学习和计算机视觉领域的研究。他的研究重点包括AI for Science、深度学习、计算机视觉。
 
 interests:
+  - AI for Science
   - 深度学习
   - 计算机视觉
   - 神经网络
@@ -34,13 +35,7 @@ education:
   courses:
     - course: 计算机科学博士在读
       institution: 郑州大学
-      year: 2022-至今
-    - course: 计算机科学硕士
-      institution: 华中科技大学
-      year: 2022
-    - course: 计算机科学学士
-      institution: 武汉大学
-      year: 2020
+      year: 2025-至今
 
 # Social/Academic Networking
 social:
@@ -66,4 +61,4 @@ user_groups:
 enroll_date: 2025-09-01
 ---
 
-吳恩達是团队的博士研究生，专注于深度学习和计算机视觉领域的研究。他的研究重点包括神经网络架构设计、图像识别算法优化以及智能感知系统的开发。
+许建军是团队的博士研究生，专注于深度学习和计算机视觉领域的研究。他的研究重点包括AI for Science、深度学习、计算机视觉。

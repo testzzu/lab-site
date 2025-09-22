@@ -279,20 +279,20 @@ sections:
   #       padding: ['20px', '0', '20px', '0']
   #     css_class: fullscreen
 
-  - block: collection
-    content:
-      title: 最新工作
-      text: ""
-      count: 5
-      filters:
-        page_type: publication
-        publication_type: ''
-        exclude_featured: false
-      offset: 0
-      order: desc
-    design:
-      view: citation
-      columns: '1'
+  # - block: collection
+  #   content:
+  #     title: 最新工作
+  #     text: ""
+  #     count: 5
+  #     filters:
+  #       page_type: publication
+  #       publication_type: ''
+  #       exclude_featured: false
+  #     offset: 0
+  #     order: desc
+  #   design:
+  #     view: citation
+  #     columns: '1'
 
   - block: markdown
     content:

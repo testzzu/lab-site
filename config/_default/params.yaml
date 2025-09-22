@@ -56,7 +56,7 @@ footer:
   social_links: false  # 隐藏社交链接图标
   icon_links: false    # 隐藏图标链接
   copyright:
-    notice: '版权所有：进化智能与感知学习团队 (EIPL)<br/>Evolution Intelligence & Perception Learning Laboratory<br/>地址：中国河南省郑州市中原区科学大道100号电气与信息工程学院<br/>邮箱：ywang@zzudu.cn'
+    notice: '版权所有：进化智能与感知学习团队 (EIPL)<br/>Evolution Intelligence & Perception Learning Laboratory<br/>地址：中国河南省郑州市中原区科学大道100号电气与信息工程学院<br/>邮箱：yaxinchang@gs.zzu.edu.cn'
     license:
       enable: false  # 禁用许可证图标显示
 
