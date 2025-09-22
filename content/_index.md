@@ -111,6 +111,10 @@ sections:
           <p class="lead" style="font-weight: 500; color: #2b2f36;">进化智能与感知学习组（EIPL Group）是一个跨学科研究团队，专注于探索人工智能的前沿领域。我们以自然进化法则为灵感，致力于研究具备主动感知、持续学习和自主进化能力的新一代智能算法。我们的研究重点涵盖计算机视觉、进化计算、机器学习和特征工程等领域。</p>
         </div>
         
+        <div class="text-center" style="margin-bottom: 40px;">
+          <img src="./media/EIPL.png" alt="EIPL Lab" style="width: 100%; height: auto; box-shadow: 0 2px 12px rgba(0,0,0,0.08); border-radius: 12px;">
+        </div>
+
         <div class="mx-auto" style="max-width: 1100px;">
         <div class="row justify-content-center equalize-row">
           <div class="col-md-6 text-center">
@@ -180,7 +184,7 @@ sections:
               <img src="./media/homepage/jaffe.png" class="card-img-top" alt="进化算法优化" style="height: 200px; object-fit: cover;">
               <div class="card-body">
                 <h6 class="card-title">进化算法优化</h6>
-                <p class="card-text small">多目标进化优化算法，在复杂优化问题中表现优异</p>
+                <p class="card-text small">我们致力于进化计算的前沿研究，涵盖遗传规划（GP）等多种进化算法。研究重点包括多目标优化、自动特征工程与自适应模型构建，并广泛应用于图像分类、遥感解译与医学影像分析等领域。</p>
               </div>
             </div>
           </div>
@@ -189,43 +193,47 @@ sections:
               <img src="./media/homepage/skincancer.png" class="card-img-top" alt="医疗影像AI分析" style="height: 200px; object-fit: cover;">
               <div class="card-body">
                 <h6 class="card-title">医疗影像AI分析</h6>
-                <p class="card-text small">针对皮肤癌分类依赖医生经验及现有方法存在可解释性差、需领域知识提取特征、忽略病变区域信息等问题，我们提出了一种自适应区域检测的遗传编程新方法。</p>
+                <p class="card-text small">现有计算机辅助诊断（CAD）系统存在局限：传统方法依赖领域知识提取特征，神经网络方法需专业设计网络结构且可解释性差。该方法性能多数优于基于GP、神经网络特征学习及传统对比方法，且演化出的模型树结构更小，具有潜在高可解释性。</p>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="card mb-3">
-              <img src="./media/coders.jpg" class="card-img-top" alt="作物表型分析" style="height: 200px; object-fit: cover;">
+              <img src="./media/WHU.png" class="card-img-top" alt="农业领域" style="height: 200px; object-fit: cover;">
               <div class="card-body">
-                <h6 class="card-title">作物表型分析</h6>
-                <p class="card-text small">智能农业XXXXXXXXXXX监测</p>
+                <h6 class="card-title">农业领域-场景识别</h6>
+                <p class="card-text small">针对现有作物分类特征构建方法依赖领域知识且解可解释性不足的问题，提出了一种基于多树遗传编程（GP）的新方法，旨在自动演化高可解释性的解，从高光谱图像中构建用于作物分类的高层特征。</p>
               </div>
             </div>
           </div>
 
         </div>
         
-        <div class="row mt-4 justify-content-center equalize-row-3">
-          <div class="col-md-6">
-            <div class="meta-card">
-              <div class="meta-head">
-                <span class="meta-icon"><i class="fas fa-users"></i></span>
-                <h5 class="meta-title">团队介绍</h5>
+        <div class="row mt-4 justify-content-center">
+          <div class="col-lg-8">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="meta-card">
+                  <div class="meta-head">
+                    <span class="meta-icon"><i class="fas fa-users"></i></span>
+                    <h5 class="meta-title">团队介绍</h5>
+                  </div>
+                  <p class="meta-text">专注于计算机视觉、进化计算、机器学习与特征工程等前沿领域的交叉研究，致力于推动人工智能技术的创新与应用。</p>
+                </div>
               </div>
-              <p class="meta-text">专注于计算机视觉、进化计算、机器学习与特征工程等前沿领域的交叉研究，致力于推动人工智能技术的创新与应用。</p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="meta-card">
-              <div class="meta-head">
-                <span class="meta-icon"><i class="fas fa-envelope"></i></span>
-                <h5 class="meta-title">联系方式</h5>
+              <div class="col-md-6">
+                <div class="meta-card">
+                  <div class="meta-head">
+                    <span class="meta-icon"><i class="fas fa-envelope"></i></span>
+                    <h5 class="meta-title">联系方式</h5>
+                  </div>
+                  <p class="meta-text">
+                    <strong>团队负责人：</strong>毕莹教授<br>
+                    <strong>邮箱：</strong>yingbi[at]zzu.edu.cn<br>
+                    <strong>地址：</strong>河南省郑州市科学大道100号
+                  </p>
+                </div>
               </div>
-              <p class="meta-text">
-                <strong>团队负责人：</strong>毕莹教授<br>
-                <strong>邮箱：</strong>yingbi[at]zzu.edu.cn<br>
-                <strong>地址：</strong>河南省郑州市科学大道100号
-              </p>
             </div>
           </div>
         </div>
@@ -271,18 +279,20 @@ sections:
   #       padding: ['20px', '0', '20px', '0']
   #     css_class: fullscreen
 
-  # - block: collection
-  #   content:
-  #     title: 最新工作
-  #     text: ""
-  #     count: 5
-  #     filters:
-  #       folders:
-  #         - publication
-  #       publication_type: 'article'
-  #   design:
-  #     view: citation
-  #     columns: '1'
+  - block: collection
+    content:
+      title: 最新工作
+      text: ""
+      count: 5
+      filters:
+        page_type: publication
+        publication_type: ''
+        exclude_featured: false
+      offset: 0
+      order: desc
+    design:
+      view: citation
+      columns: '1'
 
   - block: markdown
     content:

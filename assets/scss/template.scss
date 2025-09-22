@@ -257,6 +257,19 @@ body.logos-inserted .navbar-brand::after {
   .card-simple .summary-link {
     display: none !important;
   }
+  // Show summary beneath title on Featured cards
+  .card-simple .summary-link {
+    display: block !important;
+    margin-top: 6px;
+    color: var(--bs-secondary-color);
+    font-size: 0.92rem;
+  }
+  .card-simple .summary-link .article-style {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
   .card-simple .section-subheading.article-title {
     margin: 8px 0 0;
     font-size: 0.98rem;
@@ -269,4 +282,11 @@ body.logos-inserted .navbar-brand::after {
     position: relative;
     z-index: 1;
   }
+}
+
+// =====================================
+// Publication detail page: hide share box
+// =====================================
+.pub .share-box {
+  display: none !important;
 }

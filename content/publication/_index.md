@@ -20,7 +20,7 @@ build:
 # 关闭该分区内每篇出版物的详情页渲染，仅保留列表页
 cascade:
   build:
-    render: never
+    render: always
     list: always
     publishResources: true
 ---
