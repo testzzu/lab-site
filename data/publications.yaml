@@ -6,7 +6,7 @@
   url_custom: "books.google.com/books?hl=zh-CN&lr=&id=sYYbEAAAQBAJ&oi=fnd&pg=PR5&dq=Genetic+programming+for+image+classification:+An+automated+approach+to+feature+learning&ots=Pl7rNz8fK5&sig=VA-ItFFtEu-Em4IQH6D0iBcWfMg#v=onepage&q=Genetic%20programming%20for%20image%20classification%3A%20An%20automated%20approach%20to%20feature%20learning&f=false"
   url_pdf: "books.google.com/books?hl=zh-CN&lr=&id=sYYbEAAAQBAJ&oi=fnd&pg=PR5&dq=Genetic+programming+for+image+classification:+An+automated+approach+to+feature+learning&ots=Pl7rNz8fK5&sig=VA-ItFFtEu-Em4IQH6D0iBcWfMg#v=onepage&q=Genetic%20programming%20for%20image%20classification%3A%20An%20automated%20approach%20to%20feature%20learning&f=false"
   url_code: ""
-  category: "专著"
+  category: "专著/书籍"
   tags: ["遗传规划", "图像分类", "特征学习"]
 
 - authors: ["Ying Bi", "Mengjie Zhang", "Bing Xue", "Bo Peng"]
@@ -18,7 +18,7 @@
   url_pdf: "https://mdpi-res.com/bookfiles/book/11351/Artificial_Intelligence_for_Fault_Detection_and_Diagnosis.pdf?v=1757380237"
   # url_code: "https://github.com/HugoBlox/hugo-blox-builder"
   # url_source: "https://github.com/HugoBlox/hugo-blox-builder"
-  category: "专著"
+  category: "专著/书籍"
   tags: ["人工智能", "故障检测"]
 
 - authors: ["Jing, Liang", "Yahang, Lou", "Mingyuan, Yu", "Ying, Bi", "Kunjie, Yu"]

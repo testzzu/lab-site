@@ -25,17 +25,31 @@ sections:
     content:
       title: 已毕业研究生
       text: |
-        - 连锦涛（硕士研究生）：基于遗传规划的医学图像分类
-        - 李文静（硕士研究生）：基于遗传规划的符号回归
-        - 杨泽轩（硕士研究生）：基于遗传规划遥感图像分类
-        - 道明扬（硕士研究生）：面向高位数据分类的多树遗传规划特征构建方法研究
-        - 李阳光（硕士研究生）：基于进化集成学习算法的电机故障诊断方法研究
-        - 刘艮跃（硕士研究生）：进化神经架构搜索
+        - **连锦涛**（硕士研究生）| 研究方向：基于遗传规划的医学图像分类 | 毕业去向：华南理工大学攻读博士学位
+        
+        - **李文静**（硕士研究生）| 研究方向：基于遗传规划的符号回归 | 毕业去向：
+        
+        - **杨泽轩**（硕士研究生）| 研究方向：基于遗传规划遥感图像分类 | 毕业去向：新西兰惠灵顿维多利亚大学攻读博士学位
+        
+        - **道明扬**（硕士研究生）| 研究方向：面向高位数据分类的多树遗传规划特征构建方法研究 | 毕业去向：
+        
+        - **李阳光**（硕士研究生）| 研究方向：基于进化集成学习算法的电机故障诊断方法研究 | 毕业去向：
+        
+        - **刘艮跃**（硕士研究生）| 研究方向：进化神经架构搜索 | 毕业去向：牧原股份
 ---
 
 <script>
 // 自定义JavaScript：让people页面的名字点击跳转到GitHub
 document.addEventListener('DOMContentLoaded', function() {
+  // 为已毕业研究生部分添加白色背景样式
+  const sections = document.querySelectorAll('section');
+  sections.forEach(function(section) {
+    const title = section.querySelector('h2');
+    if (title && title.textContent.includes('已毕业研究生')) {
+      section.classList.add('graduated-students-section');
+    }
+  });
+  
   // 查找所有人员卡片中的名字链接
   const nameLinks = document.querySelectorAll('.portrait-title h2 a');
   
@@ -82,5 +96,25 @@ document.addEventListener('DOMContentLoaded', function() {
 
 .portrait-title h2 a:hover i.fa-github {
   opacity: 1;
+}
+
+/* 已毕业研究生部分白色背景 */
+.graduated-students-section {
+  background-color: white !important;
+  padding: 2rem;
+  border-radius: 8px;
+  margin: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.graduated-students-section h2 {
+  background-color: white !important;
+  padding: 1rem 0;
+  margin: 0;
+  color: #333;
+}
+
+.graduated-students-section .container {
+  background-color: white !important;
 }
 </style>
