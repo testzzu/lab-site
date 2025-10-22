@@ -181,9 +181,9 @@ sections:
         <div class="row mt-4 justify-content-center equalize-row-cards">
           <div class="col-md-4">
             <div class="card mb-3">
-              <img src="./media/homepage/jaffe.png" class="card-img-top" alt="进化算法优化" style="height: 200px; object-fit: cover;">
+              <img src="./media/homepage/jaffe.png" class="card-img-top" alt="进化计算与智能优化" style="height: 200px; object-fit: cover;">
               <div class="card-body">
-                <h6 class="card-title">进化算法优化</h6>
+                <h6 class="card-title">进化计算与智能优化</h6>
                 <p class="card-text small">我们致力于进化计算的前沿研究，涵盖遗传规划（GP）等多种进化算法。研究重点包括多目标优化、自动特征工程与自适应模型构建，并广泛应用于图像分类、遥感解译与医学影像分析等领域。</p>
               </div>
             </div>
@@ -202,7 +202,7 @@ sections:
               <img src="./media/WHU.png" class="card-img-top" alt="农业领域" style="height: 200px; object-fit: cover;">
               <div class="card-body">
                 <h6 class="card-title">农业领域-场景识别</h6>
-                <p class="card-text small">针对现有作物分类特征构建方法依赖领域知识且解可解释性不足的问题，提出了一种基于多树遗传编程（GP）的新方法，旨在自动演化高可解释性的解，从高光谱图像中构建用于作物分类的高层特征。</p>
+                <p class="card-text small">针对现有作物分类特征构建方法依赖领域知识且解可解释性不足的问题，提出了一种基于多树遗传编程的新方法，旨在自动演化高可解释性的解，从高光谱图像中构建用于作物分类的高层特征。</p>
               </div>
             </div>
           </div>
