@@ -85,11 +85,19 @@
     {{ $items := site.Data.publications }}
     {{ if $items }}
       {{ $items = sort $items "year" "desc" }}
-      {{/* Build dynamic category list from data */}}
+      {{/* Build category list in specified order: 书籍 -> 综述 -> 期刊 -> 会议 */}}
+      {{ $orderedCategories := slice "专著/书籍" "综述论文" "期刊论文" "会议论文" }}
       {{ $categories := slice }}
-      {{ range $it := $items }}
-        {{ if and $it.category (not (in $categories $it.category)) }}
-          {{ $categories = $categories | append $it.category }}
+      {{ range $cat := $orderedCategories }}
+        {{ $hasItems := false }}
+        {{ range $it := $items }}
+          {{ if eq $it.category $cat }}
+            {{ $hasItems = true }}
+            {{ break }}
+          {{ end }}
+        {{ end }}
+        {{ if $hasItems }}
+          {{ $categories = $categories | append $cat }}
         {{ end }}
       {{ end }}
       <div class="mb-3">
@@ -110,11 +118,19 @@
       <p class="text-muted">暂无出版物数据。</p>
     {{ else }}
       {{ $items = sort $items "year" "desc" }}
-      {{/* Build dynamic category list from data */}}
+      {{/* Build category list in specified order: 书籍 -> 综述 -> 期刊 -> 会议 */}}
+      {{ $orderedCategories := slice "专著/书籍" "综述论文" "期刊论文" "会议论文" }}
       {{ $categories := slice }}
-      {{ range $it := $items }}
-        {{ if and $it.category (not (in $categories $it.category)) }}
-          {{ $categories = $categories | append $it.category }}
+      {{ range $cat := $orderedCategories }}
+        {{ $hasItems := false }}
+        {{ range $it := $items }}
+          {{ if eq $it.category $cat }}
+            {{ $hasItems = true }}
+            {{ break }}
+          {{ end }}
+        {{ end }}
+        {{ if $hasItems }}
+          {{ $categories = $categories | append $cat }}
         {{ end }}
       {{ end }}
       {{ range $ci, $cat := $categories }}
@@ -151,6 +167,21 @@
                 {{ with $it.doi }}, DOI: {{ printf "https://doi.org/%s" . }}{{ end }}.
 
                 {{ with $it.url_code }}<a href="{{ . }}" target="_blank" rel="noopener">[代码]</a>{{ end }} {{ with $it.url_pdf }}<a href="{{ . }}" target="_blank" rel="noopener">[pdf]</a>{{ end }}
+                
+                <span class="citation-buttons ml-2">
+                  <button type="button" class="btn btn-sm btn-outline-secondary citation-btn" 
+                          data-pub-id="{{ $i }}" 
+                          data-title="{{ $it.title }}"
+                          data-authors="{{ if $it.authors }}{{ delimit $it.authors ", " }}{{ end }}"
+                          data-publisher="{{ or $it.publisher $it.publication }}"
+                          data-year="{{ $it.year }}"
+                          data-doi="{{ $it.doi }}"
+                          data-venue="{{ or $it.publisher $it.publication }}"
+                          data-category="{{ $it.category }}"
+                          onclick="showCitationModal(this)">
+                    [引用]
+                  </button>
+                </span>
               </p>
               {{ with $tags }}
               <div class="mb-2">
@@ -166,6 +197,243 @@
       {{ end }}
     {{ end }}
   </div>
+
+  <!-- Citation Modal -->
+  <div class="modal fade" id="citationModal" tabindex="-1" role="dialog" aria-labelledby="citationModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="citationModalLabel">引用格式</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6 mb-4">
+              <h6 class="mb-3">GB/T 7714 格式</h6>
+              <div class="form-group">
+                <textarea id="gb7714Citation" class="form-control" rows="6" readonly></textarea>
+              </div>
+              <button type="button" class="btn btn-outline-primary btn-sm" onclick="copyCitation('gb7714Citation', this)">
+                复制 GB/T 7714
+              </button>
+            </div>
+            <div class="col-md-6 mb-4">
+              <h6 class="mb-3">BibTeX 格式</h6>
+              <div class="form-group">
+                <textarea id="bibtexCitation" class="form-control" rows="6" readonly></textarea>
+              </div>
+              <button type="button" class="btn btn-outline-primary btn-sm" onclick="copyCitation('bibtexCitation', this)">
+                复制 BibTeX
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    /* Simple Citation Modal Styles */
+    .modal-content {
+      border-radius: 8px;
+    }
+
+    .modal-body textarea {
+      font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+      font-size: 13px;
+      line-height: 1.4;
+    }
+
+    .btn-outline-primary.copied {
+      background-color: #28a745;
+      border-color: #28a745;
+      color: white;
+    }
+  </style>
+
+  <script>
+    function showCitationModal(button) {
+      const data = {
+        title: button.getAttribute('data-title'),
+        authors: button.getAttribute('data-authors'),
+        publisher: button.getAttribute('data-publisher'),
+        year: button.getAttribute('data-year'),
+        doi: button.getAttribute('data-doi'),
+        venue: button.getAttribute('data-venue'),
+        category: button.getAttribute('data-category')
+      };
+      
+      // Generate GB/T 7714 citation
+      const gb7714Citation = generateGB7714Citation(data);
+      document.getElementById('gb7714Citation').value = gb7714Citation;
+      
+      // Generate BibTeX citation
+      const bibtexCitation = generateBibTeXCitation(data);
+      document.getElementById('bibtexCitation').value = bibtexCitation;
+      
+      // Show modal
+      const modal = document.getElementById('citationModal');
+      if (modal) {
+        // Use Bootstrap 5 modal API
+        const bootstrapModal = new bootstrap.Modal(modal);
+        bootstrapModal.show();
+      }
+    }
+    
+    function generateGB7714Citation(data) {
+      let citation = '';
+      
+      // Authors
+      if (data.authors) {
+        const authors = data.authors.split(', ');
+        if (authors.length === 1) {
+          citation += authors[0];
+        } else if (authors.length <= 3) {
+          citation += authors.join(', ');
+        } else {
+          citation += authors[0] + ', ' + authors[1] + ', ' + authors[2] + ', 等';
+        }
+        citation += '. ';
+      }
+      
+      // Title
+      if (data.title) {
+        citation += data.title + '. ';
+      }
+      
+      // Publication info based on category
+      if (data.category === '专著/书籍') {
+        if (data.publisher) {
+          citation += data.publisher;
+        }
+        if (data.year) {
+          citation += ', ' + data.year;
+        }
+        citation += '.';
+      } else if (data.category === '综述论文' || data.category === '期刊论文') {
+        if (data.venue) {
+          citation += data.venue;
+        }
+        if (data.year) {
+          citation += ', ' + data.year;
+        }
+        citation += '.';
+      } else if (data.category === '会议论文') {
+        if (data.venue) {
+          citation += data.venue;
+        }
+        if (data.year) {
+          citation += ', ' + data.year;
+        }
+        citation += '.';
+      }
+      
+      // DOI
+      if (data.doi) {
+        citation += ' DOI: ' + data.doi + '.';
+      }
+      
+      return citation;
+    }
+    
+    function generateBibTeXCitation(data) {
+      let citation = '';
+      let entryType = '';
+      let key = '';
+      
+      // Determine entry type and generate key
+      if (data.category === '专著/书籍') {
+        entryType = '@book';
+        key = generateBibTeXKey(data.authors, data.year);
+      } else if (data.category === '综述论文' || data.category === '期刊论文') {
+        entryType = '@article';
+        key = generateBibTeXKey(data.authors, data.year);
+      } else if (data.category === '会议论文') {
+        entryType = '@inproceedings';
+        key = generateBibTeXKey(data.authors, data.year);
+      } else {
+        entryType = '@misc';
+        key = generateBibTeXKey(data.authors, data.year);
+      }
+      
+      citation += entryType + '{' + key + ',\n';
+      
+      // Authors
+      if (data.authors) {
+        citation += '  author = {' + data.authors + '},\n';
+      }
+      
+      // Title
+      if (data.title) {
+        citation += '  title = {' + data.title + '},\n';
+      }
+      
+      // Publication info based on type
+      if (entryType === '@book') {
+        if (data.publisher) {
+          citation += '  publisher = {' + data.publisher + '},\n';
+        }
+      } else if (entryType === '@article') {
+        if (data.venue) {
+          citation += '  journal = {' + data.venue + '},\n';
+        }
+      } else if (entryType === '@inproceedings') {
+        if (data.venue) {
+          citation += '  booktitle = {' + data.venue + '},\n';
+        }
+      }
+      
+      // Year
+      if (data.year) {
+        citation += '  year = {' + data.year + '},\n';
+      }
+      
+      // DOI
+      if (data.doi) {
+        citation += '  doi = {' + data.doi + '},\n';
+      }
+      
+      // Remove trailing comma and newline
+      citation = citation.replace(/,\n$/, '\n');
+      citation += '}';
+      
+      return citation;
+    }
+    
+    function generateBibTeXKey(authors, year) {
+      if (!authors) return 'unknown' + (year || '');
+      const firstAuthor = authors.split(',')[0].trim();
+      const lastName = firstAuthor.split(' ').pop();
+      return lastName.toLowerCase() + (year || '');
+    }
+    
+    function copyCitation(textareaId, buttonElement) {
+      const textarea = document.getElementById(textareaId);
+      textarea.select();
+      textarea.setSelectionRange(0, 99999); // For mobile devices
+      
+      try {
+        document.execCommand('copy');
+        // Show success state
+        const originalText = buttonElement.textContent;
+        buttonElement.textContent = '已复制!';
+        buttonElement.classList.add('copied');
+        
+        setTimeout(() => {
+          buttonElement.textContent = originalText;
+          buttonElement.classList.remove('copied');
+        }, 2000);
+      } catch (err) {
+        console.error('Failed to copy text: ', err);
+        alert('复制失败，请手动复制文本');
+      }
+    }
+  </script>
 {{ end }}
 
 

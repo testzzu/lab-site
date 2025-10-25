@@ -1,14 +1,14 @@
 ---
 # Display name
-title: 赵德龙
+title: 张旭
 
 # Full name (for SEO)
-first_name: 赵
-last_name: 德龙
+first_name: 张
+last_name: 旭
 
 # Username (this should match the folder name)
 authors:
-  - 赵德龙
+  - 张旭
 
 # Is this the primary user of the site?
 superuser: false
