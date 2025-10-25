@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: 研究生
+role: 硕士研究生
 
 # Organizations/Affiliations
 organizations:
