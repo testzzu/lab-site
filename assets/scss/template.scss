@@ -290,3 +290,19 @@ body.logos-inserted .navbar-brand::after {
 .pub .share-box {
   display: none !important;
 }
+
+// =====================================
+// Temporary: hide navbar logos (keep title/text)
+// =====================================
+.navbar .navbar-brand-logo,
+.navbar .navbar-brand-lab-logo,
+.navbar .brand-logo,
+.navbar-brand img {
+  display: none !important;
+}
+
+// Also hide any CSS-inserted logo pseudo-elements
+.navbar-brand::before,
+.navbar-brand::after {
+  display: none !important;
+}
