@@ -35,7 +35,7 @@ education:
     - course: 工学博士在读
       institution: 郑州大学
       year: 2024-至今
-    - course: 工学硕士
+    - course: 电子信息硕士
       institution: 郑州大学
       year: 2024
     - course: 工学学士
