@@ -79,7 +79,7 @@ def fetch_all_articles():
             "api_key": SERPAPI_API_KEY,
             "num": NUM_PER_PAGE,
             "start": start,
-            "sort": "pubdate",
+
         }
         resp = requests.get("https://serpapi.com/search.json", params=params)
         resp.raise_for_status()
@@ -153,10 +153,13 @@ def map_article_to_pub(article):
     return {
         "authors": authors,
         "title": title,
-        "year": year,
         "publication": article.get("publication", ""),
+        "year": year,
+        "doi": "",
         "url_custom": article.get("link", ""),
-        "category": "期刊论文",  # fallback, will be overwritten by LLM inference
+        "url_pdf": "",
+        "url_code": "",
+        "category": "期刊论文",
         "tags": [],
     }
 
@@ -247,35 +250,51 @@ def _heuristic_categories(papers):
     return results
 
 
-def save_pubs(pubs):
-    """Save publications to YAML, sorted by year descending."""
-    # Remove cited_by from output (it was just for reference)
-    for pub in pubs:
-        pub.pop("cited_by", None)
+def _yaml_str(val):
+    """Format a Python value as a YAML string (always quoted for strings)."""
+    if isinstance(val, str):
+        escaped = val.replace("\\", "\\\\").replace('"', '\\"')
+        return f'"{escaped}"'
+    return str(val)
 
-    pubs.sort(key=lambda x: x.get("year", 0), reverse=True)
 
-    PUBLICATIONS_FILE.parent.mkdir(parents=True, exist_ok=True)
+def _format_list(items):
+    """Format a list as YAML flow style with quotes: ["a", "b"]."""
+    if not items:
+        return "[]"
+    parts = [_yaml_str(item) for item in items]
+    return "[" + ", ".join(parts) + "]"
 
-    output = ""
-    for i, pub in enumerate(pubs):
-        if i > 0:
-            output += "\n"
-        output += f"- authors: {yaml.dump(pub.get('authors', []), allow_unicode=True, default_flow_style=True).strip()}\n"
-        output += f"  title: {yaml.dump(pub.get('title', ''), allow_unicode=True).strip()}\n"
 
-        venue = pub.get("publication") or pub.get("publisher") or ""
-        output += f"  publication: {yaml.dump(venue, allow_unicode=True).strip()}\n"
-        output += f"  year: {pub.get('year', 0)}\n"
-        output += f"  url_custom: {yaml.dump(pub.get('url_custom', ''), allow_unicode=True).strip()}\n"
-        output += f"  category: {yaml.dump(pub.get('category', '期刊论文'), allow_unicode=True).strip()}\n"
+def _format_pub(pub):
+    """Format a single publication entry in the exact required YAML style."""
+    lines = []
+    lines.append(f"- authors: {_format_list(pub.get('authors', []))}")
+    lines.append(f"  title: {_yaml_str(pub.get('title', ''))}")
+    lines.append(f"  publication: {_yaml_str(pub.get('publication', ''))}")
+    lines.append(f"  year: {pub.get('year', 0)}")
+    lines.append(f"  doi: {_yaml_str(pub.get('doi', ''))}")
+    lines.append(f"  url_custom: {_yaml_str(pub.get('url_custom', ''))}")
+    lines.append(f"  url_pdf: {_yaml_str(pub.get('url_pdf', ''))}")
+    lines.append(f"  url_code: {_yaml_str(pub.get('url_code', ''))}")
+    lines.append(f"  category: {_yaml_str(pub.get('category', '期刊论文'))}")
+    lines.append(f"  tags: {_format_list(pub.get('tags', []))}")
+    return "\n".join(lines)
 
-        for key in ["doi", "tags", "url_pdf", "url_code", "volume", "pages", "note"]:
-            if key in pub and pub[key]:
-                output += f"  {key}: {yaml.dump(pub[key], allow_unicode=True, default_flow_style=True).strip()}\n"
+
+def append_new_pubs(new_papers):
+    """Append new publications to the end of the YAML file without touching existing content."""
+    with open(PUBLICATIONS_FILE, "r", encoding="utf-8") as f:
+        content = f.read()
+
+    if not content.endswith("\n"):
+        content += "\n"
+
+    for pub in new_papers:
+        content += "\n" + _format_pub(pub) + "\n"
 
     with open(PUBLICATIONS_FILE, "w", encoding="utf-8") as f:
-        f.write(output)
+        f.write(content)
 
 
 def main():
@@ -317,8 +336,8 @@ def main():
         title_short = pub["title"][:80] + ("..." if len(pub["title"]) > 80 else "")
         print(f"  [{pub['year']}] [{cat}] {title_short}")
 
-    print(f"\n{len(new_papers)} new publications added. Saving to {PUBLICATIONS_FILE}...")
-    save_pubs(existing_pubs)
+    print(f"\n{len(new_papers)} new publications added. Appending to {PUBLICATIONS_FILE}...")
+    append_new_pubs(new_papers)
     print("Done.")
 
 
