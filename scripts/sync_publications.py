@@ -54,13 +54,20 @@ NUM_PER_PAGE = 100
 
 CATEGORY_OPTIONS = ["专著/书籍", "综述论文", "期刊论文", "会议论文"]
 
-CATEGORY_PROMPT = """Classify each paper below into exactly one category. Reply with a JSON array of strings, one per paper, in the same order.
+CLASSIFY_PROMPT = """For each paper below, determine its category and generate 1-3 concise Chinese tags summarizing key topics/methods. Reply with a JSON array of objects, one per paper, in the same order.
 
 Categories:
 - "期刊论文": journal article (IEEE Trans, Elsevier, Springer journal, etc.)
 - "会议论文": conference paper (CEC, GECCO, IVCNZ, SSCI, proceedings, etc.)
-- "综述论文": survey / review paper (title or abstract mentions "survey", "review", "综述")
-- "专著/书籍": book or monograph (publisher is Springer, MDPI, etc. AND it's a complete book, not a journal article)
+- "综述论文": survey / review paper (title mentions "survey", "review", "综述")
+- "专著/书籍": book or monograph
+
+Tag rules:
+- 1-3 Chinese tags per paper, short and specific (e.g., "遗传规划", "图像分类", "特征学习", "遥感", "故障诊断")
+- Use terminology from the paper title/venue
+- Do NOT include generic terms like "人工智能" or "机器学习" unless the paper is specifically about those topics
+
+Return format: [{"category": "...", "tags": ["tag1", "tag2", "tag3"]}, ...]
 
 Papers to classify:"""
 
@@ -187,67 +194,77 @@ def _call_deepseek(prompt):
     return data["choices"][0]["message"]["content"].strip()
 
 
-def infer_categories(papers):
-    """Use DeepSeek API to batch-infer category for each paper. Falls back to heuristic if unavailable."""
+def infer_metadata(papers):
+    """Use DeepSeek API to batch-infer category and tags for each paper. Falls back to heuristic if unavailable.
+    Returns (categories, tags) tuple: two parallel lists.
+    """
     if not DEEPSEEK_API_KEY:
-        print("  DEEPSEEK_API_KEY not set, using heuristic fallback for categories.")
-        return _heuristic_categories(papers)
+        print("  DEEPSEEK_API_KEY not set, using heuristic fallback.")
+        cats, _ = _heuristic_classify(papers)
+        return cats, [[] for _ in papers]
 
     BATCH_SIZE = 15
     all_categories = []
+    all_tags = []
 
     for batch_start in range(0, len(papers), BATCH_SIZE):
         batch = papers[batch_start:batch_start + BATCH_SIZE]
         lines = []
         for i, pub in enumerate(batch):
             lines.append(f"{batch_start + i + 1}. Title: \"{pub['title']}\"\n   Venue: {pub['publication']}")
-        prompt = CATEGORY_PROMPT + "\n\n" + "\n".join(lines)
+        prompt = CLASSIFY_PROMPT + "\n\n" + "\n".join(lines)
 
         try:
             content = _call_deepseek(prompt)
-            # Strip markdown code fences if present
             if content.startswith("```"):
                 content = content.split("\n", 1)[1]
                 if content.endswith("```"):
                     content = content[:-3]
-            categories = json.loads(content)
+            items = json.loads(content)
 
-            if isinstance(categories, list) and len(categories) == len(batch):
-                valid = set(CATEGORY_OPTIONS)
-                clean = [c if c in valid else "期刊论文" for c in categories]
-                all_categories.extend(clean)
+            if isinstance(items, list) and len(items) == len(batch):
+                valid_cats = set(CATEGORY_OPTIONS)
+                for item in items:
+                    cat = item.get("category", "") if isinstance(item, dict) else ""
+                    tags = item.get("tags", []) if isinstance(item, dict) else []
+                    all_categories.append(cat if cat in valid_cats else "期刊论文")
+                    all_tags.append(tags[:3] if isinstance(tags, list) else [])
                 print(f"  LLM batch {batch_start // BATCH_SIZE + 1}: {len(batch)} papers classified.")
                 continue
             else:
-                raise ValueError(f"Expected {len(batch)} categories, got {len(categories) if isinstance(categories, list) else type(categories)}")
+                raise ValueError(f"Expected {len(batch)} items, got {type(items)}")
 
         except Exception as e:
-            print(f"  LLM batch {batch_start // BATCH_SIZE + 1} failed ({e}), using heuristic for this batch.")
-            all_categories.extend(_heuristic_categories(batch))
+            print(f"  LLM batch {batch_start // BATCH_SIZE + 1} failed ({e}), using heuristic.")
+            cats, tags = _heuristic_classify(batch)
+            all_categories.extend(cats)
+            all_tags.extend(tags)
 
-    return all_categories
+    return all_categories, all_tags
 
 
-def _heuristic_categories(papers):
-    """Rule-based category inference as fallback."""
-    results = []
+def _heuristic_classify(papers):
+    """Rule-based category and tag inference as fallback."""
+    categories = []
+    tags_list = []
     for pub in papers:
         title_lower = pub["title"].lower()
         venue_lower = pub["publication"].lower() if pub["publication"] else ""
 
         if any(kw in title_lower for kw in ["survey", "review", "综述"]):
-            results.append("综述论文")
-            continue
-
-        if venue_lower:
+            categories.append("综述论文")
+        elif venue_lower:
             conf_kw = ["conference", "proceedings", "cec", "gecco", "ivcnz", "ssci",
                        "symposium", "workshop", "congress", "iceaai"]
             if any(kw in venue_lower for kw in conf_kw):
-                results.append("会议论文")
-                continue
+                categories.append("会议论文")
+            else:
+                categories.append("期刊论文")
+        else:
+            categories.append("期刊论文")
+        tags_list.append([])
 
-        results.append("期刊论文")
-    return results
+    return categories, tags_list
 
 
 def _yaml_str(val):
@@ -328,13 +345,15 @@ def main():
         print("No new publications found. Data is up to date.")
         return
 
-    # Infer categories for new papers
-    print(f"Inferring categories for {len(new_papers)} new papers...")
-    categories = infer_categories(new_papers)
-    for pub, cat in zip(new_papers, categories):
+    # Infer categories and tags for new papers
+    print(f"Inferring categories and tags for {len(new_papers)} new papers...")
+    categories, tags_list = infer_metadata(new_papers)
+    for pub, cat, tags in zip(new_papers, categories, tags_list):
         pub["category"] = cat
+        pub["tags"] = tags
+        tags_str = ", ".join(tags) if tags else "—"
         title_short = pub["title"][:80] + ("..." if len(pub["title"]) > 80 else "")
-        print(f"  [{pub['year']}] [{cat}] {title_short}")
+        print(f"  [{pub['year']}] [{cat}] [{tags_str}] {title_short}")
 
     print(f"\n{len(new_papers)} new publications added. Appending to {PUBLICATIONS_FILE}...")
     append_new_pubs(new_papers)
