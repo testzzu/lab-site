@@ -157,7 +157,7 @@ def map_article_to_pub(article):
         "year": year,
         "doi": "",
         "url_custom": article.get("link", ""),
-        "url_pdf": "",
+        "url_pdf": article.get("link", ""),
         "url_code": "",
         "category": "期刊论文",
         "tags": [],
