@@ -19,6 +19,9 @@ main:
   - name: 代表性工作
     url: featured
     weight: 45
+  - name: 应用系统
+    url: systems
+    weight: 48
   - name: 相关链接
     url: links
     weight: 50

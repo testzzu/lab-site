@@ -1,48 +1,69 @@
-# [Hugo Research Group Theme](https://github.com/wowchemy/starter-hugo-research-group)
+# 进化智能与感知学习团队 (EIPL)
 
-[![Screenshot](preview.png)](https://hugoblox.com/hugo-themes/)
+[biyinglab.org](https://biyinglab.org/)
 
-The **Research Group Template** empowers your research group to easily create a beautiful website with a stunning homepage, group updates, academic publications, events, team profiles, and a contact form.
+## 研究方向
 
-️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, widget-based Wowchemy page builder**, making every site truly personalized ⭐⭐⭐⭐⭐
+- **计算机视觉**：图像理解、目标检测与分割、三维视觉
+- **进化计算**：遗传规划、群体智能、代理辅助与多目标优化
+- **机器学习**：深度学习、强化学习、迁移与小样本学习
+- **特征工程**：自监督表征、可解释表示与结构先验
 
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://hugoblox.com/hugo-themes/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/GetResearchDev?label=Follow%20on%20Twitter)](https://twitter.com/wowchemy)
+## 应用场景
 
-Easily write technical content with plain text Markdown, LaTeX math, diagrams, RMarkdown, or Jupyter, and import publications from BibTeX.
+医疗影像分析、辅助诊断、精准农业、智能育种与表型分析、病虫害监测、智能调度、智慧电网等。
 
-[Check out the latest demo](https://research-group.netlify.app/) of what you'll get in less than 60 seconds, or [view the showcase](https://hugoblox.com/creators/).
+## 网站内容
 
-The integrated [**Wowchemy**](https://hugoblox.com) website builder and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
+本网站基于 [Hugo](https://gohugo.io/) 和 [Wowchemy](https://hugoblox.com/) 研究组模板构建，包含以下版块：
 
-- 👉 [**Get Started**](https://hugoblox.com/hugo-themes/)
-- 📚 [View the **documentation**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Wowchemy research community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- ⬇️ **Automatically import citations from BibTeX** with the [Hugo Academic CLI](https://github.com/GetRD/academic-file-converter)
-- 🐦 Share your new site with the community: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=%23MadeWithWowchemy&src=typed_query)
-- 🗳 [Take the survey and help us improve #OpenSource](https://forms.gle/NioD9VhUg7PNmdCAA)
-- 🚀 [Contribute improvements](https://github.com/HugoBlox/hugo-blox-builder/blob/main/CONTRIBUTING.md) or [suggest improvements](https://github.com/HugoBlox/hugo-blox-builder/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://docs.hugoblox.com/hugo-tutorials/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
+- **主页** — 团队概览、研究方向、技术特色与代表性成果展示
+- **团队** — 团队负责人、博士/硕士研究生、科研助理及已毕业研究生信息
+- **论文** — 学术出版物列表
+- **课题组动态** — 学术会议、论文接收等新闻动态
+- **代表性工作** — 精选研究成果展示
+- **应用系统** — 课题组应用系统与工程原型（如多机器人协同调度等）
+- **相关链接** — 合作实验室与机构链接
+- **联系我们** — 研究方向、招生与合作信息
 
-## We ask you, humbly, to support this open source movement
+## 本地开发
 
-Today we ask you to defend the open source independence of the Wowchemy website builder and themes 🐧
+```bash
+# 安装 Hugo (extended 版本)
+# 参考: https://gohugo.io/installation/
 
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
+# 启动开发服务器
+hugo server
 
-### [❤️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://github.com/sponsors/gcushen)
+# 构建静态站点
+hugo
+```
 
-## Demo credits
+构建输出位于 `public/` 目录。
 
-Please replace the demo images with your own.
+## 部署
 
-- [Female scientist](https://unsplash.com/photos/uVnRa6mOLOM)
-- [2 Coders](https://unsplash.com/photos/kwzWjTnDPLk)
-- [Cafe](https://unsplash.com/photos/RnDGGnMEOao)
-- Blog posts
-  - https://unsplash.com/photos/AndE50aaHn4
-  - https://unsplash.com/photos/OYzbqk2y26c
-- Avatars
-  - https://unsplash.com/photos/5yENNRbbat4
-  - https://unsplash.com/photos/WNoLnJo7tS8
+站点通过 GitHub Pages 部署，域名 [biyinglab.org](https://biyinglab.org/)。推送至 `main` 分支后自动触发构建与部署。
+
+## 目录结构
+
+```
+content/          # 网站内容 (Markdown)
+  _index.md       # 首页
+  people/         # 团队成员
+  publication/    # 出版物
+  post/           # 课题组动态
+  featured/       # 代表性工作
+  systems/        # 应用系统
+  links/          # 相关链接
+  contact/        # 联系我们
+  authors/        # 成员个人资料
+config/           # Hugo 配置
+assets/           # 资源文件
+static/           # 静态文件 (图片等)
+layouts/          # 自定义布局模板
+```
+
+## 许可证
+
+本项目基于 Wowchemy 研究组模板构建，遵循其原始许可。
