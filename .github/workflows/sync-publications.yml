@@ -1,0 +1,50 @@
+name: Sync Publications from Google Scholar
+
+on:
+  schedule:
+    - cron: '0 3 * * 1'  # Every Monday at UTC 3:00
+  workflow_dispatch:       # Manual trigger
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests pyyaml
+
+      - name: Sync publications from Google Scholar
+        env:
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: python scripts/sync_publications.py
+
+      - name: Create Pull Request
+        if: success()
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: 'content: sync publications from Google Scholar (weekly)'
+          title: '论文同步：Google Scholar 周更'
+          body: |
+            自动从 Google Scholar (SerpAPI) 同步毕莹老师的最新论文。
+
+            - `category` 由 DeepSeek 自动推断，请 review 确认
+            - `tags` 标签需要人工补充
+            - 请检查去重是否正确
+
+            🤖 Generated via GitHub Actions
+          base: main
+          branch: sync-publications-weekly
+          delete-branch: true
+          labels: automated-pr, content

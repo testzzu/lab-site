@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(python scripts/sync_publications.py)",
+      "Bash(git checkout *)"
+    ]
+  }
+}
