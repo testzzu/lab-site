@@ -1523,3 +1523,14 @@
   url_code: ""
   category: "期刊论文"
   tags: ["进化计算", "计算机视觉"]
+
+- authors: ["T Zhang", "Y Bi", "H Wang", "J Liang", "B Xue", "M Zhang"]
+  title: "Learning features for data-efficient image classification via improved decomposition-based multi-objective genetic programming"
+  publication: "Swarm and Evolutionary Computation 107, 102430, 2026"
+  year: 2026
+  doi: ""
+  url_custom: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&pagesize=100&citation_for_view=WI2ykPAAAAAJ:YB4bud6kWLwC"
+  url_pdf: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&pagesize=100&citation_for_view=WI2ykPAAAAAJ:YB4bud6kWLwC"
+  url_code: ""
+  category: "期刊论文"
+  tags: ["遗传规划", "图像分类", "特征学习"]
