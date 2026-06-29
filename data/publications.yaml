@@ -1534,3 +1534,25 @@
   url_code: ""
   category: "期刊论文"
   tags: ["遗传规划", "图像分类", "特征学习"]
+
+- authors: ["Z Chen", "J Chen", "W Cheng", "X Wang", "Y Han", "K Yang", "Y Guo", "X Li", "Y Bi", "..."]
+  title: "Low-power lead-free Cs3Bi2I9 perovskite memristors for neuromorphic visual recognition and associative learning"
+  publication: "Journal of Energy Chemistry, 2026"
+  year: 2026
+  doi: ""
+  url_custom: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&pagesize=100&citation_for_view=WI2ykPAAAAAJ:BJrgspguQaEC"
+  url_pdf: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&pagesize=100&citation_for_view=WI2ykPAAAAAJ:BJrgspguQaEC"
+  url_code: ""
+  category: "期刊论文"
+  tags: ["忆阻器", "神经形态计算", "视觉识别"]
+
+- authors: ["D Zeng", "Y Bi", "I Liu", "B Xue", "R Vennell", "M Zhang"]
+  title: "A Genetic Programming‐Based Method for Multi‐Object Detection in Mussel Farm Images"
+  publication: "Journal of the Royal Society of New Zealand 56 (3), e70060, 2026"
+  year: 2026
+  doi: ""
+  url_custom: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:SxCCDk4iOpsC"
+  url_pdf: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:SxCCDk4iOpsC"
+  url_code: ""
+  category: "期刊论文"
+  tags: ["遗传规划", "目标检测", "渔业图像"]
