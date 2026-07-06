@@ -1556,3 +1556,25 @@
   url_code: ""
   category: "期刊论文"
   tags: ["遗传规划", "目标检测", "渔业图像"]
+
+- authors: ["Y Bi", "M Guo", "Q Sui", "W Wang"]
+  title: "Multi-step Short-Term Load Forecasting via Multi-population Genetic Programming"
+  publication: "International Conference on Cognitive Computation and Systems, 388-398, 2025"
+  year: 2025
+  doi: ""
+  url_custom: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:t-hv7AR41mYC"
+  url_pdf: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:t-hv7AR41mYC"
+  url_code: ""
+  category: "会议论文"
+  tags: ["遗传规划", "负荷预测", "多步预测"]
+
+- authors: ["Y Bi", "Y Chang", "W Li", "C Yue", "J Liang"]
+  title: "A Task-Similarity-Based Multitask Genetic Programming Approach to Symbolic Regression"
+  publication: ""
+  year: 0
+  doi: ""
+  url_custom: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:BmWJbWwHJAwC"
+  url_pdf: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:BmWJbWwHJAwC"
+  url_code: ""
+  category: "会议论文"
+  tags: ["多任务遗传规划", "符号回归", "任务相似性"]
