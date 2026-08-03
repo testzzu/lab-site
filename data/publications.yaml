@@ -1578,3 +1578,47 @@
   url_code: ""
   category: "会议论文"
   tags: ["多任务遗传规划", "符号回归", "任务相似性"]
+
+- authors: ["Y Bi", "J Zhao", "Y Guo", "C Yue", "J Liang", "M Liu", "X Zhu"]
+  title: "A Heuristic-Guided Genetic Algorithm for heterogeneous agricultural machinery scheduling with time windows"
+  publication: "Swarm and Evolutionary Computation 107, 102486, 2026"
+  year: 2026
+  doi: ""
+  url_custom: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:zUl2_INMlC4C"
+  url_pdf: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:zUl2_INMlC4C"
+  url_code: ""
+  category: "期刊论文"
+  tags: ["遗传算法", "农业机械调度", "时间窗"]
+
+- authors: ["Y Shen", "C Yue", "J Liang", "Y Bi", "P Wang", "K Yu", "H Song"]
+  title: "A Hierarchical Cooperative Multi-Robot Path Planning Algorithm Based on TSP Encoding"
+  publication: ""
+  year: 0
+  doi: ""
+  url_custom: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:LK8CI43ZvvMC"
+  url_pdf: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:LK8CI43ZvvMC"
+  url_code: ""
+  category: "会议论文"
+  tags: ["多机器人路径规划", "层次协同", "TSP编码"]
+
+- authors: ["Y Huang", "Q Fan", "Y Bi", "B Xue", "M Zhang"]
+  title: "Genetic Programming with Multi-Scale Feature Extraction, Attention and Interaction for Few-Shot Fine-Grained Image Classification"
+  publication: ""
+  year: 0
+  doi: ""
+  url_custom: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:nPT8s1NX_-sC"
+  url_pdf: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:nPT8s1NX_-sC"
+  url_code: ""
+  category: "会议论文"
+  tags: ["遗传规划", "少样本学习", "细粒度图像分类"]
+
+- authors: ["WF Guo", "P Wang", "Y Bi", "J Liang", "B Xue", "M Zhang", "D Yin", "H Cheng"]
+  title: "An Ensemble Learning Approach to Graph Learning Based on Evolutionary Graph Neural Architecture Search"
+  publication: "IEEE transactions on neural networks and learning systems, 0"
+  year: 0
+  doi: ""
+  url_custom: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:YTuZlYwrTOUC"
+  url_pdf: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:YTuZlYwrTOUC"
+  url_code: ""
+  category: "期刊论文"
+  tags: ["集成学习", "图学习", "进化神经架构搜索"]
