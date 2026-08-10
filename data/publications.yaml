@@ -1622,3 +1622,14 @@
   url_code: ""
   category: "期刊论文"
   tags: ["集成学习", "图学习", "进化神经架构搜索"]
+
+- authors: ["J Xu", "Y Bi"]
+  title: "A Geometry-Aware Pretraining Network for Molecular Representation Learning"
+  publication: "2026 41st Youth Academic Annual Conference of Chinese Association of …, 2026"
+  year: 2026
+  doi: ""
+  url_custom: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:s85pQhAUCrAC"
+  url_pdf: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:s85pQhAUCrAC"
+  url_code: ""
+  category: "会议论文"
+  tags: ["分子表示学习", "几何感知", "预训练"]
