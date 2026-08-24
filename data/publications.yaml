@@ -1633,3 +1633,14 @@
   url_code: ""
   category: "会议论文"
   tags: ["分子表示学习", "几何感知", "预训练"]
+
+- authors: ["M Yu", "X Zhang", "Y Bi"]
+  title: "Feature Fusion and Attention Enhanced ConvNeXt for Medical Image Classification"
+  publication: "Proceedings of the 2026 2nd International Symposium on Bioinformatics and …, 2026"
+  year: 2026
+  doi: ""
+  url_custom: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:_AeoHAGD03cC"
+  url_pdf: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:_AeoHAGD03cC"
+  url_code: ""
+  category: "会议论文"
+  tags: ["医学图像分类", "ConvNeXt", "注意力机制"]
