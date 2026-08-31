@@ -1644,3 +1644,25 @@
   url_code: ""
   category: "会议论文"
   tags: ["医学图像分类", "ConvNeXt", "注意力机制"]
+
+- authors: ["L Dong", "Y Bi", "B Xue", "M Zhang"]
+  title: "Multi-Objective Genetic Programming with Ensemble Construction for Medical Image Classification"
+  publication: "IEEE Transactions on Evolutionary Computation, 2026"
+  year: 2026
+  doi: ""
+  url_custom: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:TaaCk18tZOkC"
+  url_pdf: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:TaaCk18tZOkC"
+  url_code: ""
+  category: "期刊论文"
+  tags: []
+
+- authors: ["W Guo", "Y Fu", "Y Bi", "J Liang"]
+  title: "Pareto-Wise Ranking Generator for Multi-objective Coevolutionary Generative Adversarial Networks"
+  publication: "International Conference on Cognitive Computation and Systems, 268-279, 2024"
+  year: 2024
+  doi: ""
+  url_custom: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:jtI9f0ekYq0C"
+  url_pdf: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:jtI9f0ekYq0C"
+  url_code: ""
+  category: "会议论文"
+  tags: []
