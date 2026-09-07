@@ -1666,3 +1666,14 @@
   url_code: ""
   category: "会议论文"
   tags: []
+
+- authors: ["M Yu", "W Pan", "C Yue", "Y Bi", "S Zhu", "Y Jin", "J Liang"]
+  title: "Expensive Multimodal Multiobjective Optimization: A Kriging-Assisted Differential Evolution Algorithm With Zoning Search"
+  publication: "IEEE Transactions on Systems, Man, and Cybernetics: Systems, 2026"
+  year: 2026
+  doi: ""
+  url_custom: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:X0DADzN9RKwC"
+  url_pdf: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:X0DADzN9RKwC"
+  url_code: ""
+  category: "期刊论文"
+  tags: []
