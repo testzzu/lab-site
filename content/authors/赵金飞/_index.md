@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: 硕士研究生
+role: 硕士研究生（已毕业）
 
 # Organizations/Affiliations
 organizations:
@@ -32,9 +32,9 @@ interests:
 
 education:
   courses:
-    - course: 控制工程硕士在读
+    - course: 控制工程硕士
       institution: 郑州大学
-      year: 2023-至今
+      year: 2023-2026
     - course: 测控技术与仪器
       institution: 郑州大学
       year: 2023-2026
@@ -54,9 +54,13 @@ highlight_name: false
 
 # 硕士or博士
 user_groups:
-  - 硕士研究生
+  - 毕业生
 # 入学时间
 enroll_date: 2023-09-01
+# 毕业时间
+graduation_date: 2026-06-20
 # 个人介绍
 ---
 赵金飞是团队的硕士研究生，专注于进化计算领域的研究。他的研究重点包括强化学习、车间调度。
+
+**硕士论文**：农忙窗口约束下的异质农机调度优化与决策方法研究

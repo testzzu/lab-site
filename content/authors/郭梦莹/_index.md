@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: 硕士研究生
+role: 硕士研究生（已毕业）
 
 # Organizations/Affiliations
 organizations:
@@ -32,9 +32,9 @@ interests:
 
 education:
   courses:
-    - course: 控制工程硕士在读
+    - course: 控制工程硕士
       institution: 郑州大学
-      year: 2023-至今
+      year: 2023-2026
     - course: 电气工程及其自动化学士
       institution: 安阳师范学院
       year: 2022
@@ -48,9 +48,13 @@ highlight_name: false
 
 # 硕士or博士
 user_groups:
-  - 硕士研究生
+  - 毕业生
 # 入学时间
 enroll_date: 2023-09-01
+# 毕业时间
+graduation_date: 2026-06-20
 # 个人介绍
 ---
 郭梦莹是团队的硕士研究生。研究方向为遗传规划与短期电力负荷预测，主要专注于遗传规划方法的改进以及预测模型的构建与优化。
+
+**硕士论文**：基于遗传规划符号回归的短期电力负荷预测算法研究

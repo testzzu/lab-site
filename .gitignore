@@ -8,4 +8,7 @@ assets/jsconfig.json
 
 # Environment
 .env
-
+.tmp/
+_vendor/
+%SystemDrive%/
+.claude/

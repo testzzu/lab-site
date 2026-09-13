@@ -3,7 +3,12 @@
     "allow": [
       "WebSearch",
       "Bash(python scripts/sync_publications.py)",
-      "Bash(git checkout *)"
+      "Bash(git checkout *)",
+      "Bash(hugo server *)",
+      "Bash(curl -s http://localhost:1313/people/)",
+      "Bash(hugo mod *)",
+      "Bash(hugo)",
+      "Bash(hugo --templateMetrics --templateMetricsHints)"
     ]
   }
 }

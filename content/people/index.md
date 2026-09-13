@@ -25,17 +25,92 @@ sections:
     content:
       title: 已毕业研究生
       text: |
-        - **连锦涛**（硕士研究生）| 研究方向：基于遗传规划的医学图像分类 | 毕业去向：华南理工大学（广州国际校区）攻读博士学位
+        <div class="graduated-students-section">
         
-        - **李文静**（硕士研究生）| 研究方向：基于遗传规划的符号回归 | 毕业去向：武汉启云方科技有限公司
+        <h3 style="text-align: center;">2025届硕士研究生（2022级）</h3>
         
-        - **杨泽轩**（硕士研究生）| 研究方向：基于遗传规划遥感图像分类 | 毕业去向：新西兰惠灵顿维多利亚大学攻读博士学位
+        <table style="table-layout: fixed; width: 100%; border-collapse: collapse;">
+          <thead>
+            <tr>
+              <th style="width: 15%; text-align: center; border: 1px solid #ddd; padding: 8px;">姓名</th>
+              <th style="width: 45%; text-align: left; border: 1px solid #ddd; padding: 8px;">研究方向</th>
+              <th style="width: 40%; text-align: left; border: 1px solid #ddd; padding: 8px;">毕业去向</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="width: 15%; text-align: center; border: 1px solid #ddd; padding: 8px;"><strong>连锦涛</strong></td>
+              <td style="width: 45%; text-align: left; border: 1px solid #ddd; padding: 8px;">基于遗传规划的医学图像分类</td>
+              <td style="width: 40%; text-align: left; border: 1px solid #ddd; padding: 8px;">华南理工大学（广州国际校区）攻读博士学位</td>
+            </tr>
+            <tr>
+              <td style="width: 15%; text-align: center; border: 1px solid #ddd; padding: 8px;"><strong>李文静</strong></td>
+              <td style="width: 45%; text-align: left; border: 1px solid #ddd; padding: 8px;">基于遗传规划的符号回归</td>
+              <td style="width: 40%; text-align: left; border: 1px solid #ddd; padding: 8px;">武汉启云方科技有限公司</td>
+            </tr>
+            <tr>
+              <td style="width: 15%; text-align: center; border: 1px solid #ddd; padding: 8px;"><strong>杨泽轩</strong></td>
+              <td style="width: 45%; text-align: left; border: 1px solid #ddd; padding: 8px;">基于遗传规划遥感图像分类</td>
+              <td style="width: 40%; text-align: left; border: 1px solid #ddd; padding: 8px;">新西兰惠灵顿维多利亚大学攻读博士学位</td>
+            </tr>
+            <tr>
+              <td style="width: 15%; text-align: center; border: 1px solid #ddd; padding: 8px;"><strong>道明扬</strong></td>
+              <td style="width: 45%; text-align: left; border: 1px solid #ddd; padding: 8px;">面向高维数据分类的多树遗传规划特征构建方法研究</td>
+              <td style="width: 40%; text-align: left; border: 1px solid #ddd; padding: 8px;">中国铁路郑州局集团洛阳机务段</td>
+            </tr>
+            <tr>
+              <td style="width: 15%; text-align: center; border: 1px solid #ddd; padding: 8px;"><strong>李阳光</strong></td>
+              <td style="width: 45%; text-align: left; border: 1px solid #ddd; padding: 8px;">基于进化集成学习算法的电机故障诊断方法研究</td>
+              <td style="width: 40%; text-align: left; border: 1px solid #ddd; padding: 8px;">浙江浙能嘉华发电有限公司</td>
+            </tr>
+            <tr>
+              <td style="width: 15%; text-align: center; border: 1px solid #ddd; padding: 8px;"><strong>刘艮跃</strong></td>
+              <td style="width: 45%; text-align: left; border: 1px solid #ddd; padding: 8px;">进化神经架构搜索</td>
+              <td style="width: 40%; text-align: left; border: 1px solid #ddd; padding: 8px;">牧原股份有限公司</td>
+            </tr>
+          </tbody>
+        </table>
         
-        - **道明扬**（硕士研究生）| 研究方向：面向高维数据分类的多树遗传规划特征构建方法研究 | 毕业去向：中国铁路郑州局集团洛阳机务段
+        <h3 style="text-align: center;">2026届硕士研究生（2023级）</h3>
         
-        - **李阳光**（硕士研究生）| 研究方向：基于进化集成学习算法的电机故障诊断方法研究 | 毕业去向： 浙江浙能嘉华发电有限公司
+        <table style="table-layout: fixed; width: 100%; border-collapse: collapse;">
+          <thead>
+            <tr>
+              <th style="width: 15%; text-align: center; border: 1px solid #ddd; padding: 8px;">姓名</th>
+              <th style="width: 45%; text-align: left; border: 1px solid #ddd; padding: 8px;">研究方向</th>
+              <th style="width: 40%; text-align: left; border: 1px solid #ddd; padding: 8px;">毕业去向</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="width: 15%; text-align: center; border: 1px solid #ddd; padding: 8px;"><strong>郭梦莹</strong></td>
+              <td style="width: 45%; text-align: left; border: 1px solid #ddd; padding: 8px;">基于遗传规划符号回归的短期电力负荷预测算法研究</td>
+              <td style="width: 40%; text-align: left; border: 1px solid #ddd; padding: 8px;">郑州郑飞特种装备有限公司</td>
+            </tr>
+            <tr>
+              <td style="width: 15%; text-align: center; border: 1px solid #ddd; padding: 8px;"><strong>薛习水</strong></td>
+              <td style="width: 45%; text-align: left; border: 1px solid #ddd; padding: 8px;">基于遗传规划算法的多点动态聚合问题应用研究</td>
+              <td style="width: 40%; text-align: left; border: 1px solid #ddd; padding: 8px;">奇瑞汽车股份有限公司</td>
+            </tr>
+            <tr>
+              <td style="width: 15%; text-align: center; border: 1px solid #ddd; padding: 8px;"><strong>吴天庆</strong></td>
+              <td style="width: 45%; text-align: left; border: 1px solid #ddd; padding: 8px;">基于改进遗传规划算法的旋转机械不平衡故障诊断方法研究</td>
+              <td style="width: 40%; text-align: left; border: 1px solid #ddd; padding: 8px;">安徽容知日新科技有限公司</td>
+            </tr>
+            <tr>
+              <td style="width: 15%; text-align: center; border: 1px solid #ddd; padding: 8px;"><strong>赵金飞</strong></td>
+              <td style="width: 45%; text-align: left; border: 1px solid #ddd; padding: 8px;">农忙窗口约束下的异质农机调度优化与决策方法研究</td>
+              <td style="width: 40%; text-align: left; border: 1px solid #ddd; padding: 8px;">智新科技股份有限公司</td>
+            </tr>
+            <tr>
+              <td style="width: 15%; text-align: center; border: 1px solid #ddd; padding: 8px;"><strong>辛璐</strong></td>
+              <td style="width: 45%; text-align: left; border: 1px solid #ddd; padding: 8px;">基于遗传规划的低质量船舶图像分类方法研究</td>
+              <td style="width: 40%; text-align: left; border: 1px solid #ddd; padding: 8px;">北京邮电大学攻读博士学位</td>
+            </tr>
+          </tbody>
+        </table>
         
-        - **刘艮跃**（硕士研究生）| 研究方向：进化神经架构搜索 | 毕业去向：牧原股份有限公司
+        </div>
 ---
 
 <script>
@@ -99,7 +174,173 @@ document.addEventListener('DOMContentLoaded', function() {
       nameLink.innerHTML = nameLink.innerHTML + ' <i class="fab fa-github" style="font-size: 0.8em; margin-left: 5px;"></i>';
     }
   });
+  
+  // 拦截邮箱链接点击，显示弹窗
+  const emailLinks = document.querySelectorAll('.network-icon a[href*="mailto:"], .network-icon a[href^="/"][href*="@"]');
+  
+  emailLinks.forEach(function(emailLink) {
+    emailLink.addEventListener('click', function(event) {
+      event.preventDefault();
+      
+      // 提取邮箱地址
+      let href = emailLink.getAttribute('href');
+      let email = '';
+      
+      if (href.startsWith('mailto:')) {
+        email = href.replace('mailto:', '');
+      } else if (href.includes('@')) {
+        email = href.replace(/^\/+/, ''); // 移除开头的斜杠
+      }
+      
+      if (email) {
+        showEmailModal(email);
+      }
+    });
+  });
 });
+
+// 显示邮箱弹窗
+function showEmailModal(email) {
+  // 创建遮罩层
+  const overlay = document.createElement('div');
+  overlay.id = 'email-modal-overlay';
+  overlay.style.cssText = `
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  `;
+  
+  // 创建弹窗
+  const modal = document.createElement('div');
+  modal.style.cssText = `
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    width: 90%;
+    position: relative;
+  `;
+  
+  // 关闭按钮
+  const closeButton = document.createElement('button');
+  closeButton.innerHTML = '&times;';
+  closeButton.style.cssText = `
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: #999;
+    line-height: 1;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+  `;
+  closeButton.addEventListener('mouseenter', function() {
+    closeButton.style.color = '#333';
+  });
+  closeButton.addEventListener('mouseleave', function() {
+    closeButton.style.color = '#999';
+  });
+  closeButton.addEventListener('click', function() {
+    document.body.removeChild(overlay);
+  });
+  
+  // 标题
+  const title = document.createElement('h3');
+  title.textContent = '邮箱地址';
+  title.style.cssText = `
+    margin: 0 0 20px 0;
+    font-size: 20px;
+    color: #333;
+  `;
+  
+  // 邮箱显示
+  const emailDisplay = document.createElement('div');
+  emailDisplay.textContent = email;
+  emailDisplay.style.cssText = `
+    padding: 12px 15px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    word-break: break-all;
+    margin-bottom: 20px;
+    font-family: monospace;
+  `;
+  
+  // 复制按钮
+  const copyButton = document.createElement('button');
+  copyButton.textContent = '复制邮箱';
+  copyButton.style.cssText = `
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100%;
+  `;
+  copyButton.addEventListener('mouseenter', function() {
+    copyButton.style.backgroundColor = '#0056b3';
+  });
+  copyButton.addEventListener('mouseleave', function() {
+    copyButton.style.backgroundColor = '#007bff';
+  });
+  copyButton.addEventListener('click', function() {
+    navigator.clipboard.writeText(email).then(function() {
+      copyButton.textContent = '已复制！';
+      copyButton.style.backgroundColor = '#28a745';
+      setTimeout(function() {
+        copyButton.textContent = '复制邮箱';
+        copyButton.style.backgroundColor = '#007bff';
+      }, 2000);
+    }).catch(function() {
+      // 旧浏览器的fallback方法
+      const tempInput = document.createElement('input');
+      tempInput.value = email;
+      document.body.appendChild(tempInput);
+      tempInput.select();
+      document.execCommand('copy');
+      document.body.removeChild(tempInput);
+      copyButton.textContent = '已复制！';
+      copyButton.style.backgroundColor = '#28a745';
+      setTimeout(function() {
+        copyButton.textContent = '复制邮箱';
+        copyButton.style.backgroundColor = '#007bff';
+      }, 2000);
+    });
+  });
+  
+  // 组装弹窗
+  modal.appendChild(closeButton);
+  modal.appendChild(title);
+  modal.appendChild(emailDisplay);
+  modal.appendChild(copyButton);
+  overlay.appendChild(modal);
+  
+  // 添加到页面
+  document.body.appendChild(overlay);
+  
+  // 点击遮罩层关闭弹窗
+  overlay.addEventListener('click', function(event) {
+    if (event.target === overlay) {
+      document.body.removeChild(overlay);
+    }
+  });
+}
 </script>
 
 <style>
@@ -127,6 +368,27 @@ document.addEventListener('DOMContentLoaded', function() {
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   max-width: 100% !important;
   width: 100% !important;
+}
+
+/* 固定表格列宽以确保对齐 */
+.graduated-students-section table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.graduated-students-section table th:nth-child(1),
+.graduated-students-section table td:nth-child(1) {
+  width: 15%;
+}
+
+.graduated-students-section table th:nth-child(2),
+.graduated-students-section table td:nth-child(2) {
+  width: 45%;
+}
+
+.graduated-students-section table th:nth-child(3),
+.graduated-students-section table td:nth-child(3) {
+  width: 40%;
 }
 
 .graduated-students-section h2 {

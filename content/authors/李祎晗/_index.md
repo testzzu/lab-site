@@ -46,15 +46,15 @@ social:
   #邮箱
   - icon: envelope
     icon_pack: fas
-    link: 'yihanli@gs.zzz.edu.cn'
+    link: 'yihanli@gs.zzu.edu.cn'
   # 谷歌学术主页
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/citations?user=example2
   # github仓库或者主页
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/wenda
+  # - icon: github
+  #   icon_pack: fab
+  #   link: https://github.com/wenda
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: 'yihanli@gs.zzz.edu.cn'

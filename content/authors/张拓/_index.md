@@ -46,7 +46,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:zhangtuo@gs.zzu.edu.cn'
+    link: 'zhangtuo@gs.zzu.edu.cn'
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/citations?hl=zh-CN&user=QNbLphQAAAAJ

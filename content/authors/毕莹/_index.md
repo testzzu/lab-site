@@ -10,7 +10,7 @@ last_name: 教授
 superuser: true
 
 # Role/position
-role: 团队带头人/教授
+role: 团队带头人/教授、国家级高层次青年人才
 
 # Organizations/Affiliations
 organizations:
@@ -43,7 +43,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:yingbi@zzu.edu.cn'
+    link: 'yingbi@zzu.edu.cn'
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.co.nz/citations?user=WI2ykPAAAAAJ&hl=enhttps://yingbi92.github.io/homepage/

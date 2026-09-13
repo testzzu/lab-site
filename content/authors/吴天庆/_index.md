@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: 硕士研究生
+role: 硕士研究生（已毕业）
 
 # Organizations/Affiliations
 organizations:
@@ -32,9 +32,9 @@ interests:
 
 education:
   courses:
-    - course: 工学硕士在读
+    - course: 工学硕士
       institution: 郑州大学
-      year: 2023-至今
+      year: 2023-2026
     - course: 工学学士
       institution: 西南石油大学
       year: 2019-2023
@@ -64,9 +64,13 @@ highlight_name: false
 
 # 硕士or博士
 user_groups:
-  - 硕士研究生
+  - 毕业生
 # 入学时间
 enroll_date: 2023-09-01
+# 毕业时间
+graduation_date: 2026-06-20
 # 个人介绍
 ---
 吴天庆是团队的硕士研究生，专注于遗传规划和故障诊断领域的研究。他的研究重点包括遗传规划算法设计、故障诊断以及不平衡分类。
+
+**硕士论文**：基于改进遗传规划算法的旋转机械不平衡故障诊断方法研究

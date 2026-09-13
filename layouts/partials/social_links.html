@@ -1,0 +1,32 @@
+<ul class="network-icon" aria-hidden="true">
+  {{ range .Params.social }}
+    {{ $pack := or .icon_pack "fas" }}
+    {{ $pack_prefix := $pack }}
+    {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+      {{ $pack_prefix = "fa" }}
+    {{ end }}
+    {{ $link := .link }}
+    {{ $target := "" }}
+    {{/* DEBUG: Original link */}}
+    {{ warnf "Original link: %s" $link }}
+    {{/* Detect email addresses BEFORE parsing URL - check for @ */}}
+    {{ if and (in $link "@") (not (hasPrefix $link "mailto:")) (not (hasPrefix $link "http")) }}
+      {{ $link = print "mailto:" $link }}
+      {{ warnf "Modified link: %s" $link }}
+    {{ end }}
+    {{ $scheme := (urls.Parse $link).Scheme }}
+    {{ warnf "Parsed scheme: %s" $scheme }}
+    {{ if not $scheme }}
+      {{ $link = $link | relLangURL }}
+    {{ else if in (slice "http" "https") $scheme }}
+      {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+    {{ else if eq $scheme "mailto" }}
+      {{/* mailto links need no processing */}}
+    {{ end }}
+    <li>
+      <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>
+        <i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }}"></i>
+      </a>
+    </li>
+  {{end}}
+</ul>

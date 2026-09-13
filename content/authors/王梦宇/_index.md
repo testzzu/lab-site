@@ -45,7 +45,7 @@ social:
   #邮箱
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:mengyuwang@gs.zzu.edu.cn'
+    link: 'mengyuwang@gs.zzu.edu.cn'
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: 'mengyuwang@gs.zzu.edu.cn'

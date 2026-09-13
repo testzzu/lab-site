@@ -1,6 +1,9 @@
 ---
 title: 应用系统
 summary: 课题组应用系统与工程原型集中展示页面。
+build:
+  render: never
+  list: never
 date: 2026-04-25
 share: false
 show_date: false

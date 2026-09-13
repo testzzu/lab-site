@@ -124,6 +124,12 @@ body.logos-inserted .navbar-brand::after {
   text-underline-offset: 3px;
 }
 
+// Center the team leader card while keeping other people groups left-aligned.
+.people-widget .people-leader {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 // Responsive adjustments
 @media (max-width: 768px) {
   .navbar-brand {

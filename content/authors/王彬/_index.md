@@ -50,12 +50,12 @@ social:
   - icon: google-scholar
     icon_pack: ai
     link: 
-  # github仓库或者主页
-  - icon: github
-    icon_pack: fab
-    link: 
+  # # github仓库或者主页
+  # - icon: github
+  #   icon_pack: fab
+  #   link: 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+email: 'binwang_@gs.zzu.edu.cn'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false

@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: 科研助理
+role: 博士研究生
 
 # Organizations/Affiliations
 organizations:
@@ -22,13 +22,14 @@ organizations:
     url: 'https://www5.zzu.edu.cn/eie/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: 专注于进化特征选择的研究。
+bio: 神经架构搜索研究。
 
 #研究兴趣
 interests:
   - 神经架构搜索
   - 大模型
   - 进化计算
+  - 多模态学习
 
 
 education:
@@ -55,9 +56,9 @@ highlight_name: false
 
 # 硕士or博士
 user_groups:
-  - 科研助理
+  - 博士研究生
 # 入学时间
-enroll_date: 2025-06-20
+enroll_date: 2026-09-07
 # 个人介绍
 ---
-赵宪锐是团队的科研助理，他的研究重点是进化神经架构搜索。
+赵宪锐是团队的博士研究生，研究方向是进化神经架构搜索。

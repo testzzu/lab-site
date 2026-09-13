@@ -14,7 +14,7 @@ authors:
 superuser: false
 
 # Role/position
-role: 硕士研究生
+role: 硕士研究生（已毕业）
 
 # Organizations/Affiliations
 organizations:
@@ -32,9 +32,9 @@ interests:
 
 education:
   courses:
-    - course: 工学硕士在读
+    - course: 工学硕士
       institution: 郑州大学
-      year: 2023-至今
+      year: 2023-2026
     - course: 工学学士
       institution: 甘肃政法大学
       year: 2018-2022
@@ -62,9 +62,13 @@ highlight_name: false
 
 # 硕士or博士
 user_groups:
-  - 硕士研究生
+  - 毕业生
 # 入学时间
 enroll_date: 2023-09-01
+# 毕业时间
+graduation_date: 2026-06-20
 # 个人介绍
 ---
 辛璐是团队的硕士研究生，专注于遗传规划和计算机视觉领域的研究。他的研究重点包括遗传规划算法设计、低质量船舶图像分类以及弱小目标特征学习。
+
+**硕士论文**：基于遗传规划的低质量船舶图像分类方法研究

@@ -54,9 +54,9 @@ social:
     icon_pack: ai
     link: 
   # github仓库或者主页
-  - icon: github
-    icon_pack: fab
-    link: 
+  # - icon: github
+  #   icon_pack: fab
+  #   link: 
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: 'wangkongyuan@gs.zzu.edu.cn'
