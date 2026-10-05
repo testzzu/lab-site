@@ -1677,3 +1677,14 @@
   url_code: ""
   category: "期刊论文"
   tags: []
+
+- authors: ["Y Li", "Y Bi"]
+  title: "A New Genetic Programming Approach to Spatial Feature Construction in Hyperspectral Image Classification"
+  publication: "2026 8th International Conference on Data-driven Optimization of Complex …, 2026"
+  year: 2026
+  doi: ""
+  url_custom: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:z8nqeaKD1nsC"
+  url_pdf: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:z8nqeaKD1nsC"
+  url_code: ""
+  category: "会议论文"
+  tags: []
