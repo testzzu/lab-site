@@ -52,6 +52,13 @@ AUTHOR_ID = "WI2ykPAAAAAJ"
 PUBLICATIONS_FILE = Path("data/publications.yaml")
 NUM_PER_PAGE = 100
 
+# Titles that must never be imported: Google Scholar profiles occasionally merge
+# papers by a different author sharing the same initial+name, so these are filtered
+# out on every sync run. Matched case-insensitively against a normalized title.
+EXCLUDED_TITLES = [
+    "The State Administration for Market Regulation and Its Leniency Programme: Infusing a Dose of Trust and Predictability",
+]
+
 CATEGORY_OPTIONS = ["专著/书籍", "综述论文", "期刊论文", "会议论文"]
 
 CLASSIFY_PROMPT = """For each paper below, determine its category and generate 1-3 concise Chinese tags summarizing key topics/methods. Reply with a JSON array of objects, one per paper, in the same order.
@@ -123,6 +130,22 @@ def title_similarity(t1, t2):
     t1_clean = t1.lower().strip().rstrip(".")
     t2_clean = t2.lower().strip().rstrip(".")
     return difflib.SequenceMatcher(None, t1_clean, t2_clean).ratio()
+
+
+def _normalize_title(title):
+    """Normalize a title for comparison: lowercase, collapse whitespace, drop trailing period."""
+    return " ".join((title or "").lower().split()).rstrip(".")
+
+
+def is_excluded(article):
+    """Check whether an article is on the manual exclusion list."""
+    new_title = _normalize_title(article.get("title", ""))
+    if not new_title:
+        return False
+    for excluded in EXCLUDED_TITLES:
+        if _normalize_title(excluded) == new_title:
+            return True
+    return False
 
 
 def is_duplicate(article, existing_pubs):
@@ -334,12 +357,20 @@ def main():
 
     # Collect new papers
     new_papers = []
+    skipped = 0
     for article in articles:
+        if is_excluded(article):
+            skipped += 1
+            print(f"  Skipped (excluded): {article.get('title', '')[:80]}")
+            continue
         if is_duplicate(article, existing_pubs):
             continue
         pub = map_article_to_pub(article)
         new_papers.append(pub)
         existing_pubs.append(pub)
+
+    if skipped:
+        print(f"\n{skipped} article(s) skipped via EXCLUDED_TITLES.")
 
     if not new_papers:
         print("No new publications found. Data is up to date.")

@@ -1414,17 +1414,6 @@
   category: "期刊论文"
   tags: ["索引", "计算智能杂志"]
 
-- authors: ["Y Bi", "S Van Uytsel"]
-  title: "The State Administration for Market Regulation and Its Leniency Programme: Infusing a Dose of Trust and Predictability"
-  publication: "Leniency in Asian Competition Law, 233-260, 2022"
-  year: 2022
-  doi: ""
-  url_custom: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:KWzIFqRkAKkC"
-  url_pdf: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:KWzIFqRkAKkC"
-  url_code: ""
-  category: "专著/书籍"
-  tags: ["市场监管", "宽大制度", "竞争法"]
-
 - authors: ["Y Bi", "B Xue", "M Zhang"]
   title: "Learning Approach Using Genetic Programming to Image Classification"
   publication: "AI 2018: Advances in Artificial Intelligence: 31st Australasian Joint …, 2018"
