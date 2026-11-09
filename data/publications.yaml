@@ -1677,3 +1677,69 @@
   url_code: ""
   category: "会议论文"
   tags: []
+
+- authors: ["Y Bi", "J Chen", "C Yue", "J Liang"]
+  title: "An Improved Evolutionary Algorithm with Joint Encoding for Multiobjective Feature Selection in Classification"
+  publication: "IEEE Transactions on Evolutionary Computation, 2026"
+  year: 2026
+  doi: ""
+  url_custom: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:c_xDhezhKKUC"
+  url_pdf: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:c_xDhezhKKUC"
+  url_code: ""
+  category: "期刊论文"
+  tags: []
+
+- authors: ["Y Bi", "Q Zhao", "J Liang", "B Xue", "M Zhang"]
+  title: "EEHS: Efficient Evolution of Heuristic Strategies via Hierarchical Strategist-Worker LLM Collaboration"
+  publication: "IEEE Computational Intelligence Letters, 2026"
+  year: 2026
+  doi: ""
+  url_custom: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:lYAcb2jw7qUC"
+  url_pdf: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:lYAcb2jw7qUC"
+  url_code: ""
+  category: "期刊论文"
+  tags: []
+
+- authors: ["J Xu", "Y Bi", "M Chen", "J Liang"]
+  title: "分子预训练模型及其在药物发现中的应用综述"
+  publication: "Computer Science (China) 53 (9), 110-123, 2026"
+  year: 2026
+  doi: ""
+  url_custom: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:37UQlXuwjP4C"
+  url_pdf: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:37UQlXuwjP4C"
+  url_code: ""
+  category: "综述论文"
+  tags: []
+
+- authors: ["J Liang", "Z Li", "P Wang", "X Ren", "Y Bi", "C Yue"]
+  title: "Genetic Programming with Diversity Enhancement Strategy for Feature Learning in Classification"
+  publication: "2026 IEEE Congress on Evolutionary Computation (CEC), 1-8, 2026"
+  year: 2026
+  doi: ""
+  url_custom: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:Ic1VZgkJnDsC"
+  url_pdf: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:Ic1VZgkJnDsC"
+  url_code: ""
+  category: "会议论文"
+  tags: []
+
+- authors: ["R Wang", "Y Bi"]
+  title: "The Precautionary Paradox in Environmental Disputes: Navigating Uncertainty and Legal Authority in International Investment Law"
+  publication: "Transnational Environmental Law, 1-30, 2026"
+  year: 2026
+  doi: ""
+  url_custom: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:nqdriD65xNoC"
+  url_pdf: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:nqdriD65xNoC"
+  url_code: ""
+  category: "期刊论文"
+  tags: []
+
+- authors: ["J Liang", "K Yu", "Y Bi", "C Yue", "M Yu", "W Guo", "K Chen"]
+  title: "Swarm Intelligence-Based Evolutionary Machine Learning"
+  publication: "Encyclopedia of Systems and Control Engineering, V3: 441-V3: 457, 2025"
+  year: 2025
+  doi: ""
+  url_custom: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:pQTOvowfQioC"
+  url_pdf: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:pQTOvowfQioC"
+  url_code: ""
+  category: "期刊论文"
+  tags: []
