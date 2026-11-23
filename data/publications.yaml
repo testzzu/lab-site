@@ -1743,3 +1743,14 @@
   url_code: ""
   category: "期刊论文"
   tags: []
+
+- authors: ["W Yi", "X He", "X Chen", "Y Bi", "B Niu"]
+  title: "Improved adaptive large neighborhood search algorithm for the commodity constrained split delivery vehicle routing problem with time windows"
+  publication: "Swarm and Evolutionary Computation 111, 102585, 2026"
+  year: 2026
+  doi: ""
+  url_custom: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:c59VksA5Vz4C"
+  url_pdf: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WI2ykPAAAAAJ&cstart=100&pagesize=100&citation_for_view=WI2ykPAAAAAJ:c59VksA5Vz4C"
+  url_code: ""
+  category: "期刊论文"
+  tags: []
